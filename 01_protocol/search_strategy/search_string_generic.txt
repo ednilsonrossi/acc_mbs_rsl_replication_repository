@@ -1,0 +1,11 @@
+(
+  "microservice architecture" OR "microservices"
+  OR "service-oriented architecture" OR SOA
+  OR "cloud-native" OR "event-driven architecture"
+)
+AND
+(
+  "architectural conformance" OR "conformance checking"
+  OR "architecture compliance" OR "architectural consistency"
+  OR "architecture erosion" OR "architecture drift"
+)

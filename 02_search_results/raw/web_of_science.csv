@@ -1,0 +1,1042 @@
+bibtex_key,title,author,journal,year,source,pages,volume,abstract,document_type,doi,url,affiliation,author_keywords,keywords,publisher,issn,language,note,selection_criteria,status,comments
+,"Fast, accurate assembly-level physical verification of 3DIC packages","Hossam, Nermeen and Ferguson, John",,2023,ISI Web of Science,,,"Advanced packaging techniques are critical to ensuring product
+performance, function, and cost in the semiconductor industry.
+Three-dimensional integrated circuits (3DICs) offer the ultimate
+flexibility in product design. However, they are not without their
+challenges, bringing packaging technologies to the forefront for
+innovation. 3DICs contain multiple stacked die that achieve the required
+connectivity through traces on an interposer, or with special vias or
+bumps. Independently verifying the physical and connectivity accuracy of
+these discrete dies and substrates per their process rules does not
+ensure that the overall 2.5D/3D package assembly is correct, or will
+perform as expected.
+The Calibre 3DSTACK electronic design automation (EDA) tool provides
+fast, accurate, assembly-level verification of diedie or die-interposer
+interfaces in 3DIC designs. It operates on the interface geometries
+between chip designs from multiple process nodes to perform both design
+rule checking (DRC) alignment verification and layout vs. schematic
+(LVS) connectivity checking of the complete multi-die 2.5D or 3DIC
+system. Design engineers can also use the Calibre 3DSTACK tool to
+prepare the data required for coupling capacitance extraction, if
+required.
+In this paper, we explain the differences between traditional 3DIC
+physical verification techniques and Calibre 3DSTACK 3DIC assembly
+verification, and demonstrate how Calibre 3DSTACK functionality can be
+used to resolve many of the challenges of 3DIC physical verification
+while ensuring the accuracy and performance of the complete 3DIC design.",Proceedings Paper,10.1109/3DIC57175.2023.10155000,,"Hossam, N (Corresponding Author), Siemens Digital Ind Software, Calibre Design Solut, Cairo, Egypt.
+Hossam, Nermeen; Ferguson, John, Siemens Digital Ind Software, Calibre Design Solut, Cairo, Egypt.",,3DIC; chiplet; IC; SoC; IP; physical verification,IEEE,2164-0157,English,"IEEE International 3D Systems Integration Conference (3DIC), Univ Coll
+Cork, Cork, IRELAND, MAY 10-12, 2023",,Unclassified,
+,A complete design flow for silicon photonics,"Pond, James and Cone, Chris and Chrostowski, Lukas and Klein, Jackson
+and Flueckiger, Jonas and Liu, Amy and McGuire, Dylan and Wang, Xu",,2014,ISI Web of Science,,9133,"Broad adoption of silicon photonics technology for photonic integrated
+circuits requires standardized design flows that are similar to what is
+available for analog and mixed signal electrical circuit design. We have
+developed a design flow that combines mature electronic design
+automation (EDA) software with optical simulation software.
+An essential component of any design flow, whether electrical or
+photonic, is the ability to accurately simulate large-scale circuits.
+This is particularly important when the behavior of the circuit is not
+trivially related to the individual component performance. While this is
+clearly the case for electronic circuits consisting of hundreds to
+billions of transistors, it is already becoming important in photonic
+circuits such as WDM transmitters, where signal cross talk needs to be
+considered, as well as optical cross-connect switches. In addition,
+optical routing to connect different components requires the
+introduction of additional waveguide sections, waveguide bends, and
+waveguide crossings, which affect the overall circuit performance.
+Manufacturing variability can also have dramatic circuit-level
+consequences that need to be simulated. Circuit simulations must rely on
+compact models that can accurately represent the behavior of each
+component, and the compact model parameters must be extracted from
+physical level simulation and experimental results.
+We show how large scale circuits can be simulated in both the time and
+frequency domains, including the effects of bidirectional and, where
+appropriate, multimode and multichannel photonic waveguides. We also
+show how active, passive and nonlinear individual components such as
+grating couplers, waveguides, splitters, filters, electro-optical
+modulators and detectors can be simulated using a combination of
+electrical and optical algorithms, and good agreement with experimental
+results can be obtained. We then show how parameters, with inclusion of
+fabrication process variations, can be extracted for use in the circuit
+level simulations. Ultimately, we show how a multi-channel WDM
+transceiver can be created, from schematic design to tapeout, using key
+features of EDA design flows such as schematic driven layout, design
+rule checking and layout versus schematic.",Proceedings Paper,10.1117/12.2052050,,"Pond, J (Corresponding Author), Lumer Solut Inc, 535 Thurlow St, Vancouver, BC V6E 3L2, Canada.
+Pond, James; Klein, Jackson; Liu, Amy; McGuire, Dylan; Wang, Xu, Lumer Solut Inc, 535 Thurlow St, Vancouver, BC V6E 3L2, Canada.
+Cone, Chris, Mentor Graph Corp, Wilsonville, OR 97070 USA.
+Chrostowski, Lukas, Univ British Columbia, Electr \& Comp Engn, Vancouver, BC V6T IZ4, Canada.",,"photonics; simulation; silicon photonics; photonic integrated circuits;
+electronic design automation (EDA); design flow; process design kit
+(PDK); photonic circuit simulation",SPIE-INT SOC OPTICAL ENGINEERING,0277-786X,English,"4th Conference on Silicon Photonics and Photonic Integrated Circuits,
+Brussels, BELGIUM, APR 14-17, 2014",,Unclassified,
+,"DRC Violation Prediction After Global Route Through Convolutional Neural
+Network","Hung, Wei-Tse and Chen, Yu-Guang and Lin, Jhen-Gang and Yang, Yun-Wei
+and Tsai, Cheng-Hong and Chao, Mango Chia-Tso",IEEE TRANSACTIONS ON VERY LARGE SCALE INTEGRATION (VLSI) SYSTEMS,2023,ISI Web of Science,1425-1438,31,"Design rule checking (DRC) violation (DRV) prediction with early stage
+design information can help to reduce the iterations of design procedure
+and can speed up the physical-design closure. It is known that
+accurately predicting detailed routing-level DRV with information
+obtained at global route (GR) stage can significantly speed up the
+design closure. However, without sufficient prediction accuracy, the
+result may lead to suboptimal design or even longer design time.
+Therefore, in this article, we propose two machine-learning frameworks
+to predict the detailed routing-level DRV map of a given design. The
+first framework is based on the congestion report obtained at global
+routing stage, and the second framework considers both the placement
+information and the congestion report of global routing. We then compare
+the runtime and accuracy of the two models. The proposed frameworks
+utilize convolutional neural network as the core technique to train
+these prediction models. The training dataset is collected from 15
+industrial designs using a leading commercial automatic placement and
+routing (APR) tool, and the total number of collected training samples
+exceeds 26M. A specialized under-sampling technique is also proposed to
+select important training samples for learning, compensate for the
+inaccuracy misled by a highly imbalanced training dataset, and speed up
+the entire training process. The experimental results demonstrate that
+our both models can result in not only a significantly higher accuracy
+than previous related works, but also a DRV map visually matching the
+actual ones closely. The average runtime of using our learned model from
+the first framework to generate a DRV map is only 3\% of global routing,
+and the prediction accuracy of our learned model from the second
+framework can improve 7.6\% compared to the one from the first
+framework. Our proposed framework can be viewed as a simple add-on tool
+to a current commercial placement and global router that can efficiently
+and effectively generate a more realistic DRV map without really
+applying detailed routing.",Article,10.1109/TVLSI.2023.3271932,,"Chen, YG (Corresponding Author), Natl Cent Univ, Dept Elect Engn, Taoyuan 32001, Taiwan.
+Hung, Wei-Tse; Lin, Jhen-Gang; Chao, Mango Chia-Tso, Natl Yang Ming Chiao Tung Univ, Inst Elect, Hsinchu 300, Taiwan.
+Chen, Yu-Guang; Yang, Yun-Wei, Natl Cent Univ, Dept Elect Engn, Taoyuan 32001, Taiwan.
+Tsai, Cheng-Hong, Global Unichip Corp, Hsinchu 300, Taiwan.",,"Design rule checking (DRC); neural networks; physical design (EDA);
+physical verification; supervised learning by classification",IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC,1063-8210,English,,,Unclassified,
+,"Advanced manufacturing rules check (MRC) for fully-automated assessment
+of complex reticle designs - Part II","Straub, J. A. and Aguilar, D. and Buck, P. D. and Dawkins, D. and
+Gladhill, R. and Nolke, S. and Riddick, J.",,2006,ISI Web of Science,,6349,"Advanced electronic design automation (EDA) tools, with their
+simulation, modeling, design rule checking, and optical proximity
+correction capabilities, have facilitated the improvement of first pass
+wafer yields. While the data produced by these tools may have been
+processed for optimal wafer manufacturing, it is possible for the same
+data to be far from ideal for photomask manufacturing, particularly at
+lithography and inspection stages, resulting in production delays and
+increased costs. The same EDA tools used to produce the data can be used
+to detect potential problems for photomask manufacturing in the data.
+In the previous paper(1), it was shown how photomask MRC is used to
+uncover data related problems prior to automated defect inspection. It
+was demonstrated how jobs which are likely to have problems at
+inspection could be identified and separated from those which are not.
+The use of photomask MRC in production was shown to reduce time lost to
+aborted runs and troubleshooting due to data issues.
+In this paper, the effectiveness of this photomask MRC program in a high
+volume photomask factory over the course of a year as applied to more
+than ten thousand jobs will be shown. Statistics on the results of the
+MRC runs will be presented along with the associated impact to the
+automated defect inspection process. Common design problems will be
+shown as well as their impact to mask manufacturing throughput and
+productivity. Finally, solutions to the most common and most severe
+problems will be offered and discussed.",Proceedings Paper,10.1117/12.686134,,"Straub, JA (Corresponding Author), Toppan Photomasks Inc, 400 Texas Ave, Round Rock, TX 78664 USA.
+Straub, J. A.; Aguilar, D.; Dawkins, D.; Riddick, J., Toppan Photomasks Inc, 400 Texas Ave, Round Rock, TX 78664 USA.
+Buck, P. D.; Gladhill, R.; Nolke, S., Toppan Photomasks Inc, Gresham, OR 97030 USA.",,"manufacturing rules check; MRC; mask data inspection; mask data
+preparation; defect inspection; design for manufacturing",SPIE-INT SOC OPTICAL ENGINEERING,0277-786X,English,"26th Annual BACUS Symposium on Photomask Technology, Monterey, CA, SEP
+19-22, 2006",,Unclassified,
+,"MCFRoute 2.0: A Redundant Via Insertion Enhanced Concurrent Detailed
+Router","Jia, Xiaotao and Cai, Yici and Zhou, Qiang and Yu, Bei",,2016,ISI Web of Science,87-92,,"In modern VLSI design, manufacturing yield and chip performance are
+seriously affected by via failure. Redundant via insertion is an
+effective technique recommended by foundries to deal with the via
+failure. However, due to the extreme scaling of feature size, it is more
+and more difficult to resolve redundant via insertion (RVI) with limited
+routing resource while obeying complicated design rules. In this paper,
+we propose an RVI enhanced concurrent detailed router, MCFRoute 2.0,
+which effectively avoids design rule violations through a compact
+integer linear programming (ILP) model. The proposed router can not only
+route all nets simultaneously but also search for redundant via
+positions for all via simultaneously during routing stage. In addition,
+it proposes an RVI aware pin access allocation to further improve the
+routing performance. Experimental results show that our detailed router
+outperforms an industry EDA tool that it improves the redundant via
+insertion rate by 21\%, while reducing design rule checking violation
+count, total wire length and via count by 47\%, 4\% and 14\%,
+respectively.",Proceedings Paper,10.1145/2902961.2902966,,"Jia, XT (Corresponding Author), Tsinghua Univ, Dept Comp Sci Technol, Beijing, Peoples R China.
+Jia, XT (Corresponding Author), Chinese Univ Hong Kong, CSE Dept, Hong Kong, NT, Peoples R China.
+Jia, Xiaotao; Cai, Yici; Zhou, Qiang, Tsinghua Natl Lab, Informat Sci \& Technol, Beijing, Peoples R China.
+Jia, Xiaotao; Cai, Yici; Zhou, Qiang, Tsinghua Univ, Dept Comp Sci Technol, Beijing, Peoples R China.
+Jia, Xiaotao; Yu, Bei, Chinese Univ Hong Kong, CSE Dept, Hong Kong, NT, Peoples R China.",,Detailed Routing; ILP; Redundant Via Insertion; Design Rule,IEEE,,English,"26th ACM Great Lakes Symposium on VLSI (GLSVLSI), Boston Univ, Dept 
+Elect \& Comp Engn, Boston, MA, MAY 18-20, 2016",,Unclassified,
+,"Assessing Architecture Conformance to Security-Related Practices in
+Infrastructure as Code Based Deployments","Ntentos, Evangelos and Zdun, Uwe and Falazi, Ghareeb and Breitenbuecher,
+Uwe and Leymann, Frank",,2022,ISI Web of Science,123-133,,"Infrastructure as Code (IaC) enables developers and operations teams to
+automatically deploy and manage an IT infrastructure via software. Among
+other uses, IaC is widely used in the context of continuously released
+deployments such as those of microservice and other cloud-based systems.
+Although IaC-based deployments have been utilized by many companies,
+there are no approaches on checking their conformance to architectural
+aspects yet. In this paper, we focus on security-related practices
+including observability, access control, and traffic control in
+IaC-based deployments. While best practices for this topic have been
+documented in some gray literature sources such as practitioners' blogs
+and public repositories, approaches enabling automated checking of
+conformance to such best practices do not yet exist. We propose a
+model-based approach based on generic, technology-independent metrics,
+tied to typical architectural design decisions on IaC-based deployments.
+With this approach, we can measure conformance to security-related
+practices. We demonstrate and assess the validity and appropriateness of
+these metrics in assessing a system's conformance to practices through
+regression analysis.",Proceedings Paper,10.1109/SCC55611.2022.00029,,"Ntentos, E (Corresponding Author), Univ Vienna, Fac Comp Sci, Res Grp Software Architecture, Vienna, Austria.
+Ntentos, Evangelos; Zdun, Uwe, Univ Vienna, Fac Comp Sci, Res Grp Software Architecture, Vienna, Austria.
+Falazi, Ghareeb; Breitenbuecher, Uwe; Leymann, Frank, Univ Stuttgart, Inst Architecture Applicat Syst, Stuttgart, Germany.",,"Infrastructure as code; metrics; software architecture; modeling; best
+practices",IEEE COMPUTER SOC,2474-8137,English,"IEEE International Conference on Services Computing (IEEE SCC),
+Barcelona, SPAIN, JUL 11-15, 2022",,Unclassified,
+,"A Framework for the Generation of Monitor and Plant Model From Event
+Logs Using Process Mining for Formal Verification of Event-Driven
+Systems","Xavier, Midhun and Dubinin, Victor and Patil, Sandeep and Vyatkin,
+Valeriy",IEEE OPEN JOURNAL OF THE INDUSTRIAL ELECTRONICS SOCIETY,2024,ISI Web of Science,517-534,5,"This article proposes a method for the automatic generation of a plant
+model and monitoring using process mining algorithms based on recorded
+event logs. The behavioral traces of the system are captured by
+recording event logs during plant operation in either manual control
+mode or with an automatic controller. Process discovery algorithms are
+then applied to extract the logic of the process behavior properties
+from the recorded event logs. The result is represented as a Petri net,
+which is used to construct the state machine of the plant model and
+monitor and is in accordance with the IEC 61499 Standard. The monitor is
+implemented as a function block and can be deployed in real time to
+trigger an error signal whenever there is a deviation from the actual
+process scenario. The plant model and controller are connected in a
+closed loop and are used for the formal verification of the system with
+the help of the ``fb2smv{''} converter and symbolic model checking tool
+NuSMV.",Article,10.1109/OJIES.2024.3406059,,"Vyatkin, V (Corresponding Author), Aalto Univ, Helsinki 02150, Finland.
+Xavier, Midhun, Lulea Univ Technol, dependable Commun \& computat Syst, Lulea, Sweden.
+Dubinin, Victor; Patil, Sandeep; Vyatkin, Valeriy, Lulea Univ Technol, Lulea, Sweden.
+Vyatkin, Valeriy, Aalto Univ, Helsinki 02150, Finland.",,IEC 61499; formal verification; plant model generation; process mining,IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC,,English,,,Unclassified,
+,Feasibility Prediction for Rapid IC Design Space Exploration,"Islam, Riadul",ELECTRONICS,2022,ISI Web of Science,,11,"The DARPA POSH program echoes with the research community and identifies
+that engineering productivity has fallen behind Moore's law, resulting
+in the prohibitive increase in IC design cost at leading technology
+nodes. The primary reason is that it requires many computing resources,
+expensive tools, and even many days to complete a design implementation.
+However, at the end of this process, some designs could not meet the
+design constraints and become unroutable, creating a vicious circuit
+design cycle. As a result, designers have to re-run the whole process
+after design modification. This research applied a machine learning
+approach to automatically identify design constraints and design rule
+checking (DRC) violation issues and help the designer identify design
+constraints with optimal DRCs before the long detailed routing process
+through iterative greedy search. The proposed algorithm achieved up to
+99.99\% design constraint prediction accuracy and reduced 98.4\% DRC
+violations with only a 6.9\% area penalty.",Article,10.3390/electronics11071161,,"Islam, R (Corresponding Author), Univ Maryland Baltimore Cty, Dept Comp Sci \& Elect Engn, Baltimore, MD 21250 USA.
+Islam, Riadul, Univ Maryland Baltimore Cty, Dept Comp Sci \& Elect Engn, Baltimore, MD 21250 USA.",,"design rule check; electronic design automation (EDA); decision tree; IC
+design; design constraints",MDPI,2079-9292,English,,,Unclassified,
+,"Increased reliability in SOA environments through registry-based
+conformance testing of Web services","Kourtesis, D. and Ramollari, E. and Dranidis, D. and Paraskakis, I.",PRODUCTION PLANNING \& CONTROL,2010,ISI Web of Science,130-144,21,"Organisations wishing to engage in industrial collaborative networks
+will typically seek some guarantees concerning the reliability of their
+prospective partners before committing to cooperation. Evaluating
+reliability can encompass several aspects, but one of the most crucial
+things to consider from a cooperation perspective is whether the
+software systems that support the business processes of some
+collaborator actually behave as expected. For organisations that rely on
+a service-oriented computing infrastructure, this amounts to checking
+whether the functionality of the respective services is conformant to a
+given behavioural specification. Today's state of the art lacks
+standardised methods for creating behavioural specifications of Web
+services, and also lacks tools for automating the process of behavioural
+conformance checking through testing. This paper presents a concrete
+method for creating formal specifications of Web service behaviour and
+utilising them within service registries for automated testing of
+service implementations in order to verify and certify their
+conformance.",Article,10.1080/09537280903441922,,"Kourtesis, D (Corresponding Author), Univ Sheffield, Res Ctr, SEERC, 24 Proxenou Koromila Str, Thessaloniki 54622, Greece.
+Kourtesis, D.; Ramollari, E.; Dranidis, D.; Paraskakis, I., Univ Sheffield, Res Ctr, SEERC, Thessaloniki 54622, Greece.
+Kourtesis, D.; Ramollari, E.; Dranidis, D.; Paraskakis, I., CITY Coll, Thessaloniki 54622, Greece.
+Dranidis, D., Univ Sheffield, Int Fac, Dept Comp Sci, CITY Coll, Thessaloniki 54626, Greece.",,Web services; registry; behavioural conformance; testing,TAYLOR \& FRANCIS LTD,0953-7287,English,,,Unclassified,
+,"PROS 2.0: A Plug-In for Routability Optimization and Routed Wirelength
+Estimation Using Deep Learning","Chen, Jingsong and Kuang, Jian and Zhao, Guowei and Huang, Dennis J. -H.
+and Young, Evangeline F. Y.","IEEE TRANSACTIONS ON COMPUTER-AIDED DESIGN OF INTEGRATED CIRCUITS AND
+SYSTEMS",2023,ISI Web of Science,164-177,42,"Recently, the topic of how to utilize prior knowledge obtained by
+machine-learning (ML) techniques during the EDA flow has been widely
+studied. In this article, we study this topic and propose a practical
+plug-in named PROS for both routability optimization and routed
+wirelength estimation which can be applied in the state-of-the-art
+commercial EDA tool or an academic EDA flow with negligible runtime
+overhead. PROS consists of three parts: 1) an effective fully
+convolutional network (FCN)-based predictor that only utilizes the data
+from placement result to forecast global routing (GR) congestion; 2) a
+parameter optimizer that can reasonably adjust GR cost parameters based
+on the prediction result to generate a better GR solution for detailed
+routing (DR); and 3) a convolutional neural network (CNN)-based
+wirelength estimator which can report accurate routed wirelength at the
+placement stage by using the predicted GR congestion. Experiments show
+that on the industrial benchmark suite in the advanced technology node,
+PROS can achieve high accuracy of GR congestion prediction and
+significantly reduce design rule checking (DRC) violations by 11.65\% on
+average, and on the DAC-2012 benchmark suite, PROS can achieve a very
+low error rate (1.82\%) for wirelength estimation which greatly
+outperforms that of FLUTE (21.52\%) by 19.70\%.",Article,10.1109/TCAD.2022.3168259,,"Chen, JS (Corresponding Author), Chinese Univ Hong Kong, Dept Comp Sci \& Engn, Hong Kong, Peoples R China.
+Chen, Jingsong; Young, Evangeline F. Y., Chinese Univ Hong Kong, Dept Comp Sci \& Engn, Hong Kong, Peoples R China.
+Kuang, Jian; Zhao, Guowei; Huang, Dennis J. -H., Cadence Design Syst, Digital \& Signoff Grp, San Jose, CA 95134 USA.",,Circuit optimization; design automation; deep learning; routing,IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC,0278-0070,English,,,Unclassified,
+,Pre-Global Routing DRC Violation Prediction Using Unsupervised Learning,"Islam, Riadul and Challagundla, Dhandeep",,2025,ISI Web of Science,450-454,,"Leveraging artificial intelligence (AI)-driven electronic design and
+automation (EDA) tools, high-performance computing, and parallelized
+algorithms are essential for next-generation microprocessor innovation,
+ensuring continued progress in computing, AI, and semiconductor
+technology. Machine learning-based design rule checking (DRC) and
+lithography hotspot detection can improve first-pass silicon success.
+However, conventional ML and neural network (NN)-based models use
+supervised learning and require a large balanced dataset (in terms of
+positive and negative classes) and training time. This research
+addresses those key challenges by proposing the first-ever unsupervised
+DRC violation prediction methodology. The proposed model can be built
+using any unbalanced dataset using only one class and set a threshold
+for it, then fitting any new data querying if they are within the
+boundary of the model for classification. This research verified the
+proposed model by implementing different computational cores using CMOS
+28 nm technology and Synopsys Design Compiler and IC Compiler II tools.
+Then, layouts were divided into virtual grids to collect about 60k data
+for analysis and verification. The proposed method has 99.95\%
+prediction test accuracy, while the existing support vector machine
+(SVM) and neural network (NN) models have 85.44\% and 98.74\% accuracy,
+respectively. In addition, the proposed methodology has about 26.3x and
+up to 6003x lower training times compared to SVM and NN-models,
+respectively.",Proceedings Paper,10.1109/NEWCAS64648.2025.11107147,,"Islam, R (Corresponding Author), Univ Maryland Baltimore Cty, Dept Comp Sci \& Elect Engn, Baltimore, MD 21228 USA.
+Islam, Riadul; Challagundla, Dhandeep, Univ Maryland Baltimore Cty, Dept Comp Sci \& Elect Engn, Baltimore, MD 21228 USA.",,"Machine learning; Layout; Unsupervised learning; Physical design flow;
+Design Rule Checking (DRC); Neural networks",IEEE,2472-467X,English,"23rd Interregional NEWCAS Conference-NEWCAS, FRANCE, JUN 22-25, 2025",,Unclassified,
+,"Enhancing extensibility of the design rule checker of an EDA tool by
+object-oriented modeling","Khwaja, AA",,1997,ISI Web of Science,104-108,,"Design rule checking systems are an integral part of electronic design
+automation toots. Rapid advances and continuous change in the
+semi-conductor technology requires that these DRC systems also change
+accordingly. This paper presents the architecture and mechanism of the
+DRC module of an IC package design toot. Design goals were identified
+far the module to allow easy addition, removal, and modification of
+rules and to minimize the effect of changes among others.
+Object-oriented modeling technique facilitates in the accomplishment of
+these goats by supporting concepts such as abstraction, encapsulation,
+inheritance, and dynamic binding. The paper puts these concepts in
+perspective within the context of the architecture and mechanism of the
+DRC module.",Proceedings Paper,10.1109/CMPSAC.1997.624771,,"Khwaja, AA (Corresponding Author), INTEL CORP,5000 W CHANDLER BLVD,CHANDLER,AZ 85226, USA.",,,"I E E E, COMPUTER SOC PRESS",0730-3157,English,"21st Annual International Computer Software and Applications Conference
+(COMPSAC 97), WASHINGTON, DC, AUG 13-15, 1997",,Unclassified,
+,Automatic Component Protocol Generation and Verification of Components,"Both, Andreas and Richter, Dirk",,2010,ISI Web of Science,94-101,,"In several works a method was suggested to overcome the lack of
+signature-based composition currently enabled in component-based and
+service-oriented architectures (SOA). Several approaches allow to encode
+non-functional properties of a single component in a contract (component
+protocol) where the remote calls to a component are taken into
+consideration. Component protocols ensures that bugs or unsafe behavior
+caused interaction sequences are obeyed. Encoding business rules works
+fine as these contracts can be derived from human knowledge only and
+have to be defined manually, too.
+In this work we will show, how such unsafe behavior within source code
+can be discovered and prevented by automatic component protocol
+generation and model checking techniques.",Proceedings Paper,10.1109/SEAA.2010.30,,"Both, A (Corresponding Author), Univ Halle, Inst Comp Sci, D-06120 Halle, Saale, Germany.
+Both, Andreas; Richter, Dirk, Univ Halle, Inst Comp Sci, D-06120 Halle, Saale, Germany.",,"component-based software engineering; protocol generation; protocol
+conformance checking; verification; model checking; component
+composition",IEEE COMPUTER SOC,1089-6503,English,"36th EUROMICRO Conference on Software Engineering and Advanced
+Applications (SEAA2010), Univ Lille Nord France, Polytechn Grad Engn
+Sch, Lille, FRANCE, SEP 01-03, 2010",,Unclassified,
+,"A Standard Deviation Incorporated Attention Module Enhanced U-Net for
+Routability Prediction","Chen, Yinjie and Zhang, Di and Chen, Hua",,2024,ISI Web of Science,671-674,,"With the remarkable increase in the complexity of Very Large-Scale
+Integration (VLSI) designs, the integration of artificial intelligence
+(AI) into electronic design automation (EDA) has become indispensable,
+particularly in the realm of back-end design tasks like Routing
+Congestion (RC) prediction and Design Rule Checking (DRC) hotspot map
+prediction. In this paper, we introduce an innovative variant of the
+U-Net model, enhanced by an attention module, to accurately predict
+routability. The attention module incorporates standard deviation
+operation to extract more comprehensive distribution information from
+the features, enabling mitigate the adverse effects of data imbalance.
+Our proposed model outperforms existing models, particularly with rate
+reductions of 1.5\% (RC) and 4.6\% (DRC) in Avg-NRMSE when compared to
+the prior model ibUnet, as evidenced by experimental results on the
+CircuitNet dataset. Furthermore, it outperforms the ibUnet on model size
+which exhibits a significant improvement of over 50\% rate reduction.",Proceedings Paper,10.1109/ICETIS61828.2024.10593700,,"Chen, H (Corresponding Author), Zhejiang Univ, Sch Aeronaut \& Astronaut, Hangzhou, Peoples R China.
+Chen, Yinjie, Zhejiang Univ, Coll Informat Sci \& Elect Engn, Hangzhou, Peoples R China.
+Zhang, Di; Chen, Hua, Zhejiang Univ, Sch Aeronaut \& Astronaut, Hangzhou, Peoples R China.",,"Very Large-Scale Integration (VLSI) designs; Routability Prediction;
+Artificial Intelligence; Electronic Design Automation (EDA); U-Net",IEEE,,English,"9th International Conference on Electronic Technology and Information
+Science (ICETIS), Hangzhou, PEOPLES R CHINA, MAY 17-19, 2024",,Unclassified,
+,"PROS: A Plug-in for Routability Optimization applied in the
+State-of-the-art commercial EDA tool using deep learning","Chen, Jingsong and Kuang, Jian and Zhao, Guowei and Huang, Dennis J-H
+and Young, Evangeline F. Y.",,2020,ISI Web of Science,,,"Recently the topic of routability optimization with prior knowledge
+obtained by machine learning techniques has been widely studied.
+However, limited by the prediction accuracy, the predictors of the
+existing related works can hardly be applied in a real-world EDA tool
+without extra runtime overhead for feature preparation. In this paper,
+we revisit this topic and propose a practical plug-in for routability
+optimization named PROS which can be applied in the state-of-the-art
+commercial EDA tool with negligible runtime overhead. PROS consists of
+an effective fully convolutional network (FCN) based predictor that only
+utilizes the data from placement result to forecast global routing (GR)
+congestion and a parameter optimizer that can reasonably adjust GR cost
+parameters based on prediction result to generate a better GR solution
+for detailed routing. Experiments on 19 industrial designs in advanced
+technology node show that PROS can achieve high accuracy of GR
+congestion prediction and significantly reduce design rule checking
+(DRC) violations by 11.65\% on average.",Proceedings Paper,10.1145/3400302.3415662,,"Chen, JS (Corresponding Author), Chinese Univ Hong Kong, Hong Kong, Peoples R China.
+Chen, Jingsong; Young, Evangeline F. Y., Chinese Univ Hong Kong, Hong Kong, Peoples R China.
+Kuang, Jian; Zhao, Guowei; Huang, Dennis J-H, Cadence Design Syst, San Jose, CA USA.",,,IEEE,1933-7760,English,"39th IEEE/ACM International Conference On Computer Aided Design (ICCAD),
+ELECTR NETWORK, NOV 02-05, 2020",,Unclassified,
+,Physical Verification at Advanced Technology Nodes and the Road Ahead,"Rey, Juan C.",,2020,ISI Web of Science,143,,"In spite of ``doomsday{''} expectations, Moore's Law is alive and well.
+Semiconductor manufacturing and design companies, as well as the
+Electronic Design Automation (EDA) industry have been pushing ahead to
+bring more functionality to satisfy more aggressive
+space/power/performance requirements.
+Physical verification occupies a unique space in the ecosystem as one of
+the key bridges between design and manufacturing. As such, the
+traditional space of design rule checking (DRC) and layout versus
+schematic (LVS) have expanded into electrical verification and yield
+enabling technologies such as optical proximity correction, critical
+area analysis, multi-patterning decomposition and automated filling.
+To achieve the expected accuracy and performance demanded by the design
+and manufacturing community, it is necessary to consider the physical
+effects of the manufacturing processes and electronic devices and to use
+the most advanced software engineering technology and computational
+capabilities.",Proceedings Paper,10.1145/3372780.3378168,,"Rey, JC (Corresponding Author), Mentor, Fremont, CA 94538 USA.
+Rey, Juan C., Mentor, Fremont, CA 94538 USA.",,"Electronic Design Automation (EDA); Semiconductor Manufacturing Moore's
+Law; Layout Versus Schematics (LVS); Optical Proximity Correction (OPC)",ASSOC COMPUTING MACHINERY,,English,"ACM International Symposium on Physical Design (ISPD), Taipei, TAIWAN,
+MAR 29-APR 01, 2020",,Unclassified,
+,"Enabling alternating phase shifted mask designs for a full logic gate
+level: Design rules and design rule checking","Liebmann, L and Lund, J and Heng, FL and Graur, I",,2001,ISI Web of Science,79-84,,"The International Technology Roadmap for Semiconductors lists F2 (lambda
+= 157 mn) optical lithography and extreme ultraviolet next generation
+lithography as the two most feasible lithography solutions for the 70 mn
+technology node. It is likely that both of these solutions will be late,
+forcing ArF (lambda = 193 mn) lithography to operate at unprecedented
+resolution levels. Theoretically, alternating phase shifted masks
+({''}altPSM{''}) can achieve the resolution required to manufacture 70
+mn logic products with ArF lithography equipment, but technical and
+logistical challenges associated with the broad implementation of altPSM
+require novel and invasive EDA solutions which have caused the industry
+to shy away from altPSM in the past. One of the biggest such challenges
+is the creation of robust design rule checking (DRC) tools which can
+predict whether a given layout has a valid, manufacturable altPSM
+solution. This paper takes a detailed look at the technical and
+practical issues associated with altPSM design rules and DRC.",Proceedings Paper,,,"Liebmann, L (Corresponding Author), IBM Corp, Microelect, Fishkill, NY USA.
+IBM Corp, Microelect, Fishkill, NY USA.",,,ASSOC COMPUTING MACHINERY,0738-100X,English,"38th Design Automation Conference (DAC), LAS VEGAS, NV, JUN 18-22, 2001",,Unclassified,
+,"A toolset for conformance testing against UML sequence diagrams based on
+event-driven colored Petri nets","Faria, Joao Pascoal and Paiva, Ana C. R.",INTERNATIONAL JOURNAL ON SOFTWARE TOOLS FOR TECHNOLOGY TRANSFER,2016,ISI Web of Science,285-304,18,"Novel techniques and a toolset are presented for automatically testing
+the conformance of software implementations against partial behavioral
+models constituted by a set of parameterized UML sequence diagrams,
+describing both external interactions with users or client applications
+and internal interactions between objects in the system. Test code is
+automatically generated from the sequence diagrams and executed on the
+implementation under test, and test results and coverage information are
+presented back visually in the model. A runtime test library handles
+internal interaction checking, test stubs, and user interaction testing,
+taking advantage of aspect-oriented programming techniques. Incremental
+conformance checking is achieved by first translating sequence diagrams
+to Extended Petri Nets that combine the characteristics of Colored Petri
+Nets and Event-Driven Petri Nets.",Article,10.1007/s10009-014-0354-x,,"Paiva, ACR (Corresponding Author), Univ Porto, Fac Engn, INESC TEC, Rua Campo Alegre 823, P-4100 Oporto, Portugal.
+Paiva, ACR (Corresponding Author), Univ Porto, Fac Engn, Dept Informat Engn, Rua Campo Alegre 823, P-4100 Oporto, Portugal.
+Faria, Joao Pascoal; Paiva, Ana C. R., Univ Porto, Fac Engn, INESC TEC, Rua Campo Alegre 823, P-4100 Oporto, Portugal.
+Faria, Joao Pascoal; Paiva, Ana C. R., Univ Porto, Fac Engn, Dept Informat Engn, Rua Campo Alegre 823, P-4100 Oporto, Portugal.",,Sequence diagrams; Conformance testing; Petri nets,SPRINGER HEIDELBERG,1433-2779,English,,,Unclassified,
+,Dynamic checking improves MEMS design methodology.,"Marín, X and Carrabina, J and Bausells, J",,2000,ISI Web of Science,266-271,4019,"Design verification methodologies and tools such as DRC (Design rule
+checking) and ERC (Electrical Rule Checking) used on MEMS design have
+been inherited from the transistor based analog and digital full custom
+design flows. However the devices are defined on a 2D layout, they have
+a 3D structure. Thus, current tools do not have into account the new
+features that appear in MEMS design, especially those related with
+device micromachining. The main consequence on it is that it is
+necessary to include information of the vertical (the normal of the
+wafer plane) parameters on the DRC, what is not at all usual in
+classical design. We claim that the inclusion of such information
+together with the consequent improvement of tools for DRC, ERC and
+device parameter extraction, can reduce design and simulation efforts as
+well as improve the manufacturing yield.",Proceedings Paper,10.1117/12.382310,,"Marín, X (Corresponding Author), CSIC, IMB, Ctr Nacl Microelect, Campus UAB, Bellaterra 08193, Spain.
+CSIC, IMB, Ctr Nacl Microelect, Bellaterra 08193, Spain.",,design verification; EDA tools for MEMS; design rule checking,SPIE-INT SOC OPTICAL ENGINEERING,0277-786X,English,"Symposium on Design, Test, Integration, and Packaging of MEMS/MOEMS,
+PARIS, FRANCE, MAY 09-11, 2000",,Unclassified,
+,"A Lightweight Inception Boosted U-Net Neural Network for Routability
+Prediction","Li, Hailiang and Huo, Yan and Wang, Yan and Yang, Xu and Hao, Miaohui
+and Wang, Xiao",,2024,ISI Web of Science,648-653,,"As the modern CPU, GPU, and NPU chip's design complexity and transistor
+counts keep increasing, and with the relentless shrinking of
+semiconductor technology node to nearly 1 nanometer, the placement and
+routing have gradually become the two most pivotal processes in modern
+very-large-scale-integrated (VLSI) circuit back-end design. How to
+evaluate routability efficiently and accurately in advance (at the
+placement and global routing stages) has grown into a crucial research
+area in the field of artificial intelligence (AI) assisted electronic
+design automation (EDA). In this paper, we propose a novel U-Net variant
+model boosted by an Inception embedded module to predict Routing
+Congestion (RC) and Design Rule Checking (DRC) hotspots. Experimental
+results on the recently published CircuitNet dataset benchmark show that
+our proposed method achieves up to 5\% (RC) and 20\% (DRC) rate
+reduction in terms of Avg-NRMSE (Average Normalized Root Mean Square
+Error) compared to the classic architecture. Furthermore, our approach
+consistently outperforms the prior model on the SSIM (Structural
+Similarity Index Measure) metric.",Proceedings Paper,10.1109/ISEDA62518.2024.10617987,,"Li, HL (Corresponding Author), Hong Kong Appl Sci \& Technol Res Inst Co Ltd ASTR, Adv Elect Components \& Syst AECS Div, Integrated Circuit Enabling Technol ICET Grp, Hong Kong, Peoples R China.
+Li, Hailiang; Huo, Yan; Wang, Yan; Yang, Xu; Hao, Miaohui; Wang, Xiao, Hong Kong Appl Sci \& Technol Res Inst Co Ltd ASTR, Adv Elect Components \& Syst AECS Div, Integrated Circuit Enabling Technol ICET Grp, Hong Kong, Peoples R China.",,"Routing Congestion Prediction; Design Rule Checking (DRC) Hotspot
+Prediction; Artificial Intelligence for Electronic Design Automation
+(EDA); Deep Learning Model; Inception Module based Network",IEEE,,English,"2nd International Symposium of Electronics Design Automation (ISEDA),
+Xian, PEOPLES R CHINA, MAY 10-13, 2024",,Unclassified,
+,An Approach to Variability Management in Service-Oriented Product Lines,"Khoshnevis, Sedigheh",,2012,ISI Web of Science,1483-1486,,"Service-Oriented product lines (SOPLs) are dynamic software product
+lines, in which, the products are developed based on services and
+service-oriented architecture. Although there are similarities between
+components and services, there are important differences so that we
+cannot use component-based product line engineering methods and
+techniques for SOPL engineering. These differences emerge from the fact
+that, services can be discovered as black box elements from external
+repositories. Moreover, services can be dynamically bound and are
+business-aligned. Therefore, analyzing the conformance of discovered
+external services with the variability of services in the SOPL -which
+must be aligned to the variable business needs-is necessary. Variability
+must be managed, that is, it must be represented (modeled), used
+(instantiated and capable of conformance checking) and maintained
+(evolved) over time. Feature Models are insufficient for modeling
+variability in SOPL, because, services cannot be simply mapped to one or
+more features, and identification of the mapping depends on knowing the
+detailed implementation of the services. This research aims at providing
+an approach to managing the variability in SOPLs so that external
+services can be involved in the SOPL engineering. This paper presents an
+overview of the proposal.",Proceedings Paper,,,"Khoshnevis, S (Corresponding Author), Shahid Beheshti Univ, Fac Elect \& Comp Engn, Dept Comp Engn, GC, Tehran, Iran.
+Shahid Beheshti Univ, Fac Elect \& Comp Engn, Dept Comp Engn, GC, Tehran, Iran.",,"Service-Oriented Product Line; Variability Management; Variability
+Modeling; Conformance Checking",IEEE,0270-5257,English,"34th International Conference on Software Engineering (ICSE), Zurich,
+SWITZERLAND, JUN 02-09, 2012",,Unclassified,
+,"A Metamodel and Model-based Design Rule Checking DSL for Verification
+and Validation of Electronic Circuit Designs","Rumpold, Adrian and Bauer, Bernhard",,2019,ISI Web of Science,315-322,,"Development of embedded systems depends on both software and hardware
+design activities. Quality management of development artifacts is of
+crucial importance for the overall function and safety of the final
+product. This paper introduces a metamodel and model-based approach and
+accompanying domain-specific language for validation of electronic
+circuit designs. The solution does not depend on any particular
+electronic design automation (EDA) software, instead we propose a
+workflow that is integrated into a modular, general-purpose model
+analysis framework. The paper illustrates both the underlying concepts
+as well as possible application scenarios for the developed validation
+domain-specific language, MBDRC (Model-Based Design Rule Checking). It
+also discusses fields for further research and transfer of the initial
+results.",Proceedings Paper,10.5220/0007381303150322,,"Rumpold, A (Corresponding Author), Univ Augsburg, Inst Comp Sci, Augsburg, Germany.
+Rumpold, Adrian; Bauer, Bernhard, Univ Augsburg, Inst Comp Sci, Augsburg, Germany.",,"Domain-specific Modeling; Model-based Analysis; Model-based Testing and
+Validation; Systems Engineering; Electronic Design Automation; Design
+Rule Checking",SCITEPRESS,,English,"7th International Conference on Model-Driven Engineering and Software
+Development (MODELSWARD), Prague, CZECH REPUBLIC, FEB 20-22, 2019",,Unclassified,
+,"I Will Survive: An Event-driven Conformance Checking Approach Over
+Process Streams","Raun, Kristo and Tommassini, Riccardo and Awad, Ahmed",,2023,ISI Web of Science,49-60,,"Online conformance checking deals with finding discrepancies between
+real-life and modeled behavior on data streams. The current
+state-of-the-art output of online conformance checking is a
+prefixalignment, which is used for pinpointing the exact deviations in
+terms of the trace and the model while accommodating a trace's unknown
+termination in an online setting. Current methods for producing
+prefix-alignments are computationally expensive and hinder the
+applicability in real-life settings. This paper introduces a new
+approximate algorithm - I Will Survive (IWS). The algorithm utilizes the
+trie data structure to improve the calculation speed, while remaining
+memory-efficient. Comparative analysis on real-life and synthetic
+datasets shows that the IWS algorithm can achieve an order of magnitude
+faster execution time while having a smaller error cost, compared to the
+current state of the art. In extreme cases, the IWS finds
+prefixalignments roughly three orders of magnitude faster than previous
+approximate methods. The IWS algorithm includes a discounted decay time
+setting for more efficient memory usage and a lookahead limit for
+improving computation time. Finally, the algorithm is stress tested for
+performance using a simulation of high-traffic event streams.",Proceedings Paper,10.1145/3583678.3596887,,"Raun, K (Corresponding Author), Univ Tartu, Tartu, Estonia.
+Raun, Kristo; Tommassini, Riccardo; Awad, Ahmed, Univ Tartu, Tartu, Estonia.
+Tommassini, Riccardo, INSA Lyon, LIRIS Lab, Lyon, France.
+Awad, Ahmed, Cairo Univ, Giza, Egypt.",,"online conformance checking; event-based business process management;
+prefix-alignments; data streams",ASSOC COMPUTING MACHINERY,,English,"17th International Conference on Distributed and Event Based
+Systems-DEBS, Neuchatel, SWITZERLAND, JUN 27-30, 2023",,Unclassified,
+,"A formal and visual modeling approach to choreography based web services
+composition and conformance verification","Yeung, W. L.",EXPERT SYSTEMS WITH APPLICATIONS,2011,ISI Web of Science,12772-12785,38,"Web services have emerged as the building blocks of a service-oriented
+architecture that supports not only enterprise application integration
+(EAI) and business process management (BPM) within an organization but
+also B2B collaboration based on business process integration. The web
+services choreography approach to B2B process integration allows
+business partners to orchestrate their own web services privately, while
+conforming with an agreed specification of the common ordering
+conditions and constraints under which messages are exchanged among
+partners' web services. In this approach, choreography conformance is an
+essential requirement for the successful implementation of collaborative
+processes. A formal approach to web services composition and conformance
+verification based on WS-CDL and WS-BPEL is presented. This approach
+involves model checking as an automated means of verifying choreography
+conformance. The main contributions include a precise notion of
+choreography conformance on which verification is based as well as
+support for the complementary use of visual modeling (e.g. UML) and
+standard WS-{*} notations in composition. (C) 2011 Elsevier Ltd. All
+rights reserved.",Article,10.1016/j.eswa.2011.04.068,,"Yeung, WL (Corresponding Author), Lingnan Univ, Dept Comp \& Decis Sci, Hong Kong, Hong Kong, Peoples R China.
+Lingnan Univ, Dept Comp \& Decis Sci, Hong Kong, Hong Kong, Peoples R China.",,"Web services; Orchestration; Choreography; Conformance verification;
+Model checking; Contract negotiation",PERGAMON-ELSEVIER SCIENCE LTD,0957-4174,English,,,Unclassified,
+,Automata applications in chip-design software,"Watson, Bruce W.",,2007,ISI Web of Science,24-26,4783,"In this paper, I present several new automata applications in software
+for electronic design automation (EDA) - chip design. EDA software has
+typically been implemented by and for microelectronic engineers, and the
+associated algorithmics remains underdeveloped. In several cases, overly
+complex algorithms have been used whereas automata could have been
+applied after abstracting from the problem details.",Proceedings Paper,,,"Watson, BW (Corresponding Author), Univ Pretoria, FASTAR, ZA-0002 Pretoria, South Africa.
+Watson, Bruce W., Univ Pretoria, FASTAR, ZA-0002 Pretoria, South Africa.",,"EDA; integrated circuit layout; pattern matching; design rule checking;
+chip design",SPRINGER-VERLAG BERLIN,0302-9743,English,"12th International Conference on Implementation and Application of
+Automata, Czech Tech Univ, Prague, CZECH REPUBLIC, JUL 16-18, 2007",,Unclassified,
+,"Detecting and Resolving Coupling-Related Infrastructure as Code Based
+Architecture Smells in Microservice Deployments","Ntentos, Evangelos and Zdun, Uwe and Falazi, Ghareeb and Breitenbucher,
+Uwe and Leymann, Frank",,2023,ISI Web of Science,201-211,,"The Infrastructure as Code (IaC) concept enables IT infrastructure to be
+managed as software: resources can be managed, monitored, and
+provisioned automatically instead of manually by developers or
+operations teams. Many industries have already embraced this concept
+widely. However, research on IaC-based deployments, particularly
+research focusing on loose coupling, often does not offer methods for
+evaluating architectural conformance, spotting architecture smells, and
+support for correcting the found smells. Our work strives to provide an
+automatic method for continuously developing microservice-based systems
+and the associated infrastructure. We aim to offer an automated
+architectural refactoring method that checks if IaC-based deployments
+adhere to patterns and best practices and do not contain potential
+architectural smells. We provide architects with viable options for
+enhancing architectural conformance during microservice development. In
+short, by continuously detecting architectural smells and suggesting
+possible fixes, we aim to support architecture evolution within the
+framework of continuous delivery practices. We evaluate our approach
+using three case studies and variants based on open-source microservice
+architectures.",Proceedings Paper,10.1109/CLOUD60044.2023.00031,,"Ntentos, E (Corresponding Author), Univ Vienna, Software Architecture Grp, Vienna, Austria.
+Ntentos, E (Corresponding Author), Univ Vienna, Doctoral Sch Comp Sci, Vienna, Austria.
+Ntentos, Evangelos, Univ Vienna, Software Architecture Grp, Vienna, Austria.
+Ntentos, Evangelos, Univ Vienna, Doctoral Sch Comp Sci, Vienna, Austria.
+Zdun, Uwe, Univ Vienna, Software Architecture Grp, Vienna, Austria.
+Falazi, Ghareeb; Breitenbucher, Uwe; Leymann, Frank, Univ Stuttgart, Inst Architecture Applicat Syst, ",,"Infrastructure as code; metrics; architecture smells; modeling; best
+practices",IEEE COMPUTER SOC,2159-6182,English,"IEEE 16th International Conference on Cloud Computing (IEEE CLOUD),
+Chicago, IL, JUL 02-08, 2023",,Unclassified,
+,"Exploring Architectural Evolution in Microservice Systems Using
+Repository Mining Techniques and Static Code Analysis","Genfer, Patric and Zdun, Uwe",,2024,ISI Web of Science,157-173,14889,"Microservices have gained popularity for isolating service functionality
+and mitigating issues such as architectural erosion and technical debt.
+However, their decentralized nature and rapid development often obscure
+the holistic view of the system and lead developers to lose sight of the
+overarching architecture. Our work addresses this challenge by proposing
+a novel approach to track and assess the evolution of microservice
+architectures through static source code analysis. We combine source
+code repository mining techniques with architectural reconstruction to
+measure various metrics throughout a system's development history. Our
+approach uses a formal API-based decomposition model that can easily be
+adapted for different scenarios by choosing various architectural
+metrics. We validated our method's scalability and robustness through a
+case study on an extensive open-source microservice reference system
+with more than 40 individual services written in different languages and
+more than 400 commits. Our research provides software architects with a
+powerful tool to identify and monitor problematic architectural trends
+before they become imminent threats, enabling the evolution of
+microservice-based systems while maintaining architectural coherence and
+integrity.",Proceedings Paper,10.1007/978-3-031-70797-1\_10,,"Genfer, P (Corresponding Author), Univ Vienna, Res Grp Software Architecture, Fac Comp Sci, Vienna, Austria.
+Genfer, P (Corresponding Author), Univ Vienna, Univ Doctoral Sch Comp Sci DoCS, Vienna, Austria.
+Genfer, Patric; Zdun, Uwe, Univ Vienna, Res Grp Software Architecture, Fac Comp Sci, Vienna, Austria.
+Genfer, Patric, Univ Vienna, Univ Doctoral Sch Comp Sci DoCS, Vienna, Austria.",,"Microservice API; evolution; source code repository mining; metrics;
+source code detectors",SPRINGER INTERNATIONAL PUBLISHING AG,0302-9743,English,"18th European Conference on Software Architecture (ECSA), Luxembourg
+City, LUXEMBOURG, SEP 03-06, 2024",,Unclassified,
+,"Leveraging Petri Nets for Workflow Anomaly Detection in Microservice
+Architectures","Kamboj, Priyanka and Artho, Cyrille and Guanciale, Roberto and
+Jabbarvand, Reyhaneh and Godfrey, Brighten",,2025,ISI Web of Science,219-241,15714,"Modern microservice architectures pose challenges in understanding and
+managing the complex workflows within these decentralized services. In
+particular, it is difficult to identify anomalous behavior that could
+indicate a bug or attack. We use traces of microservice application
+activity (requests and responses) to infer a model of the application's
+normal behavior. Our approach mines Petri nets to formally represent
+concurrent operations and their temporal dependencies with a targeted
+delay injection approach that accurately and efficiently learns these
+dependencies. The models produced are both explainable and easy to
+inspect, which offers more transparency and control. Our evaluation
+shows that injecting delays during model training allows us to achieve
+perfect model and log fitness (Move-Model and Move-Log fitness of 1)
+with just 29 traces. In contrast, a straightforward approach requires
+over 10,000 traces to achieve similar accuracy. Our models successfully
+identify anomalies in various experiments, such as traces with one
+missing or multiple missing activities, and reordered sequences to
+simulate issues in real-world scenarios. Our approach outperforms the
+state-of-the-art method, demonstrating higher accuracy.",Proceedings Paper,10.1007/978-3-031-94634-9\_11,,"Guanciale, R (Corresponding Author), KTH Royal Inst Technol Univ, Stockholm, Sweden.
+Kamboj, Priyanka; Artho, Cyrille; Guanciale, Roberto, KTH Royal Inst Technol Univ, Stockholm, Sweden.
+Jabbarvand, Reyhaneh; Godfrey, Brighten, Univ Illinois, Chicago, IL USA.",,"Alignments; Cost function; Delay; Microservices; Process mining; Process
+discovery; Conformance Checking",SPRINGER INTERNATIONAL PUBLISHING AG,0302-9743,English,"46th International Conference on Application and Theory of Petri Nets
+and Concurrency-PETRI NETS-Annual, FRANCE, JUN 22-27, 2025",,Unclassified,
+,"D2D-GPT: Leveraging Incremental Learning GPT for Seamless Design Rule
+Conversion Across EDA Tools","Wang, Chao and Zhang, Yunxiang and Lu, Wangzilu and Huang, Jiajie and
+Zhang, Qing and Yin, Minghui and Zhang, Yuhang and Li, Zhiqiang and Li,
+Yongfu",,2024,ISI Web of Science,110-114,,"This paper investigates the use of fine-tuned ChatGPT, in Electronic
+Design Automation (EDA) for Design Rule Checking (DRC). As integrated
+circuits grow in complexity, so do the design rules, exacerbated by the
+diversity of EDA tools with unique DRC specifications. We introduce
+D2D-GPT, a unified tool leveraging ChatGPT's language capabilities to
+translate DRC specifications across different EDA platforms. This
+research focuses on optimizing input datasets - native DRC rules - to
+improve ChatGPT's translation accuracy and efficiency. Our objective is
+to streamline the EDA workflow, bridge gaps between various tools, and
+pave the way for more cohesive design processes in the semiconductor
+industry.",Proceedings Paper,10.1109/APCCAS62602.2024.10808537,,"Wang, C; Li, YF (Corresponding Author), Shanghai Jiao Tong Univ, Shanghai, Peoples R China.
+Li, ZQ (Corresponding Author), Chinese Acad Sci, Inst Microelect, Beijing, Peoples R China.
+Wang, Chao; Zhang, Yunxiang; Lu, Wangzilu; Huang, Jiajie; Zhang, Qing; Zhang, Yuhang; Li, Yongfu, Shanghai Jiao Tong Univ, Shanghai, Peoples R China.
+Yin, Minghui; Li, Zhiqiang, Chinese Acad Sci, Inst Microelect, Beijing, Peoples R China.",,"Electronic Design Automation; Design Rule Checking; ChatGPT;
+Semiconductor Industry; Machine Learning",IEEE,2837-4576,English,"20th Asia-Pacific Conference on Circuits and Systems, Taipei, TAIWAN,
+NOV 07-09, 2024",,Unclassified,
+,"IntelliGOV - A Semantic Approach for Compliance Validation of
+Service-Oriented Architectures","Teixeira Filho, Haroldo Maria and Azevedo, Leonardo Guerreiro and Matsui
+Siqueira, Sean Wolfgand",JOURNAL OF UNIVERSAL COMPUTER SCIENCE,2016,ISI Web of Science,1048-1071,22,"Organizations are adopting Service-Oriented Architecture (SOA) to
+increase operation's efficiency and flexibility. To accomplish these
+goals, it is necessary to ensure that the architecture and its evolution
+are compliant with business goals, best practices, legal and regulatory
+requirements. However, the diversity of domains and stakeholders
+involved in SOA solutions demands complex and expensive work to validate
+the architecture compliance. Hence, it can result in high costs and low
+quality assessment if the organization does not use an effective
+approach in this scenario. In addition, it would be important to
+consider standards and open solutions in order to promote
+interoperability and reuse of available tools, making it easier to
+spread throughout the organizations. We propose intelliGov, an
+architecture that aims to solve these problems by using ontologies,
+semantic rules and queries in order to simplify the compliance
+validation process. The architecture employs open standards - OWL, SWRL
+and SQWRL - in its implementation. A case study, executed in a global
+energy company that is currently adopting SOA, demonstrates gains in
+quality and costs of the compliance assessment process using the
+proposed architecture.",Article,,,"Teixeira, HM (Corresponding Author), Fed Univ State Rio de Janeiro UNIRIO, Rio De Janeiro, Brazil.
+Teixeira Filho, Haroldo Maria; Azevedo, Leonardo Guerreiro; Matsui Siqueira, Sean Wolfgand, Fed Univ State Rio de Janeiro UNIRIO, Rio De Janeiro, Brazil.
+Azevedo, Leonardo Guerreiro, IBM Res, Rio De Janeiro, Brazil.",,"Service-Oriented Architecture (SOA); Governance; Ontology; Semantic
+Rules; Semantic Queries","GRAZ UNIV TECHNOLGOY, INST INFORMATION SYSTEMS COMPUTER MEDIA-IICM",0948-695X,English,,,Unclassified,
+,"An architectural style for scalable choreography-based
+microservice-oriented distributed systems","Filippone, Gianluca and Pompilio, Claudio and Autili, Marco and Tivoli,
+Massimo",COMPUTING,2023,ISI Web of Science,1933-1956,105,"Service choreographies are a versatile approach for building
+service-based distributed systems. Many approaches can be found in the
+literature tackling different aspects of service choreographies, such as
+choreography realizability and conformance checking, distributed
+coordination, formal choreographic languages, and scalability. As of
+today, choreography scalability has not been specifically addressed
+through approaches that also consider coordination issues while still
+decoupling these two related aspects. Scalability is one of the most
+important properties to be considered when building distributed systems.
+It enhances the user-perceived performances and influences the overall
+dependability of the system. In particular, load scalability allows
+distributed service-oriented systems to effectively handle varying loads
+without suffering performance degradation. In this direction,
+microservice-based systems are able to scale thanks to the possibility
+of replicating those microservices exposed to growing loads,
+distributing their workload among different instances. By leveraging on
+our experience in coordinating service choreographies, in this paper, we
+propose a layered architectural style that allows to realize scalable
+microservice-oriented choreographies. The architecture integrates a
+fully-distributed coordination layer capable of ensuring the correct
+interactions and a load-balancing layer that allows to balance of
+coordinated requests. We discuss the properties of the proposed
+architectural style and evaluate its benefits on user-perceived
+performances.",Article,10.1007/s00607-022-01139-5,,"Filippone, G (Corresponding Author), Univ Laquila, Dept Informat Engn Comp Sci \& Math, Via Vetoio, I-67100 Laquila, Italy.
+Filippone, Gianluca; Pompilio, Claudio; Autili, Marco; Tivoli, Massimo, Univ Laquila, Dept Informat Engn Comp Sci \& Math, Via Vetoio, I-67100 Laquila, Italy.",,Distributed systems; Microservices; Scalability; Load balancing,SPRINGER WIEN,0010-485X,English,,,Unclassified,
+,"Conformance Assessment of Architectural Design Decisions on the Mapping
+of Domain Model Elements to APIs and API Endpoints","Singjai, Apitchaka and Zdun, Uwe",,2022,ISI Web of Science,76-83,,"Microservice APIs are often identified and designed based on
+Domain-Driven Design (DDD). To help in the continuous analysis of
+mappings of domain model elements to APIs and API endpoints, we aim to
+automate the assessment of conformance to Architectural Design Decision
+(ADD) options. The ADDs, their decision options, and relevant decision
+drivers studied in this paper originate from an empirical study on the
+mapping of domain model elements to APIs and API endpoints in practice.
+We propose automated detectors to detect the decision options of the
+ADDs taken in a given microservice API model, and an assessment scoring
+scheme based on the empirical knowledge codified in the ADDs. We
+evaluate our work, by first manually creating a ground truth for 14
+cases in a multi-case study, and then comparing the results of our
+automated detectors to the ground truth for each of the 14 cases. In the
+cases we were able to identify 86\% of the decision points correctly,
+and a statistical analysis of our data shows only a negligible effect
+size for differences to the ground truth.",Proceedings Paper,10.1109/ICSA-C54293.2022.00058,,"Singjai, A (Corresponding Author), Univ Vienna, Res Grp Software Architecture, Vienna, Austria.
+Singjai, Apitchaka; Zdun, Uwe, Univ Vienna, Res Grp Software Architecture, Vienna, Austria.",,"Microservice Architecture; API Design; DDD; Conformance Assessment;
+Architectural Design Decision",IEEE COMPUTER SOC,,English,"19th IEEE International Conference on Software Architecture (ICSA),
+ELECTR NETWORK, MAR 12-15, 2022",,Unclassified,
+,"Assessing Architecture Conformance to Coupling-Related
+Infrastructure-as-Code Best Practices: Metrics and Case Studies","Ntentos, Evangelos and Zdun, Uwe and Soldani, Jacopo and Brogi, Antonio",,2022,ISI Web of Science,101-116,13444,"Infrastructure as Code (IaC) is an IT practice that facilitates the
+management of the underlying infrastructure as software. It enables
+developers or operations teams to automatically manage, monitor, and
+provision resources rather than organize them manually. In many
+industries, this practice is widespread and has already been fully
+adopted. However, few studies provide techniques for evaluating
+architectural conformance in IaC deployments and, in particular, aspects
+such as loose coupling. This paper focuses on coupling-related patterns
+and practices such as deployment strategies and the structuring of IaC
+elements. Many best practices are documented in gray literature sources,
+such as practitioner books, blogs, and public repositories. Still, there
+are no approaches yet to automatically check conformance with such best
+practices. We propose an approach based on generic,
+technology-independent metrics tied to typical architectural design
+decisions for IaC-based practices in microservice deployments to support
+architecting in the context of continuous delivery practices. We present
+three case studies based on open-source microservice architectures to
+validate our approach.",Proceedings Paper,10.1007/978-3-031-16697-6\_7,,"Ntentos, E (Corresponding Author), Univ Vienna, Fac Comp Sci, Res Grp Software Architecture, Vienna, Austria.
+Ntentos, Evangelos; Zdun, Uwe, Univ Vienna, Fac Comp Sci, Res Grp Software Architecture, Vienna, Austria.
+Soldani, Jacopo; Brogi, Antonio, Univ Pisa, Fac Comp Sci, Pisa, Italy.",,"Infrastructure as Code; metrics; software architecture; architecture
+conformance; IaC best practices",SPRINGER INTERNATIONAL PUBLISHING AG,0302-9743,English,"16th European Conference on Software Architecture (ECSA), Prague, CZECH
+REPUBLIC, SEP 19-23, 2022",,Unclassified,
+,"Semi-automatic Feedback for Improving Architecture Conformance to
+Microservice Patterns and Practices","Ntentos, Evangelos and Zdun, Uwe and Plakidas, Konstantinos and Geiger,
+Sebastian",,2021,ISI Web of Science,36-46,,"Microservices are one of the most recommended architectural styles for
+distributed applications that support independent development and
+deployment, enable rapid release, and are highly scalable and polyglot.
+Many well-established patterns and best practices have been documented
+in the literature. As there are many such guidances, they have numerous
+interdependencies, and system designs must adhere to many other
+architecture constraints, too, implementations do not always conform to
+those guidances. In complex or large systems, it can be hard and tedious
+to spot violations. Our work aims to offer automated support for
+architecting during the continuous evolution of microservice-based
+systems. More specifically we aim to provide the foundations for an
+automated approach for architecture reconstruction, assessing
+conformance to patterns and practices specific for microservice
+architectures, and detect possible violations. Based on this, we provide
+actionable options to architects for improving architecture conformance
+as part of a continuous feedback loop. That is, our goal is to support
+architecting in the context of continuous delivery practices, where
+architecture violations are continuously analyzed and fix options are
+continuously suggested.",Proceedings Paper,10.1109/ICSA51549.2021.00012,,"Ntentos, E (Corresponding Author), Univ Vienna, Fac Comp Sci, Res Grp Software Architecture, Vienna, Austria.
+Ntentos, Evangelos; Zdun, Uwe; Plakidas, Konstantinos, Univ Vienna, Fac Comp Sci, Res Grp Software Architecture, Vienna, Austria.
+Geiger, Sebastian, Siemens Corp Technol, Vienna, Austria.",,"Microservices; patterns; best practices; continuous architecture
+improvement; feedback loop",IEEE COMPUTER SOC,,English,"18th IEEE International Conference on Software Architecture (ICSA),
+Infos e V, ELECTR NETWORK, MAR 22-26, 2021",,Unclassified,
+,WEB SERVICE CHOREOGRAPHY CONFORMANCE VERIFICATION THROUGH THE piX-MODEL,"Van Seghbroeck, Gregory and Volckaert, Bruno and De Turck, Filip and
+Dhoedt, Bart and Demeester, Piet",INTERNATIONAL JOURNAL OF COOPERATIVE INFORMATION SYSTEMS,2010,ISI Web of Science,1-30,19,"As the adoption of the Service Oriented Architecture paradigm has
+dramatically increased over the past few years, proper coordination of
+loosely coupled services becomes an important issue when building
+state-of-the-art applications. This coordination is typically organized
+through orchestration (requiring a central coordinating entity) or
+through choreographies. While the latter approach allows for a fully
+distributed coordination, the need also arises for a distributed
+conformance check, ensuring that each participant of the choreography
+behaves according to the general choreography.
+In this paper, a formalism is presented to ensure this conformance at
+design time, with possible extensions to deploy time and to runtime
+conformance checking. This formalism is referred to as the piX-model and
+it will be shown that the approach taken is inherently less complex,
+both in time and space, than the conventional p-calculus-based approach,
+whilst offering the same conformance guarantees. This gain in
+performance allows for a small design turnaround time, and also opens
+the avenue to runtime conformance checking by resource constrained
+devices.",Article,10.1142/S0218843010002097,,"Van Seghbroeck, G (Corresponding Author), Univ Ghent, Dept Informat Technol INTEC, IBBT, Gaston Crommenlaan 8 Bus 201, B-9050 Ghent, Belgium.
+Van Seghbroeck, Gregory; Volckaert, Bruno; De Turck, Filip; Dhoedt, Bart; Demeester, Piet, Univ Ghent, Dept Informat Technol INTEC, IBBT, B-9050 Ghent, Belgium.",,Web services; choreography; WS-CDL; open bisimulation,WORLD SCIENTIFIC PUBL CO PTE LTD,0218-8430,English,,,Unclassified,
+,A Decomposition and Metric-Based Evaluation Framework for Microservices,"Taibi, Davide and Systa, Kari",,2020,ISI Web of Science,133-149,1218,"Migrating from monolithic systems into microservice is a very complex
+task. Companies are commonly decomposing the monolithic system manually,
+analyzing dependencies of the monolith and then assessing different
+decomposition options. The goal of our work is two-folded: 1) we provide
+a microservice measurement framework to objectively evaluate and compare
+the quality of microservices-based systems; 2) we propose a
+decomposition system based on business process mining. The microservice
+measurement framework can be applied independently from the
+decomposition process adopted, but is also useful to continuously
+evaluate the architectural evolution of a system. Results show that the
+decomposition framework helps companies to easily identify the different
+decomposition options. The measurement framework can help to decrease
+the subjectivity of the decision between different decomposition options
+and to evaluate architectural erosion in existing systems.",Proceedings Paper,10.1007/978-3-030-49432-2\_7,,"Taibi, D; Systä, K (Corresponding Author), Tampere Univ, TASE Tampere Software Engn Res Grp, Tampere, Finland.
+Taibi, Davide; Systa, Kari, Tampere Univ, TASE Tampere Software Engn Res Grp, Tampere, Finland.",,"Microservices; Cloud-native; Microservice slicing; Microservice
+decomposition; Microservice migration",SPRINGER INTERNATIONAL PUBLISHING AG,1865-0929,English,"9th International Conference on Cloud Computing and Services Science
+(CLOSER), Heraklion, GREECE, MAY 02-04, 2019",,Unclassified,
+,"Evaluating and Improving Microservice Architecture Conformance to
+Architectural Design Decisions","Ntentos, Evangelos and Zdun, Uwe and Plakidas, Konstantinos and Geiger,
+Sebastian",,2021,ISI Web of Science,188-203,13121,"Microservices are a commonly used architectural style targeting
+independent development, deployment, and release of services, as well as
+supporting polyglot capabilities and rapid release strategies. This
+depends on the presence of certain software architecture qualities. A
+number of architecture patterns and best practices that support the
+required qualities have been proposed in the literature, but usually in
+isolation of one another. Additionally, in real-world systems, assessing
+conformance to these patterns and practices and detecting possible
+violations is a significant challenge. For small-scale systems of a few
+services, a manual assessment and violation detection by an expert is
+probably both accurate and sufficient. However, for industrial-scale
+systems of several hundred or more services, manual assessment and
+violation detection is laborious and likely leads to inaccurate results.
+Furthermore, manual assessment is impractical for rapidly evolving and
+frequently released system architectures. In this work we examine a
+subset of microservice-relevant patterns, and propose a method for the
+semi-automatic detection and resolution of conformance violations. Our
+aim is to assist the software architect by providing a set of possible
+fix options and generating models of ``fixed{''} architectures.",Proceedings Paper,10.1007/978-3-030-91431-8\_12,,"Ntentos, E (Corresponding Author), Univ Vienna, Res Grp Software Architecture, Fac Comp Sci, Vienna, Austria.
+Ntentos, Evangelos; Zdun, Uwe; Plakidas, Konstantinos, Univ Vienna, Res Grp Software Architecture, Fac Comp Sci, Vienna, Austria.
+Geiger, Sebastian, Siemens Corp Technol, Vienna, Austria.",,,SPRINGER INTERNATIONAL PUBLISHING AG,0302-9743,English,"19th International Conference on Service-Oriented Computing (ICSOC),
+ELECTR NETWORK, NOV 22-25, 2021",,Unclassified,
+,"Constructing a service process model based on distributed tracing for
+conformance checking of microservices","Sakai, Masaru and Takahashi, Kensuke",,2022,ISI Web of Science,,,"In recent years, microservices architectures have become widespread,
+where services are divided into smaller pieces, communicate with each
+other, and operate in chains. Distributed tracing, which tracks the
+processing of user requests, is used to analyze and visualize
+microservices. In this paper, the trace data obtained from the
+distributed tracing is divided based on the parent-child relationship
+and converted into an event log. In addition, process discovery is
+performed on each of the split event logs to estimate the relationships
+between microservice processes. Then, generate a normal Petri net model
+that can reproduce each event log. Finally, the test trace data is used
+to verify the suitability of the Petri net model. We constructed a
+service model for two sample microservices with different scales and
+distributed tracing implementations and demonstrated the proposed
+method's feasibility through conformance checking using test trace data.",Proceedings Paper,10.1109/NOMS54207.2022.9789804,,"Sakai, M (Corresponding Author), NTT Corp, NTT Network Innovat Ctr, Tokyo, Japan.
+Sakai, Masaru; Takahashi, Kensuke, NTT Corp, NTT Network Innovat Ctr, Tokyo, Japan.",,"Distributed Tracing; Process Model; Process Mining; Petri nets;
+Conformance Checking",IEEE,1542-1201,English,"IEEE/IFIP Network Operations and Management Symposium, ELECTR NETWORK,
+APR 25-29, 2022",,Unclassified,
+,CATMA: Conformance Analysis Tool For Microservice Applications,"Cao, Clinton and Schneider, Simon and Ferreyra, Nicolas E. Diaz and
+Verwer, Sicco and Panichella, Annibale and Scandariato, Riccardo",,2024,ISI Web of Science,59-63,,"The microservice architecture allows developers to divide the core
+functionality of their software system into multiple smaller services.
+However, this architectural style also makes it harder for them to debug
+and assess whether the system's deployment conforms to its
+implementation. We present CATMA, an automated tool that detects
+non-conformances between the system's deployment and implementation. It
+automatically visualizes and generates potential interpretations for the
+detected discrepancies. Our evaluation of CATMA shows promising results
+in terms of performance and providing useful insights. CATMA is
+available at https://cyber-analytics.nl/catma.github.io/, and a
+demonstration video is available at https://youtu.be/WKP1hG-TDKc.",Proceedings Paper,10.1145/3639478.3640022,,"Cao, C (Corresponding Author), Delft Univ Technol, Delft, Netherlands.
+Cao, Clinton; Verwer, Sicco; Panichella, Annibale, Delft Univ Technol, Delft, Netherlands.
+Schneider, Simon; Ferreyra, Nicolas E. Diaz; Scandariato, Riccardo, Hamburg Univ Technol, Hamburg, Germany.",,"microservices; static analysis; dynamic analysis; software testing;
+empirical software engineering",ASSOC COMPUTING MACHINERY,,English,"44th International Conference on Software Engineering: Companion
+Proceedings, Lisbon, PORTUGAL, APR 14-20, 2024",,Unclassified,
+,"Metrics for Assessing Architecture Conformance to Microservice
+Architecture Patterns and Practices","Ntentos, Evangelos and Zdun, Uwe and Plakidas, Konstantinos and Meixner,
+Sebastian and Geiger, Sebastian",,2020,ISI Web of Science,580-596,12571,"Many contemporary service-based systems follow the microservice
+approach, particularly in DevOps or continuous delivery contexts. They
+share a set of important tenets such as independent development and
+deployment, high releasability, polyglot technology support, and loose
+coupling. A number of best practices for microservice architectures have
+been codified as patterns, which embody those tenets. However, no
+real-world microservices system can support all patterns and practices
+well, but rather architectural decisions making trade-offs among them
+are needed. Conformance to the patterns and practices selected in such
+decisions is hard to ensure and assess automatically, especially in
+large-scale, complex, and evolving systems. In this work, we propose a
+model-based approach based on generic, technology-independent metrics,
+tied to typical architectural design decisions in the microservice
+domain. With this approach we can measure conformance to the patterns
+and related tenets. We demonstrate and assess the validity and
+appropriateness of these metrics in performing an assessment of a
+system's conformance to patterns through statistical methods.",Proceedings Paper,10.1007/978-3-030-65310-1\_42,,"Ntentos, E (Corresponding Author), Univ Vienna, Fac Comp Sci, Res Grp Software Architecture, Vienna, Austria.
+Ntentos, Evangelos; Zdun, Uwe; Plakidas, Konstantinos, Univ Vienna, Fac Comp Sci, Res Grp Software Architecture, Vienna, Austria.
+Meixner, Sebastian; Geiger, Sebastian, Siemens Corp Technol, Vienna, Austria.",,,SPRINGER INTERNATIONAL PUBLISHING AG,0302-9743,English,"18th International Conference on Service-Oriented Computing (ICSOC),
+ELECTR NETWORK, DEC 14-17, 2020",,Unclassified,
+,"Assessing Architecture Conformance to Coupling-Related Patterns and
+Practices in Microservices","Ntentos, Evangelos and Zdun, Uwe and Plakidas, Konstantinos and Meixner,
+Sebastian and Geiger, Sebastian",,2020,ISI Web of Science,3-20,12292,"Microservices are the go-to architectural style for building
+applications that are polyglot, support high scalability, independent
+development and deployment, and are rapidly adaptable to changes. Among
+the core tenets for a successful microservice architecture is high
+independence of the individual microservices, i.e. loose coupling. A
+number of patterns and best practices are well-established in the
+literature, but most actual microservice-based systems do not, as a
+whole or in part, conform to them. Assessing this conformance manually
+is not realistically possible for large-scale systems. This study aims
+to provide the foundations for an automated approach for assessing
+conformance to coupling-related patterns and practices specific for
+microservice architectures. We propose a model-based assessment based on
+generic, technology-independent metrics, connected to typical design
+decisions encountered in microservice architectures. We demonstrate and
+assess the validity and appropriateness of these metrics by performing
+an assessment of the conformance of real-world systems to patterns
+through statistical methods.",Proceedings Paper,10.1007/978-3-030-58923-3\_1,,"Ntentos, E (Corresponding Author), Univ Vienna, Fac Comp Sci, Res Grp Software Architecture, Vienna, Austria.
+Ntentos, Evangelos; Zdun, Uwe; Plakidas, Konstantinos, Univ Vienna, Fac Comp Sci, Res Grp Software Architecture, Vienna, Austria.
+Meixner, Sebastian; Geiger, Sebastian, Siemens Corp Technol, Vienna, Austria.",,,SPRINGER INTERNATIONAL PUBLISHING AG,0302-9743,English,"14th European Conference on Software Architecture (ECSA), ELECTR
+NETWORK, SEP 14-18, 2020",,Unclassified,
+,Detection Strategies for Microservice Security Tactics,"Zdun, Uwe and Queval, Pierre-Jean and Simhandl, Georg and Scandariato,
+Riccardo and Chakravarty, Somik and Jelic, Marjan and Jovanovic,
+Aleksandar",IEEE TRANSACTIONS ON DEPENDABLE AND SECURE COMPUTING,2024,ISI Web of Science,1257-1273,21,"Microservice architectures are widely used today to implement
+distributed systems. Securing microservice architectures is challenging
+because of their polyglot nature, continuous evolution, and various
+security concerns relevant to such architectures. This article proposes
+a novel, model-based approach providing detection strategies to address
+the automated detection of security tactics (or patterns and best
+practices) in a given microservice architecture decomposition model. Our
+novel detection strategies are metrics-based rules that decide
+conformance to a security recommendation based on a statistical
+predictor. The proposed approach models this recommendation using
+Architectural Design Decisions (ADDs). We apply our approach for four
+different security-related ADDs on access management, traffic control,
+and avoiding plaintext sensitive data in the context of microservice
+systems. We then apply our approach to a model data set of 10
+open-source microservice systems and 20 variants of those systems. Our
+results are detection strategies showing a very low bias, a very high
+correlation, and a low prediction error in our model data set.",Article,10.1109/TDSC.2023.3276487,,"Zdun, U (Corresponding Author), Univ Vienna, Fac Comp Sci, Res Grp Software Architecture, A-1010 Vienna, Austria.
+Zdun, Uwe; Queval, Pierre-Jean; Simhandl, Georg, Univ Vienna, Fac Comp Sci, Res Grp Software Architecture, A-1010 Vienna, Austria.
+Scandariato, Riccardo, Hamburg Univ Technol TUHH, D-21073 Hamburg, Germany.
+Chakravarty, Somik; Jelic, Marjan; Jovanovic, Aleksandar, European Risk \& Resilience Inst EU VRi, D-70599 Stuttgart, Germany.",,"Security; Microservice architectures; Measurement; Authorization; Data
+models; Computer architecture; Codes; Conformance checking; detection
+strategies; metrics; microservice architecture security; microservices",IEEE COMPUTER SOC,1545-5971,English,,,Unclassified,
+,"Ensuring and Assessing Architecture Conformance to Microservice
+Decomposition Patterns","Zdun, Uwe and Navarro, Elena and Leymann, Frank",,2017,ISI Web of Science,411-429,10601,"Microservice-based software architecture design has been widely
+discussed, and best practices have been published as architecture design
+patterns. However, conformance to those patterns is hard to ensure and
+assess automatically, leading to problems such as architectural drift
+and erosion, especially in the context of continued software evolution
+or large-scale microservice systems. In addition, not much in the
+component and connector architecture models is specific (only) to the
+microservices approach, whereas other aspects really specific to that
+approach, such as independent deployment of microservices, are usually
+modeled in other views or not at all. We suggest a set of constraints to
+check and metrics to assess architecture conformance to microservice
+patterns. In comparison to expert judgment derived from the patterns, a
+subset of these constraints and metrics shows a good relative
+performance and potential for automation.",Proceedings Paper,10.1007/978-3-319-69035-3\_29,,"Zdun, U (Corresponding Author), Univ Vienna, Fac Comp Sci, Res Grp Software Architecture, Vienna, Austria.
+Zdun, Uwe, Univ Vienna, Fac Comp Sci, Res Grp Software Architecture, Vienna, Austria.
+Navarro, Elena, Univ Castilla La Mancha, Comp Syst Dept, Lab User Interact \& Software Engn, Albacete, Spain.
+Leymann, Frank, Univ Stuttgart, Inst Architecture Applicat Syst, Stuttgart, Germany.",,,SPRINGER INTERNATIONAL PUBLISHING AG,0302-9743,English,"15th International Conference on Service-Oriented Computing (ICSOC),
+Malaga, SPAIN, NOV 13-16, 2017",,Unclassified,
+,"API Description-Based Conformance Assessment of Architectural Design
+Decision","Singjai, Apitchaka and Zdun, Uwe",,2022,ISI Web of Science,59-68,,"Microservice APIs are often designed based on Domain-Driven Design. It
+can be challenging to judge the quality of the relation between such a
+design and the implemented API, especially when facing frequent releases
+and changes in an API and its design models. Manual conformance
+assessment of this relation is time-intensive and error prone. This
+paper proposes a novel approach for automated conformance assessment of
+API designs in relation to API design decisions. Our approach aims to
+provide the first fully automated conformance assessment approach based
+solely on the code of API Descriptions such as OpenAPI. We applied and
+exemplified our approach for checking conformance to the patterns and
+practices in an API design decision for mapping links in a system's
+domain model to API representations. The total accuracy score
+(F1-measure) for decision option identification in our multi-case study
+for this decision is 97.22\%.",Proceedings Paper,10.1109/SOSE55356.2022.00013,,"Singjai, A (Corresponding Author), Univ Vienna, Res Grp Software Architecture, Vienna, Austria.
+Singjai, Apitchaka; Zdun, Uwe, Univ Vienna, Res Grp Software Architecture, Vienna, Austria.",,"API Design; ADD; Architecture Conformance Assessment; DDD; Microservice
+Architecture",IEEE COMPUTER SOC,2642-6587,English,"16th IEEE International Conference on Service-Oriented System
+Engineering (SOSE), San Francisco, CA, AUG 15-18, 2022",,Unclassified,
+,"Conformance assessment of Architectural Design Decisions on API endpoint
+designs derived from domain models","Singjai, Apitchaka and Zdun, Uwe",JOURNAL OF SYSTEMS AND SOFTWARE,2022,ISI Web of Science,,193,"Context: Domain-driven design (DDD) is commonly used to design
+microservices. A crucial aspect of microservice design is API design,
+which includes the design of API endpoints.
+Objective: Our objective is to automate the assessment of conformance to
+Architectural Design Decisions (ADDs) on the interrelation of DDD and
+APIs. In particular, we studied link mapping, API operation design, and
+resource segregation as API endpoint design issues that are linked to
+domain model design. We particularly aim to address conformance checking
+in the context of frequent release practices, as frequent manual
+conformance checking is difficult or infeasible.
+Methods: We suggest a new approach for the automated assessment of
+conformance to ADD options. The approach suggests automated detectors to
+detect ADD options selected in a given API endpoint design, as well as
+an assessment scoring scheme based on empirical results. For the
+evaluation of our approach, we first manually created a ground truth for
+12 cases in a multi-case study, and then compared the results of our
+automated detectors to the ground truth for each of those cases.
+Results: With our approach, all ADD options in our multi-case study
+possibly can be automatically detected. Without further improvements,
+our approach identifies 83\% of the decision points in the multi-case
+study correctly. A statistical analysis of our data shows only a
+negligible effect size for differences to the ground truth.
+Conclusion: Our new approach provides a pragmatic method for automated
+detection of conformance to ADDs on the interrelation of DDD and APIs.
+The approach can support the continuous analysis of API endpoint
+designs. (c) 2022 The Authors. Published by Elsevier Inc. This is an
+open access article under the CC BY license
+(http://creativecommons.org/licenses/by/4.0/).",Article,10.1016/j.jss.2022.111433,,"Singjai, A (Corresponding Author), Univ Vienna, Res Grp Software Architecture, Fac Comp Sci, Vienna, Austria.
+Singjai, Apitchaka; Zdun, Uwe, Univ Vienna, Res Grp Software Architecture, Fac Comp Sci, Vienna, Austria.",,"Microservice architecture; API design; Domain driven design;
+Architecture conformance assessment",ELSEVIER SCIENCE INC,0164-1212,English,,,Unclassified,
+,"Extracting the Architecture of Microservices: An Approach for
+Explainability and Traceability","Queval, Pierre-Jean and Zdun, Uwe",,2023,ISI Web of Science,346-353,14212,"The polyglot nature of microservice architectures and the need for high
+reliability in security analyses pose unique challenges that existing
+approaches to automatic architecture recovery often fail to address.
+This article proposes an approach for extracting detailed architecture
+models from polyglot microservice source code focusing on explainability
+and traceability. The approach involves abstracting code navigation as a
+tree structure, using an exploratory algorithm to detect architectural
+aspects, and providing a set of generic detectors as input. The
+architecture models are automatically annotated with detailed
+information that makes them useful for architecture conformance checking
+and violation fixing. Our case studies of microservice software systems
+validate the usefulness of our approach, providing insights into its
+completeness, accuracy, and effectiveness for software architecture
+tasks.",Proceedings Paper,10.1007/978-3-031-42592-9\_24,,"Quéval, PJ (Corresponding Author), Univ Vienna, Vienna, Austria.
+Quéval, PJ (Corresponding Author), Doctoral Sch Comp Sci, Vienna, Austria.
+Queval, Pierre-Jean; Zdun, Uwe, Univ Vienna, Vienna, Austria.
+Queval, Pierre-Jean, Doctoral Sch Comp Sci, Vienna, Austria.",,Architecture; Explainability; Microservices; Polyglot,SPRINGER INTERNATIONAL PUBLISHING AG,0302-9743,English,"17th European Conference on Software Architecture (ECSA), Istanbul,
+TURKEY, SEP 18-22, 2023",,Unclassified,
+,DOMICO: Checking conformance between domain models and implementations,"Zhong, Chenxing and Zhang, He and Huang, Huang and Chen, Zhikun and Li,
+Chao and Liu, Xiaodong and Li, Shanshan",SOFTWARE-PRACTICE \& EXPERIENCE,2024,ISI Web of Science,595-616,54,"As a predominant design method for microsservices architecture (MSA),
+domain-driven design (DDD) utilizes a series of standard patterns in
+both models and implementations to effectively support the design of
+architectural elements. However, an implementation may deviate from its
+original domain model that uses certain patterns. The deviation between
+a domain model and its implementation is a type of architectural drift,
+which needs to be detected promptly. This paper proposes an approach,
+namely DOMICO, to check the conformance between the domain model and its
+implementation, by which the conformance is formalized by defining eight
+common structural patterns of domain modeling and their representations
+in both models and the corresponding source code. Based on the
+formalization, our approach can not only identify the discrepancies
+(e.g., divergence, absence, and modification) with respect to pattern
+elements, but also detect possible violations of 24 compliance rules
+imposed by the patterns. To validate DOMICO, we performed a case study
+to investigate its use in a supply chain project and its performance.
+The results show that DOMICO can accurately identify 100\% inconsistency
+issues in the cases examined. As the first conformance checking approach
+for DDD, DOMICO can be integrated into the regular domain modeling
+process and help ensure the conformity of microservice implementations
+to models.",Article,10.1002/spe.3272,,"Li, SS (Corresponding Author), Nanjing Univ, State Key Lab Novel Software Technol, Nanjing, Jiangsu, Peoples R China.
+Zhong, Chenxing; Zhang, He; Chen, Zhikun; Li, Chao; Liu, Xiaodong; Li, Shanshan, Nanjing Univ, Software Inst, Nanjing, Jiangsu, Peoples R China.
+Zhong, Chenxing; Zhang, He; Chen, Zhikun; Li, Chao; Liu, Xiaodong; Li, Shanshan, Nanjing Univ, State Key Lab Novel Software Technol, Nanjing, Jiangsu, Peoples R China.
+Huang, Huang, State Grid Nanjng Power Supply Co, Nanjing, Jiangsu, Pe",,"architectural drift; architecture conformance checking; code
+implementation; domain model; domain-driven design; microservices
+architecture",WILEY,0038-0644,English,,,Unclassified,

@@ -1,0 +1,53 @@
+Origin Paper,Snowballing Type,Reference,External Link,DOI
+19,Backward,"Jamshidi P., Pahl C., Mendonça N.C., Lewis J., Tilkov S. Microservices: The journey so far and challenges ahead. IEEE Softw. 2018;35(3):24-35.",,https://doi.org/10.1109/MS.2018.2141039
+19,Backward,Evans E. Domain-driven design: Tackling complexity in the heart of software. Addison-Wesley Professional; 2004.,,
+19,Backward,Vernon V. Implementing domain-driven design. Addison-Wesley; 2013.,,
+19,Backward,"Giorgi F., Paulisch F. Transition towards continuous delivery in the healthcare domain. Proc. 41st IEEE/ACM ICSE: SEIP. IEEE; 2019:253-254.",,https://doi.org/10.1109/ICSE-SEIP.2019.00035
+19,Backward,"Zhang H., Li S., Jia Z., Zhong C., Zhang C. Microservice architecture in reality: An industrial inquiry. Proc. 16th Int. Conf. on Software Architecture. IEEE; 2019:51-60.",,https://doi.org/10.1109/ICSA.2019.00014
+19,Backward,"Cabrera E., Cárdenas P., Cedillo P., Pesántez-Cabrera P. Towards a methodology for creating IoT applications based on microservices. Proc. 17th IEEE Int. Conf. on Services Computing. IEEE; 2020:472-474.",,https://doi.org/10.1109/SCC49832.2020.00072
+19,Backward,"Zhong C., Huang H., Zhang H., Li S. Impacts, causes, and solutions of architectural smells in microservices: An industrial investigation. Softw Pract Expe. 2022;52(12):2574-2597.",,https://doi.org/10.1002/spe.3138
+19,Backward,"Wohlrab R., Eliasson U., Pelliccione P., Heldal R. Improving the consistency and usefulness of architecture descriptions: Guidelines for architects. Proc. IEEE Int. Conf. on Software Architecture; 2019:151-160.",,https://doi.org/10.1109/ICSA.2019.00024
+19,Backward,"Li R., Liang P., Soliman M., Avgeriou P. Understanding software architecture erosion: A systematic mapping study. J Softw Evolut Process. 2022;34(3):e2423.",,https://doi.org/10.1002/smr.2423
+19,Backward,"Passos L., Terra R., Valente M.T., Diniz R., Mendonça N. Static architecture-conformance checking: An illustrative overview. IEEE Softw. 2009;27(5):82-89.",,https://doi.org/10.1109/MS.2009.117
+19,Backward,"Knodel J., Popescu D. A comparison of static architecture compliance checking approaches. WICSA’07. IEEE; 2007.",,https://doi.org/10.1109/WICSA.2007.1
+19,Backward,"Said W., Quante J., Koschke R. Reflexion models for state machine extraction and verification. Proc. IEEE ICSME; 2018:149-159.",,https://doi.org/10.1109/ICSME.2018.00025
+19,Backward,"Landi A.D.S., Martín D.S., Santos B.M., Cunha W.S., Durelli R.S., Camargo V.V. Architectural conformance checking for KDM-represented systems. J Syst Softw. 2022;183:111116.",,https://doi.org/10.1016/j.jss.2021.111116
+19,Backward,Jasser S. Enforcing architectural security decisions. Proc. IEEE ICSA; 2020:35-45.,,https://doi.org/10.1109/ICSA47634.2020.00012
+19,Backward,"Paz A., El Boussaidi G., Mili H. CHECSDM: A method for ensuring consistency in heterogeneous safety-critical system design. IEEE Trans Softw Eng. 2020;47(12):2713-2739.",,https://doi.org/10.1109/TSE.2020.2966994
+19,Backward,Evans E. Domain-Driven Design Reference: Definitions and Pattern Summaries. Dog Ear Publishing; 2014.,,
+19,Backward,"Ton That M.T., Sadou S., Oquendo F., Fleurquin R. Preserving architectural decisions through architectural patterns. Autom Softw Eng. 2016;23(3):427-467.",,https://doi.org/10.1007/s10515-014-0172-0
+19,Backward,"Murphy G.C., Notkin D., Sullivan K. Software reflexion models: Bridging the gap between source and high-level models. Proc. 3rd ACM SIGSOFT FSE. ACM; 1995:18-28.",,https://dl.acm.org/doi/pdf/10.1145/222124.222136
+19,Backward,Lotz G. A domain model of a clinical reading center—design and implementation. Proc. 32nd Annual Int. Conf. of the IEEE Eng. in Med. and Biol. Soc.; 2010:4530-4533.,,https://doi.org/10.1109/IEMBS.2010.5626032
+19,Backward,"Rademacher F., Sachweh S., Zündorf A. Towards a UML profile for domain-driven design of microservice architectures. Proc. 15th Int. Conf. on SEFM. Springer; 2017:230-245.",,https://doi.org/10.1007/978-3-319-74781-1_17
+19,Backward,"Rademacher F., Sachweh S., Zündorf A. Deriving microservice code from underspecified domain models. Proc. 46th Euromicro Conf. on SEAA. IEEE; 2020:229-236.",,https://doi.org/10.1109/SEAA51224.2020.00047
+19,Backward,Peressotti M. Model-driven generation of microservice interfaces. Proc. 17th Federated Conf. on Distributed Comp. Techniques. Springer; 2022:223.,,https://doi.org/10.1007/978-3-031-08143-9_13
+19,Backward,"Schneider M., et al. Microservice development based on tool-supported domain modeling. 5th Int. Conf. on Advances and Trends in SE. IEEE; 2019.",,https://www.academia.edu/download/87953670/Microservice_Development_Based_on_Tool-Supported_Domain_Modeling.pdf
+19,Backward,"Kapferer S., Zimmermann O. Domain-driven architecture modeling and rapid prototyping with context mapper. MODELSWARD. Springer; 2020:250-272.",,https://doi.org/10.1007/978-3-030-67445-8_11
+19,Backward,"Kapferer S., Zimmermann O. Domain-driven service design. Summer School on Service-Oriented Computing. Springer; 2020:189-208.",,https://doi.org/10.1007/978-3-030-64846-6_11
+19,Backward,"Eysholdt M., Behrens H. Xtext: Implement your language faster. Proc. 10th ACM Int. Conf. on OOPSLA Companion. ACM; 2010:307-309.",,https://doi.org/10.1145/1869542.1869625
+19,Backward,"Le D.M., Dang D.-H., Nguyen V.-H. Generative software module development. Inf Softw Technol. 2020;120:106239.",,https://doi.org/10.1016/j.infsof.2019.106239
+19,Backward,"Li Y., Tan T., Xue J. Understanding and analyzing java reflection. ACM Trans Softw Eng Methodol. 2019;28(2):1-50.",,https://doi.org/10.1145/3295739
+19,Backward,"Ali N., Baker S., O’Crowley R., Herold S., Buckley J. Architecture consistency: State of the practice. Empir Softw Eng. 2018;23(1):224-258.",,https://doi.org/10.1007/s10664-017-9515-3
+19,Backward,"Mendoza C., Bocanegra J., Garcés K., Casallas R. Architecture violations detection and visualization. Softw Pract Expe. 2021;51(8):1822-1845.",,https://doi.org/10.1002/spe.3004
+19,Backward,"Uzun B., Tekinerdogan B. Architecture conformance analysis using model-based testing. Softw Pract Expe. 2019;49(3):423-448.",,https://doi.org/10.1002/spe.2667
+19,Backward,"Lu H., Yue T., Ali S., Zhang L. Model-based incremental conformance checking. Inf Softw Technol. 2016;72:68-89.",,https://doi.org/10.1016/j.infsof.2015.12.004
+19,Backward,"Uludağ Ö., Hauder M., Kleehaus M., Schimpfle C., Matthes F. Supporting large-scale agile development. Proc. Int. Conf. on Agile SE. Springer; 2018:232-247.",,https://doi.org/10.1007/s10270-022-01015-y
+19,Backward,"Wizenty P.N., Rademacher F., et al. Design of a remote care app. Proc. Int. Conf. on Software Tech. Springer; 2018:549-557.",,https://doi.org/10.1007/978-3-030-04771-9_41
+19,Backward,"Hippchen B., Giessler P., et al. Designing microservice-based apps using DDD. Int J Adv Softw. 2017;10(3&4):432-445.",https://personales.upv.es/thinkmind/dl/journals/soft/soft_v10_n34_2017/soft_v10_n34_2017_22.pdf,
+19,Backward,"Landre E., Wesenberg H., Olmheim J. Agile enterprise development using DDD and test first. Proc. 22nd ACM SIGPLAN Conf. OOPSLA Companion; 2007:983-993.",,https://doi.org/10.1145/1297846.1297967
+19,Backward,"Fuentes-Fernández L., Vallecillo-Moreno A. An introduction to UML profiles. UML Model Eng. 2004;2(6-13):72.",https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=a41c7070f2c8350ce670e8a322073955cadfb7b3,
+19,Backward,"Gosling J., Joy B., Steele G.L. Jr., Bracha G., Buckley A. The Java Language Specification. 7th ed. Addison-Wesley; 2013.",,
+19,Backward,"Hejlsberg A., Torgersen M., Wiltamuth S., Golde P. The C# programming language. Pearson; 2008.",,
+19,Backward,"Bruneliere H., Cabot J., Dupé G., Madiot F. Modisco: A model driven reverse engineering framework. Inf Softw Technol. 2014;56(8):1012-1032.",,https://doi.org/10.1016/j.infsof.2014.04.007
+19,Backward,"Gérard S., Dumoulin C., Tessier P., Selic B. Papyrus: A UML2 tool. Proc. Dagstuhl Conf. on MB Embedded Systems. ACM; 2007:361-368.",,https://doi.org/10.1007/978-3-642-16277-0_19
+19,Backward,Roques A. PlantUML: Tool for UML diagrams. 2015.,,
+19,Backward,"Sjøberg D.I., Anda B., Arisholm E., et al. Conducting realistic experiments. Proc. 1st Int. Symp. on Empirical SE. IEEE; 2002:17-26.",,https://doi.org/10.1109/ISESE.2002.1166921
+19,Backward,Yin R.K. The case study as a serious research strategy. Knowledge. 1981;3(1):97-114.,,https://doi.org/10.1177/107554708100300106
+19,Backward,Sasaki Y. The truth of the F-measure. Teach Tutor Mater. 2007;1(5):1-5.,https://nicolasshu.com/assets/pdf/Sasaki_2007_The%20Truth%20of%20the%20F-measure.pdf,
+19,Backward,"Estañol M., Muñoz-Gama J., Carmona J., Teniente E. Conformance checking in UML artifact-centric business process models. Softw Syst Model. 2019;18(4):2531-2555.",,https://doi.org/10.1007/s10270-018-0681-6
+19,Backward,"Perry D.E., Porter A.A., Votta L.G. Empirical studies of software engineering: A roadmap. Proc. Future of Software Eng. ACM; 2000:345-355.",https://dl.acm.org/doi/pdf/10.1145/336512.336586,https://doi.org/10.1145/336512.336586
+19,Forward,"SUN, Chang-Ai et al. Detecting inconsistencies in microservice-based systems: An annotation-assisted scenario-oriented approach. IEEE Transactions on Services Computing, v. 17, n. 5, p. 2194-2209, 2024.",,https://doi.org/10.1109/TSC.2024.3399652
+19,Forward,"CAO, Clinton et al. Catma: Conformance analysis tool for microservice applications. In: Proceedings of the 2024 IEEE/ACM 46th International Conference on Software Engineering: Companion Proceedings. 2024. p. 59-63.",,https://doi.org/10.1145/3639478.3640022
+19,Forward,"SCHNEIDER, Simon et al. In Specs We Trust? Conformance-Analysis of Implementation to Specifications in Node-RED and Associated Security Risks. In: International Conference on Availability, Reliability and Security. Cham: Springer Nature Switzerland, 2025. p. 278-300.",,https://doi.org/10.1007/978-3-032-00624-0_14
+19,Forward,"ZHANG, Liwen et al. Efficient Consistency Check Based on Perceived Initial Deviation. Electronics, v. 13, n. 23, p. 4669, 2024.",,https://doi.org/10.3390/electronics13234669
+19,Forward,"XU, Minxian et al. Special issue on efficient management of microservice‐based systems and applications. Software: Practice and Experience, v. 54, n. 4, p. 543-545, 2024.",,https://doi.org/10.1002/spe.3298

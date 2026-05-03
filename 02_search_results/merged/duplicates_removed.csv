@@ -1,0 +1,631 @@
+title,author,journal,year,source,pages,volume,abstract,document_type,doi,url,affiliation,author_keywords,keywords,publisher,issn,language,note,selection_criteria,status
+Semi-automatic Feedback for Improving Architecture Conformance to Microservice Patterns and Practices,"Ntentos, Evangelos and Zdun, Uwe and Plakidas, Konstantinos and Geiger, Sebastian",,2021,IEEE Digital Library,36-46,,"Microservices are one of the most recommended architectural styles for distributed applications that support independent development and deployment, enable rapid release, and are highly scalable and polyglot. Many well-established patterns and best practices have been documented in the literature. As there are many such guidances, they have numerous interdependencies, and system designs must adhere to many other architecture constraints, too, implementations do not always conform to those guidances. In complex or large systems, it can be hard and tedious to spot violations. Our work aims to offer automated support for architecting during the continuous evolution of microservice-based systems. More specifically we aim to provide the foundations for an automated approach for architecture reconstruction, assessing conformance to patterns and practices specific for microservice architectures, and detect possible violations. Based on this, we provide actionable options to architects for improving architecture conformance as part of a continuous feedback loop. That is, our goal is to support architecting in the context of continuous delivery practices, where architecture violations are continuously analyzed and fix options are continuously suggested.",,10.1109/ICSA51549.2021.00012,,,,Feedback loop;Software architecture;Conferences;Computer architecture;System analysis and design;Best practices;Microservices;patterns;best practices;continuous architecture improvement;feedback loop,,,,,,Duplicated
+"On the Move to Meaningful Internet Systems, OTM 2012 - Confederated International Conferences: CoopIS, DOA-SVI, and ODBASE 2012, Proceedings",,Lecture Notes in Computer Science,2012,Scopus,,7566 LNCS,The proceedings contain 60 papers. The topics discussed include: process and data: two sides of the same coin?; configurable declare: designing customizable flexible process models; efficacy-aware business process modeling; automated resource assignment in BPMN models using RACI matrices; hierarchical process verification in a semi-trusted environment; indexing process model flow dependencies for similarity search; a framework for cost-aware cloud data management; event-driven actors for supporting flexibility and scalability in service-based integration architecture; consistency in scalable systems; goal-oriented opportunistic sensor clouds; operations over lightweight ontologies; evaluating ontology matchers using arbitrary ontologies and human generated heterogeneities; making data meaningful: the business intelligence model and its formal semantics in description logics; and a non-intrusive movie recommendation system.,Conference review,,https://www.scopus.com/inward/record.uri?eid=2-s2.0-84872825756&partnerID=40&md5=c603b8efd68dc5cf0210e494adbbcb5e,,,,,,,Cited by: 0,,Duplicated
+I Will Survive: An Event-driven Conformance Checking Approach Over Process Streams,"Raun, Kristo and Tommasini, Riccardo and Awad, Ahmed",,2023,ACM Digital Library,49–60,,"Online conformance checking deals with finding discrepancies between real-life and modeled behavior on data streams. The current state-of-the-art output of online conformance checking is a prefix-alignment, which is used for pinpointing the exact deviations in terms of the trace and the model while accommodating a trace's unknown termination in an online setting. Current methods for producing prefix-alignments are computationally expensive and hinder the applicability in real-life settings.This paper introduces a new approximate algorithm - I Will Survive (IWS). The algorithm utilizes the trie data structure to improve the calculation speed, while remaining memory-efficient. Comparative analysis on real-life and synthetic datasets shows that the IWS algorithm can achieve an order of magnitude faster execution time while having a smaller error cost, compared to the current state of the art. In extreme cases, the IWS finds prefix-alignments roughly three orders of magnitude faster than previous approximate methods. The IWS algorithm includes a discounted decay time setting for more efficient memory usage and a look-ahead limit for improving computation time. Finally, the algorithm is stress tested for performance using a simulation of high-traffic event streams.",,10.1145/3583678.3596887,https://doi.org/10.1145/3583678.3596887,,,"online conformance checking, event-based business process management, prefix-alignments, data streams",Association for Computing Machinery,,,,,Duplicated
+Detection Strategies for Microservice Security Tactics,"Zdun, Uwe and Queval, Pierre-Jean and Simhandl, Georg and Scandariato, Riccardo and Chakravarty, Somik and Jelić, Marjan and Jovanović, Aleksandar",IEEE Transactions on Dependable and Secure Computing,2024,IEEE Digital Library,1257-1273,21,"Microservice architectures are widely used today to implement distributed systems. Securing microservice architectures is challenging because of their polyglot nature, continuous evolution, and various security concerns relevant to such architectures. This article proposes a novel, model-based approach providing detection strategies to address the automated detection of security tactics (or patterns and best practices) in a given microservice architecture decomposition model. Our novel detection strategies are metrics-based rules that decide conformance to a security recommendation based on a statistical predictor. The proposed approach models this recommendation using Architectural Design Decisions (ADDs). We apply our approach for four different security-related ADDs on access management, traffic control, and avoiding plaintext sensitive data in the context of microservice systems. We then apply our approach to a model data set of 10 open-source microservice systems and 20 variants of those systems. Our results are detection strategies showing a very low bias, a very high correlation, and a low prediction error in our model data set.",,10.1109/TDSC.2023.3276487,,,,Security;Microservice architectures;Measurement;Authorization;Data models;Computer architecture;Codes;Conformance checking;detection strategies;metrics;microservice architecture security;microservices,,1941-0018,,,,Duplicated
+DOMICO: Checking conformance between domain models and implementations,"Zhong, Chenxing and Zhang, He and Huang, Huang and Chen, Zhikun and Li,
+Chao and Liu, Xiaodong and Li, Shanshan",SOFTWARE-PRACTICE \& EXPERIENCE,2024,ISI Web of Science,595-616,54,"As a predominant design method for microsservices architecture (MSA),
+domain-driven design (DDD) utilizes a series of standard patterns in
+both models and implementations to effectively support the design of
+architectural elements. However, an implementation may deviate from its
+original domain model that uses certain patterns. The deviation between
+a domain model and its implementation is a type of architectural drift,
+which needs to be detected promptly. This paper proposes an approach,
+namely DOMICO, to check the conformance between the domain model and its
+implementation, by which the conformance is formalized by defining eight
+common structural patterns of domain modeling and their representations
+in both models and the corresponding source code. Based on the
+formalization, our approach can not only identify the discrepancies
+(e.g., divergence, absence, and modification) with respect to pattern
+elements, but also detect possible violations of 24 compliance rules
+imposed by the patterns. To validate DOMICO, we performed a case study
+to investigate its use in a supply chain project and its performance.
+The results show that DOMICO can accurately identify 100\% inconsistency
+issues in the cases examined. As the first conformance checking approach
+for DDD, DOMICO can be integrated into the regular domain modeling
+process and help ensure the conformity of microservice implementations
+to models.",Article,10.1002/spe.3272,,"Li, SS (Corresponding Author), Nanjing Univ, State Key Lab Novel Software Technol, Nanjing, Jiangsu, Peoples R China.
+Zhong, Chenxing; Zhang, He; Chen, Zhikun; Li, Chao; Liu, Xiaodong; Li, Shanshan, Nanjing Univ, Software Inst, Nanjing, Jiangsu, Peoples R China.
+Zhong, Chenxing; Zhang, He; Chen, Zhikun; Li, Chao; Liu, Xiaodong; Li, Shanshan, Nanjing Univ, State Key Lab Novel Software Technol, Nanjing, Jiangsu, Peoples R China.
+Huang, Huang, State Grid Nanjng Power Supply Co, Nanjing, Jiangsu, Pe",,"architectural drift; architecture conformance checking; code
+implementation; domain model; domain-driven design; microservices
+architecture",WILEY,0038-0644,English,,,Duplicated
+Constructing a service process model based on distributed tracing for conformance checking of microservices,"Sakai, Masaru and Takahashi, Kensuke",,2022,IEEE Digital Library,1-6,,"In recent years, microservices architectures have become widespread, where services are divided into smaller pieces, communicate with each other, and operate in chains. Distributed tracing, which tracks the processing of user requests, is used to analyze and visualize microservices. In this paper, the trace data obtained from the distributed tracing is divided based on the parent-child relationship and converted into an event log. In addition, process discovery is performed on each of the split event logs to estimate the relationships between microservice processes. Then, generate a normal Petri net model that can reproduce each event log. Finally, the test trace data is used to verify the suitability of the Petri net model. We constructed a service model for two sample microservices with different scales and distributed tracing implementations and demonstrated the proposed method's feasibility through conformance checking using test trace data.",,10.1109/NOMS54207.2022.9789804,,,,Analytical models;Petri nets;Buildings;Microservice architectures;Distributed databases;Data visualization;Data models;Distributed Tracing;Process Model;Process Mining;Petri nets;Conformance Checking,,2374-9709,,,,Duplicated
+"Constructing a service process model based on distributed tracing for
+conformance checking of microservices","Sakai, Masaru and Takahashi, Kensuke",,2022,ISI Web of Science,,,"In recent years, microservices architectures have become widespread,
+where services are divided into smaller pieces, communicate with each
+other, and operate in chains. Distributed tracing, which tracks the
+processing of user requests, is used to analyze and visualize
+microservices. In this paper, the trace data obtained from the
+distributed tracing is divided based on the parent-child relationship
+and converted into an event log. In addition, process discovery is
+performed on each of the split event logs to estimate the relationships
+between microservice processes. Then, generate a normal Petri net model
+that can reproduce each event log. Finally, the test trace data is used
+to verify the suitability of the Petri net model. We constructed a
+service model for two sample microservices with different scales and
+distributed tracing implementations and demonstrated the proposed
+method's feasibility through conformance checking using test trace data.",Proceedings Paper,10.1109/NOMS54207.2022.9789804,,"Sakai, M (Corresponding Author), NTT Corp, NTT Network Innovat Ctr, Tokyo, Japan.
+Sakai, Masaru; Takahashi, Kensuke, NTT Corp, NTT Network Innovat Ctr, Tokyo, Japan.",,"Distributed Tracing; Process Model; Process Mining; Petri nets;
+Conformance Checking",IEEE,1542-1201,English,"IEEE/IFIP Network Operations and Management Symposium, ELECTR NETWORK,
+APR 25-29, 2022",,Duplicated
+Assessing Architecture Conformance to Coupling-Related Patterns and Practices in Microservices,"Ntentos, Evangelos and Zdun, Uwe and Plakidas, Konstantinos and Meixner, Sebastian and Geiger, Sebastian",,2020,ACM Digital Library,3–20,,"Microservices are the go-to architectural style for building applications that are polyglot, support high scalability, independent development and deployment, and are rapidly adaptable to changes. Among the core tenets for a successful microservice architecture is high independence of the individual microservices, i.e. loose coupling. A number of patterns and best practices are well-established in the literature, but most actual microservice-based systems do not, as a whole or in part, conform to them. Assessing this conformance manually is not realistically possible for large-scale systems. This study aims to provide the foundations for an automated approach for assessing conformance to coupling-related patterns and practices specific for microservice architectures. We propose a model-based assessment based on generic, technology-independent metrics, connected to typical design decisions encountered in microservice architectures. We demonstrate and assess the validity and appropriateness of these metrics by performing an assessment of the conformance of real-world systems to patterns through statistical methods.",,10.1007/978-3-030-58923-3_1,https://doi.org/10.1007/978-3-030-58923-3_1,,,,Springer-Verlag,,,,,Duplicated
+Automatic Reference Architecture Conformance Checking for SOA-Based Software Systems,"Weinreich, Rainer and Buchgeher, Georg",,2014,ACM Digital Library,95–104,,"Company-wide reference architectures are an important means for standardization and reuse. Standardization is enforced through reference architecture conformance checking. Manual conformance checking is too time- and resource-intensive to be performed continuously for the various systems that are part of a SOA. We present an approach for automatic reference architecture conformance checking of SOA-based software systems. Reference architectures are defined based on rules consisting of roles and of constraints on roles and role relationships. By mapping the roles to the elements of a software architecture representation, reference architecture specifications are reusable for different software systems. Through automating the whole checking process, including architecture extraction, role mapping, and rule evaluation, the approach can be applied continuously for the different systems that are part of a SOA. The approach has been developed and refined by applying it to a SOA in the banking domain. During its evolution from semi-automatic to a fully automatic approach it has also changed the way of how architecture information is provided as part of the system implementation in this domain.",,10.1109/WICSA.2014.22,https://doi.org/10.1109/WICSA.2014.22,,,"conformance checking, reference architecture, service-oriented architecture (SOA), software architecture",IEEE Computer Society,,,,,Duplicated
+Assessing Architecture Conformance to Security-Related Practices in Infrastructure as Code Based Deployments,"Ntentos, Evangelos and Zdun, Uwe and Falazi, Ghareeb and Breitenbücher, Uwe and Leymann, Frank",,2022,IEEE Digital Library,123-133,,"Infrastructure as Code (IaC) enables developers and operations teams to automatically deploy and manage an IT infrastructure via software. Among other uses, IaC is widely used in the context of continuously released deployments such as those of microservice and other cloud-based systems. Although IaC-based deployments have been utilized by many companies, there are no approaches on checking their conformance to architectural aspects yet. In this paper, we focus on security-related practices including observability, access control, and traffic control in IaC-based deployments. While best practices for this topic have been documented in some gray literature sources such as practitioners’ blogs and public repositories, approaches enabling automated checking of conformance to such best practices do not yet exist. We propose a model-based approach based on generic, technology-independent metrics, tied to typical architectural design decisions on IaC-based deployments. With this approach, we can measure conformance to security-related practices. We demonstrate and assess the validity and appropriateness of these metrics in assessing a system’s conformance to practices through regression analysis.",,10.1109/SCC55611.2022.00029,,,,Measurement;Codes;Service computing;Microservice architectures;Computer architecture;Traffic control;Software;Infrastructure as code;metrics;software architecture;modeling;best practices,,2474-2473,,,,Duplicated
+"Assessing Architecture Conformance to Coupling-Related
+Infrastructure-as-Code Best Practices: Metrics and Case Studies","Ntentos, Evangelos and Zdun, Uwe and Soldani, Jacopo and Brogi, Antonio",,2022,ISI Web of Science,101-116,13444,"Infrastructure as Code (IaC) is an IT practice that facilitates the
+management of the underlying infrastructure as software. It enables
+developers or operations teams to automatically manage, monitor, and
+provision resources rather than organize them manually. In many
+industries, this practice is widespread and has already been fully
+adopted. However, few studies provide techniques for evaluating
+architectural conformance in IaC deployments and, in particular, aspects
+such as loose coupling. This paper focuses on coupling-related patterns
+and practices such as deployment strategies and the structuring of IaC
+elements. Many best practices are documented in gray literature sources,
+such as practitioner books, blogs, and public repositories. Still, there
+are no approaches yet to automatically check conformance with such best
+practices. We propose an approach based on generic,
+technology-independent metrics tied to typical architectural design
+decisions for IaC-based practices in microservice deployments to support
+architecting in the context of continuous delivery practices. We present
+three case studies based on open-source microservice architectures to
+validate our approach.",Proceedings Paper,10.1007/978-3-031-16697-6\_7,,"Ntentos, E (Corresponding Author), Univ Vienna, Fac Comp Sci, Res Grp Software Architecture, Vienna, Austria.
+Ntentos, Evangelos; Zdun, Uwe, Univ Vienna, Fac Comp Sci, Res Grp Software Architecture, Vienna, Austria.
+Soldani, Jacopo; Brogi, Antonio, Univ Pisa, Fac Comp Sci, Pisa, Italy.",,"Infrastructure as Code; metrics; software architecture; architecture
+conformance; IaC best practices",SPRINGER INTERNATIONAL PUBLISHING AG,0302-9743,English,"16th European Conference on Software Architecture (ECSA), Prague, CZECH
+REPUBLIC, SEP 19-23, 2022",,Duplicated
+Applying a Multi-platform Architectural Conformance Solution in a Real-world Microservice-based System,"Araujo, Elena A. and Esp\'{\i}ndola, \'{A}lvaro M. and Garcia, Vinicius Cardoso and Terra, Ricardo",,2020,ACM Digital Library,41–50,,"Microservice architectures are composed of a set of independent microservices that execute well-defined functionalities, allowing each one to be developed in different programming languages and data management technologies. The problem, however, is that such heterogeneity implies in a harder verification process of communication among microservices and the architectural designs of each microservice. Although the state-of-the-art provides several architectural conformance solutions, none formally restricts communications (e.g., over HTTP) between different systems. Even stable and industrial solutions---such as Kubernetes, Terraform, and Docker Compose---provide basic mechanisms to restrict communications between microservices. Thereupon, this paper proposes and evaluates a multi-platform architectural conformance solution for the microservice architecture. For this purpose, (i) we specify an architectural constraint language, called DCL+---adapted from the DCL (Dependency Constraint Language) language; (ii) we propose a multi-platform process that restricts the communication between the microservices and also verifies the architectural projects of each one of them; (iii) we develop DCL+check, a tool that implements the proposed solution; (iv) we apply our process in a medium-size real-world application composed of eleven microservices, developed in two different languages (JavaScript and Java). As result, we found 16 communication and 171 structural design violations. The communication violations occurred in general due to the lack of knowledge of the developers about the restrictions of communication among the modules of the orchestrator system and other microservices, as well as the evolution of two microservices.",,10.1145/3425269.3425270,https://doi.org/10.1145/3425269.3425270,,,,Association for Computing Machinery,,,,,Duplicated
+Automatic Component Protocol Generation and Verification of Components,"Both, Andreas and Richter, Dirk",,2010,IEEE Digital Library,94-101,,"In several works a method was suggested to overcome the lack of signature-based composition currently enabled in component-based and service-oriented architectures (SOA). Several approaches allow to encode non-functional properties of a single component in a contract (component protocol) where the remote calls to a component are taken into consideration. Component protocols ensures that bugs or unsafe behavior caused interaction sequences are obeyed. Encoding business rules works fine as these contracts can be derived from human knowledge only and have to be defined manually, too. In this work we will show, how such unsafe behavior within source code can be discovered and prevented by automatic component protocol generation and model checking techniques.",,10.1109/SEAA.2010.30,,,,Protocols;Java;Contracts;Computational modeling;Software;Unified modeling language;Motorcycles;component-based software engineering;protocol generation;protocol conformance checking;verification;model checking;component composition,,2376-9505,,,,Duplicated
+"Assessing Architecture Conformance to Security-Related Practices in
+Infrastructure as Code Based Deployments","Ntentos, Evangelos and Zdun, Uwe and Falazi, Ghareeb and Breitenbuecher,
+Uwe and Leymann, Frank",,2022,ISI Web of Science,123-133,,"Infrastructure as Code (IaC) enables developers and operations teams to
+automatically deploy and manage an IT infrastructure via software. Among
+other uses, IaC is widely used in the context of continuously released
+deployments such as those of microservice and other cloud-based systems.
+Although IaC-based deployments have been utilized by many companies,
+there are no approaches on checking their conformance to architectural
+aspects yet. In this paper, we focus on security-related practices
+including observability, access control, and traffic control in
+IaC-based deployments. While best practices for this topic have been
+documented in some gray literature sources such as practitioners' blogs
+and public repositories, approaches enabling automated checking of
+conformance to such best practices do not yet exist. We propose a
+model-based approach based on generic, technology-independent metrics,
+tied to typical architectural design decisions on IaC-based deployments.
+With this approach, we can measure conformance to security-related
+practices. We demonstrate and assess the validity and appropriateness of
+these metrics in assessing a system's conformance to practices through
+regression analysis.",Proceedings Paper,10.1109/SCC55611.2022.00029,,"Ntentos, E (Corresponding Author), Univ Vienna, Fac Comp Sci, Res Grp Software Architecture, Vienna, Austria.
+Ntentos, Evangelos; Zdun, Uwe, Univ Vienna, Fac Comp Sci, Res Grp Software Architecture, Vienna, Austria.
+Falazi, Ghareeb; Breitenbuecher, Uwe; Leymann, Frank, Univ Stuttgart, Inst Architecture Applicat Syst, Stuttgart, Germany.",,"Infrastructure as code; metrics; software architecture; modeling; best
+practices",IEEE COMPUTER SOC,2474-8137,English,"IEEE International Conference on Services Computing (IEEE SCC),
+Barcelona, SPAIN, JUL 11-15, 2022",,Duplicated
+"Assessing Architecture Conformance to Coupling-Related Patterns and
+Practices in Microservices","Ntentos, Evangelos and Zdun, Uwe and Plakidas, Konstantinos and Meixner,
+Sebastian and Geiger, Sebastian",,2020,ISI Web of Science,3-20,12292,"Microservices are the go-to architectural style for building
+applications that are polyglot, support high scalability, independent
+development and deployment, and are rapidly adaptable to changes. Among
+the core tenets for a successful microservice architecture is high
+independence of the individual microservices, i.e. loose coupling. A
+number of patterns and best practices are well-established in the
+literature, but most actual microservice-based systems do not, as a
+whole or in part, conform to them. Assessing this conformance manually
+is not realistically possible for large-scale systems. This study aims
+to provide the foundations for an automated approach for assessing
+conformance to coupling-related patterns and practices specific for
+microservice architectures. We propose a model-based assessment based on
+generic, technology-independent metrics, connected to typical design
+decisions encountered in microservice architectures. We demonstrate and
+assess the validity and appropriateness of these metrics by performing
+an assessment of the conformance of real-world systems to patterns
+through statistical methods.",Proceedings Paper,10.1007/978-3-030-58923-3\_1,,"Ntentos, E (Corresponding Author), Univ Vienna, Fac Comp Sci, Res Grp Software Architecture, Vienna, Austria.
+Ntentos, Evangelos; Zdun, Uwe; Plakidas, Konstantinos, Univ Vienna, Fac Comp Sci, Res Grp Software Architecture, Vienna, Austria.
+Meixner, Sebastian; Geiger, Sebastian, Siemens Corp Technol, Vienna, Austria.",,,SPRINGER INTERNATIONAL PUBLISHING AG,0302-9743,English,"14th European Conference on Software Architecture (ECSA), ELECTR
+NETWORK, SEP 14-18, 2020",,Duplicated
+"A toolset for conformance testing against UML sequence diagrams based on
+event-driven colored Petri nets","Faria, Joao Pascoal and Paiva, Ana C. R.",INTERNATIONAL JOURNAL ON SOFTWARE TOOLS FOR TECHNOLOGY TRANSFER,2016,ISI Web of Science,285-304,18,"Novel techniques and a toolset are presented for automatically testing
+the conformance of software implementations against partial behavioral
+models constituted by a set of parameterized UML sequence diagrams,
+describing both external interactions with users or client applications
+and internal interactions between objects in the system. Test code is
+automatically generated from the sequence diagrams and executed on the
+implementation under test, and test results and coverage information are
+presented back visually in the model. A runtime test library handles
+internal interaction checking, test stubs, and user interaction testing,
+taking advantage of aspect-oriented programming techniques. Incremental
+conformance checking is achieved by first translating sequence diagrams
+to Extended Petri Nets that combine the characteristics of Colored Petri
+Nets and Event-Driven Petri Nets.",Article,10.1007/s10009-014-0354-x,,"Paiva, ACR (Corresponding Author), Univ Porto, Fac Engn, INESC TEC, Rua Campo Alegre 823, P-4100 Oporto, Portugal.
+Paiva, ACR (Corresponding Author), Univ Porto, Fac Engn, Dept Informat Engn, Rua Campo Alegre 823, P-4100 Oporto, Portugal.
+Faria, Joao Pascoal; Paiva, Ana C. R., Univ Porto, Fac Engn, INESC TEC, Rua Campo Alegre 823, P-4100 Oporto, Portugal.
+Faria, Joao Pascoal; Paiva, Ana C. R., Univ Porto, Fac Engn, Dept Informat Engn, Rua Campo Alegre 823, P-4100 Oporto, Portugal.",,Sequence diagrams; Conformance testing; Petri nets,SPRINGER HEIDELBERG,1433-2779,English,,,Duplicated
+An architectural style for scalable choreography-based microservice-oriented distributed systems,"Filippone, Gianluca and Pompilio, Claudio and Autili, Marco and Tivoli, Massimo",Computing,2022,ACM Digital Library,1933–1956,105,"Service choreographies are a versatile approach for building service-based distributed systems. Many approaches can be found in the literature tackling different aspects of service choreographies, such as choreography realizability and conformance checking, distributed coordination, formal choreographic languages, and scalability. As of today, choreography scalability has not been specifically addressed through approaches that also consider coordination issues while still decoupling these two related aspects. Scalability is one of the most important properties to be considered when building distributed systems. It enhances the user-perceived performances and influences the overall dependability of the system. In particular, load scalability allows distributed service-oriented systems to effectively handle varying loads without suffering performance degradation. In this direction, microservice-based systems are able to scale thanks to the possibility of replicating those microservices exposed to growing loads, distributing their workload among different instances. By leveraging on our experience in coordinating service choreographies, in this paper, we propose a layered architectural style that allows to realize scalable microservice-oriented choreographies. The architecture integrates a fully-distributed coordination layer capable of ensuring the correct interactions and a load-balancing layer that allows to balance of coordinated requests. We discuss the properties of the proposed architectural style and evaluate its benefits on user-perceived performances.",,10.1007/s00607-022-01139-5,https://doi.org/10.1007/s00607-022-01139-5,,,"Distributed systems, Microservices, Scalability, Load balancing",Springer-Verlag,0010-485X,,,,Duplicated
+An Approach to Variability Management in Service-Oriented Product Lines,"Khoshnevis, Sedigheh",,2012,ISI Web of Science,1483-1486,,"Service-Oriented product lines (SOPLs) are dynamic software product
+lines, in which, the products are developed based on services and
+service-oriented architecture. Although there are similarities between
+components and services, there are important differences so that we
+cannot use component-based product line engineering methods and
+techniques for SOPL engineering. These differences emerge from the fact
+that, services can be discovered as black box elements from external
+repositories. Moreover, services can be dynamically bound and are
+business-aligned. Therefore, analyzing the conformance of discovered
+external services with the variability of services in the SOPL -which
+must be aligned to the variable business needs-is necessary. Variability
+must be managed, that is, it must be represented (modeled), used
+(instantiated and capable of conformance checking) and maintained
+(evolved) over time. Feature Models are insufficient for modeling
+variability in SOPL, because, services cannot be simply mapped to one or
+more features, and identification of the mapping depends on knowing the
+detailed implementation of the services. This research aims at providing
+an approach to managing the variability in SOPLs so that external
+services can be involved in the SOPL engineering. This paper presents an
+overview of the proposal.",Proceedings Paper,,,"Khoshnevis, S (Corresponding Author), Shahid Beheshti Univ, Fac Elect \& Comp Engn, Dept Comp Engn, GC, Tehran, Iran.
+Shahid Beheshti Univ, Fac Elect \& Comp Engn, Dept Comp Engn, GC, Tehran, Iran.",,"Service-Oriented Product Line; Variability Management; Variability
+Modeling; Conformance Checking",IEEE,0270-5257,English,"34th International Conference on Software Engineering (ICSE), Zurich,
+SWITZERLAND, JUN 02-09, 2012",,Duplicated
+API Description-Based Conformance Assessment of Architectural Design Decision,"Singjai, Apitchaka and Zdun, Uwe",,2022,IEEE Digital Library,59-68,,"Microservice APIs are often designed based on Domain-Driven Design. It can be challenging to judge the quality of the relation between such a design and the implemented API, especially when facing frequent releases and changes in an API and its design models. Manual conformance assessment of this relation is time-intensive and error prone. This paper proposes a novel approach for automated conformance assessment of API designs in relation to API design decisions. Our approach aims to provide the first fully automated conformance assessment approach based solely on the code of API Descriptions such as OpenAPI. We applied and exemplified our approach for checking conformance to the patterns and practices in an API design decision for mapping links in a system’s domain model to API representations. The total accuracy score (F1-measure) for decision option identification in our multi-case study for this decision is 97.22%.",,10.1109/SOSE55356.2022.00013,,,,Privacy;Codes;Automation;Service-oriented systems engineering;Microservice architectures;Manuals;Machine learning;API Design;ADD;Architecture Conformance Assessment;DDD;Microservice Architecture,,2642-6587,,,,Duplicated
+A toolset for conformance testing against UML sequence diagrams based on event-driven colored Petri nets,"Faria, Jo\~{a}o Pascoal and Paiva, Ana C.",Int. J. Softw. Tools Technol. Transf.,2016,ACM Digital Library,285–304,18,"Novel techniques and a toolset are presented for automatically testing the conformance of software implementations against partial behavioral models constituted by a set of parameterized UML sequence diagrams, describing both external interactions with users or client applications and internal interactions between objects in the system. Test code is automatically generated from the sequence diagrams and executed on the implementation under test, and test results and coverage information are presented back visually in the model. A runtime test library handles internal interaction checking, test stubs, and user interaction testing, taking advantage of aspect-oriented programming techniques. Incremental conformance checking is achieved by first translating sequence diagrams to Extended Petri Nets that combine the characteristics of Colored Petri Nets and Event-Driven Petri Nets.",,10.1007/s10009-014-0354-x,https://doi.org/10.1007/s10009-014-0354-x,,,"Conformance testing, Petri nets, Sequence diagrams",Springer-Verlag,1433-2779,,,,Duplicated
+"An architectural style for scalable choreography-based
+microservice-oriented distributed systems","Filippone, Gianluca and Pompilio, Claudio and Autili, Marco and Tivoli,
+Massimo",COMPUTING,2023,ISI Web of Science,1933-1956,105,"Service choreographies are a versatile approach for building
+service-based distributed systems. Many approaches can be found in the
+literature tackling different aspects of service choreographies, such as
+choreography realizability and conformance checking, distributed
+coordination, formal choreographic languages, and scalability. As of
+today, choreography scalability has not been specifically addressed
+through approaches that also consider coordination issues while still
+decoupling these two related aspects. Scalability is one of the most
+important properties to be considered when building distributed systems.
+It enhances the user-perceived performances and influences the overall
+dependability of the system. In particular, load scalability allows
+distributed service-oriented systems to effectively handle varying loads
+without suffering performance degradation. In this direction,
+microservice-based systems are able to scale thanks to the possibility
+of replicating those microservices exposed to growing loads,
+distributing their workload among different instances. By leveraging on
+our experience in coordinating service choreographies, in this paper, we
+propose a layered architectural style that allows to realize scalable
+microservice-oriented choreographies. The architecture integrates a
+fully-distributed coordination layer capable of ensuring the correct
+interactions and a load-balancing layer that allows to balance of
+coordinated requests. We discuss the properties of the proposed
+architectural style and evaluate its benefits on user-perceived
+performances.",Article,10.1007/s00607-022-01139-5,,"Filippone, G (Corresponding Author), Univ Laquila, Dept Informat Engn Comp Sci \& Math, Via Vetoio, I-67100 Laquila, Italy.
+Filippone, Gianluca; Pompilio, Claudio; Autili, Marco; Tivoli, Massimo, Univ Laquila, Dept Informat Engn Comp Sci \& Math, Via Vetoio, I-67100 Laquila, Italy.",,Distributed systems; Microservices; Scalability; Load balancing,SPRINGER WIEN,0010-485X,English,,,Duplicated
+An approach to variability management in service-oriented product lines,"Khoshnevis, Sedigheh",,2012,IEEE Digital Library,1483-1486,,"Service-Oriented product lines (SOPLs) are dynamic software product lines, in which, the products are developed based on services and service-oriented architecture. Although there are similarities between components and services, there are important differences so that we cannot use component-based product line engineering methods and techniques for SOPL engineering. These differences emerge from the fact that, services can be discovered as black box elements from external repositories. Moreover, services can be dynamically bound and are business-aligned. Therefore, analyzing the conformance of discovered external services with the variability of services in the SOPL - which must be aligned to the variable business needs-is necessary. Variability must be managed, that is, it must be represented (modeled), used (instantiated and capable of conformance checking) and maintained (evolved) over time. Feature Models are insufficient for modeling variability in SOPL, because, services cannot be simply mapped to one or more features, and identification of the mapping depends on knowing the detailed implementation of the services. This research aims at providing an approach to managing the variability in SOPLs so that external services can be involved in the SOPL engineering. This paper presents an overview of the proposal.",,10.1109/ICSE.2012.6227056,,,,Business;Support vector machines;Modeling;Service oriented architecture;Biological system modeling;Computers;Service-Oriented Product Line;Variability Management;Variability Modeling;Conformance Checking,,1558-1225,,,,Duplicated
+"API Description-Based Conformance Assessment of Architectural Design
+Decision","Singjai, Apitchaka and Zdun, Uwe",,2022,ISI Web of Science,59-68,,"Microservice APIs are often designed based on Domain-Driven Design. It
+can be challenging to judge the quality of the relation between such a
+design and the implemented API, especially when facing frequent releases
+and changes in an API and its design models. Manual conformance
+assessment of this relation is time-intensive and error prone. This
+paper proposes a novel approach for automated conformance assessment of
+API designs in relation to API design decisions. Our approach aims to
+provide the first fully automated conformance assessment approach based
+solely on the code of API Descriptions such as OpenAPI. We applied and
+exemplified our approach for checking conformance to the patterns and
+practices in an API design decision for mapping links in a system's
+domain model to API representations. The total accuracy score
+(F1-measure) for decision option identification in our multi-case study
+for this decision is 97.22\%.",Proceedings Paper,10.1109/SOSE55356.2022.00013,,"Singjai, A (Corresponding Author), Univ Vienna, Res Grp Software Architecture, Vienna, Austria.
+Singjai, Apitchaka; Zdun, Uwe, Univ Vienna, Res Grp Software Architecture, Vienna, Austria.",,"API Design; ADD; Architecture Conformance Assessment; DDD; Microservice
+Architecture",IEEE COMPUTER SOC,2642-6587,English,"16th IEEE International Conference on Service-Oriented System
+Engineering (SOSE), San Francisco, CA, AUG 15-18, 2022",,Duplicated
+"A formal and visual modeling approach to choreography based web services
+composition and conformance verification","Yeung, W. L.",EXPERT SYSTEMS WITH APPLICATIONS,2011,ISI Web of Science,12772-12785,38,"Web services have emerged as the building blocks of a service-oriented
+architecture that supports not only enterprise application integration
+(EAI) and business process management (BPM) within an organization but
+also B2B collaboration based on business process integration. The web
+services choreography approach to B2B process integration allows
+business partners to orchestrate their own web services privately, while
+conforming with an agreed specification of the common ordering
+conditions and constraints under which messages are exchanged among
+partners' web services. In this approach, choreography conformance is an
+essential requirement for the successful implementation of collaborative
+processes. A formal approach to web services composition and conformance
+verification based on WS-CDL and WS-BPEL is presented. This approach
+involves model checking as an automated means of verifying choreography
+conformance. The main contributions include a precise notion of
+choreography conformance on which verification is based as well as
+support for the complementary use of visual modeling (e.g. UML) and
+standard WS-{*} notations in composition. (C) 2011 Elsevier Ltd. All
+rights reserved.",Article,10.1016/j.eswa.2011.04.068,,"Yeung, WL (Corresponding Author), Lingnan Univ, Dept Comp \& Decis Sci, Hong Kong, Hong Kong, Peoples R China.
+Lingnan Univ, Dept Comp \& Decis Sci, Hong Kong, Hong Kong, Peoples R China.",,"Web services; Orchestration; Choreography; Conformance verification;
+Model checking; Contract negotiation",PERGAMON-ELSEVIER SCIENCE LTD,0957-4174,English,,,Duplicated
+A formal and visual modeling approach to choreography based web services composition and conformance verification,"Yeung, W.L.",Expert Syst. Appl.,2011,ACM Digital Library,12772–12785,38,,,10.1016/j.eswa.2011.04.068,https://doi.org/10.1016/j.eswa.2011.04.068,,,"Web services, Orchestration, Choreography, Conformance verification, Model checking, Contract negotiation","Pergamon Press, Inc.",0957-4174,,,,Duplicated
+A Decomposition and Metric-Based Evaluation Framework for Microservices,"Taibi, Davide and Systa, Kari",,2020,ISI Web of Science,133-149,1218,"Migrating from monolithic systems into microservice is a very complex
+task. Companies are commonly decomposing the monolithic system manually,
+analyzing dependencies of the monolith and then assessing different
+decomposition options. The goal of our work is two-folded: 1) we provide
+a microservice measurement framework to objectively evaluate and compare
+the quality of microservices-based systems; 2) we propose a
+decomposition system based on business process mining. The microservice
+measurement framework can be applied independently from the
+decomposition process adopted, but is also useful to continuously
+evaluate the architectural evolution of a system. Results show that the
+decomposition framework helps companies to easily identify the different
+decomposition options. The measurement framework can help to decrease
+the subjectivity of the decision between different decomposition options
+and to evaluate architectural erosion in existing systems.",Proceedings Paper,10.1007/978-3-030-49432-2\_7,,"Taibi, D; Systä, K (Corresponding Author), Tampere Univ, TASE Tampere Software Engn Res Grp, Tampere, Finland.
+Taibi, Davide; Systa, Kari, Tampere Univ, TASE Tampere Software Engn Res Grp, Tampere, Finland.",,"Microservices; Cloud-native; Microservice slicing; Microservice
+decomposition; Microservice migration",SPRINGER INTERNATIONAL PUBLISHING AG,1865-0929,English,"9th International Conference on Cloud Computing and Services Science
+(CLOSER), Heraklion, GREECE, MAY 02-04, 2019",,Duplicated
+Automatic Component Protocol Generation and Verification of Components,"Both, Andreas and Richter, Dirk",,2010,ISI Web of Science,94-101,,"In several works a method was suggested to overcome the lack of
+signature-based composition currently enabled in component-based and
+service-oriented architectures (SOA). Several approaches allow to encode
+non-functional properties of a single component in a contract (component
+protocol) where the remote calls to a component are taken into
+consideration. Component protocols ensures that bugs or unsafe behavior
+caused interaction sequences are obeyed. Encoding business rules works
+fine as these contracts can be derived from human knowledge only and
+have to be defined manually, too.
+In this work we will show, how such unsafe behavior within source code
+can be discovered and prevented by automatic component protocol
+generation and model checking techniques.",Proceedings Paper,10.1109/SEAA.2010.30,,"Both, A (Corresponding Author), Univ Halle, Inst Comp Sci, D-06120 Halle, Saale, Germany.
+Both, Andreas; Richter, Dirk, Univ Halle, Inst Comp Sci, D-06120 Halle, Saale, Germany.",,"component-based software engineering; protocol generation; protocol
+conformance checking; verification; model checking; component
+composition",IEEE COMPUTER SOC,1089-6503,English,"36th EUROMICRO Conference on Software Engineering and Advanced
+Applications (SEAA2010), Univ Lille Nord France, Polytechn Grad Engn
+Sch, Lille, FRANCE, SEP 01-03, 2010",,Duplicated
+"I Will Survive: An Event-driven Conformance Checking Approach Over
+Process Streams","Raun, Kristo and Tommassini, Riccardo and Awad, Ahmed",,2023,ISI Web of Science,49-60,,"Online conformance checking deals with finding discrepancies between
+real-life and modeled behavior on data streams. The current
+state-of-the-art output of online conformance checking is a
+prefixalignment, which is used for pinpointing the exact deviations in
+terms of the trace and the model while accommodating a trace's unknown
+termination in an online setting. Current methods for producing
+prefix-alignments are computationally expensive and hinder the
+applicability in real-life settings. This paper introduces a new
+approximate algorithm - I Will Survive (IWS). The algorithm utilizes the
+trie data structure to improve the calculation speed, while remaining
+memory-efficient. Comparative analysis on real-life and synthetic
+datasets shows that the IWS algorithm can achieve an order of magnitude
+faster execution time while having a smaller error cost, compared to the
+current state of the art. In extreme cases, the IWS finds
+prefixalignments roughly three orders of magnitude faster than previous
+approximate methods. The IWS algorithm includes a discounted decay time
+setting for more efficient memory usage and a lookahead limit for
+improving computation time. Finally, the algorithm is stress tested for
+performance using a simulation of high-traffic event streams.",Proceedings Paper,10.1145/3583678.3596887,,"Raun, K (Corresponding Author), Univ Tartu, Tartu, Estonia.
+Raun, Kristo; Tommassini, Riccardo; Awad, Ahmed, Univ Tartu, Tartu, Estonia.
+Tommassini, Riccardo, INSA Lyon, LIRIS Lab, Lyon, France.
+Awad, Ahmed, Cairo Univ, Giza, Egypt.",,"online conformance checking; event-based business process management;
+prefix-alignments; data streams",ASSOC COMPUTING MACHINERY,,English,"17th International Conference on Distributed and Event Based
+Systems-DEBS, Neuchatel, SWITZERLAND, JUN 27-30, 2023",,Duplicated
+"Detecting and Resolving Coupling-Related Infrastructure as Code Based
+Architecture Smells in Microservice Deployments","Ntentos, Evangelos and Zdun, Uwe and Falazi, Ghareeb and Breitenbucher,
+Uwe and Leymann, Frank",,2023,ISI Web of Science,201-211,,"The Infrastructure as Code (IaC) concept enables IT infrastructure to be
+managed as software: resources can be managed, monitored, and
+provisioned automatically instead of manually by developers or
+operations teams. Many industries have already embraced this concept
+widely. However, research on IaC-based deployments, particularly
+research focusing on loose coupling, often does not offer methods for
+evaluating architectural conformance, spotting architecture smells, and
+support for correcting the found smells. Our work strives to provide an
+automatic method for continuously developing microservice-based systems
+and the associated infrastructure. We aim to offer an automated
+architectural refactoring method that checks if IaC-based deployments
+adhere to patterns and best practices and do not contain potential
+architectural smells. We provide architects with viable options for
+enhancing architectural conformance during microservice development. In
+short, by continuously detecting architectural smells and suggesting
+possible fixes, we aim to support architecture evolution within the
+framework of continuous delivery practices. We evaluate our approach
+using three case studies and variants based on open-source microservice
+architectures.",Proceedings Paper,10.1109/CLOUD60044.2023.00031,,"Ntentos, E (Corresponding Author), Univ Vienna, Software Architecture Grp, Vienna, Austria.
+Ntentos, E (Corresponding Author), Univ Vienna, Doctoral Sch Comp Sci, Vienna, Austria.
+Ntentos, Evangelos, Univ Vienna, Software Architecture Grp, Vienna, Austria.
+Ntentos, Evangelos, Univ Vienna, Doctoral Sch Comp Sci, Vienna, Austria.
+Zdun, Uwe, Univ Vienna, Software Architecture Grp, Vienna, Austria.
+Falazi, Ghareeb; Breitenbucher, Uwe; Leymann, Frank, Univ Stuttgart, Inst Architecture Applicat Syst, ",,"Infrastructure as code; metrics; architecture smells; modeling; best
+practices",IEEE COMPUTER SOC,2159-6182,English,"IEEE 16th International Conference on Cloud Computing (IEEE CLOUD),
+Chicago, IL, JUL 02-08, 2023",,Duplicated
+"Exploring Architectural Evolution in Microservice Systems Using
+Repository Mining Techniques and Static Code Analysis","Genfer, Patric and Zdun, Uwe",,2024,ISI Web of Science,157-173,14889,"Microservices have gained popularity for isolating service functionality
+and mitigating issues such as architectural erosion and technical debt.
+However, their decentralized nature and rapid development often obscure
+the holistic view of the system and lead developers to lose sight of the
+overarching architecture. Our work addresses this challenge by proposing
+a novel approach to track and assess the evolution of microservice
+architectures through static source code analysis. We combine source
+code repository mining techniques with architectural reconstruction to
+measure various metrics throughout a system's development history. Our
+approach uses a formal API-based decomposition model that can easily be
+adapted for different scenarios by choosing various architectural
+metrics. We validated our method's scalability and robustness through a
+case study on an extensive open-source microservice reference system
+with more than 40 individual services written in different languages and
+more than 400 commits. Our research provides software architects with a
+powerful tool to identify and monitor problematic architectural trends
+before they become imminent threats, enabling the evolution of
+microservice-based systems while maintaining architectural coherence and
+integrity.",Proceedings Paper,10.1007/978-3-031-70797-1\_10,,"Genfer, P (Corresponding Author), Univ Vienna, Res Grp Software Architecture, Fac Comp Sci, Vienna, Austria.
+Genfer, P (Corresponding Author), Univ Vienna, Univ Doctoral Sch Comp Sci DoCS, Vienna, Austria.
+Genfer, Patric; Zdun, Uwe, Univ Vienna, Res Grp Software Architecture, Fac Comp Sci, Vienna, Austria.
+Genfer, Patric, Univ Vienna, Univ Doctoral Sch Comp Sci DoCS, Vienna, Austria.",,"Microservice API; evolution; source code repository mining; metrics;
+source code detectors",SPRINGER INTERNATIONAL PUBLISHING AG,0302-9743,English,"18th European Conference on Software Architecture (ECSA), Luxembourg
+City, LUXEMBOURG, SEP 03-06, 2024",,Duplicated
+"Leveraging Petri Nets for Workflow Anomaly Detection in Microservice
+Architectures","Kamboj, Priyanka and Artho, Cyrille and Guanciale, Roberto and
+Jabbarvand, Reyhaneh and Godfrey, Brighten",,2025,ISI Web of Science,219-241,15714,"Modern microservice architectures pose challenges in understanding and
+managing the complex workflows within these decentralized services. In
+particular, it is difficult to identify anomalous behavior that could
+indicate a bug or attack. We use traces of microservice application
+activity (requests and responses) to infer a model of the application's
+normal behavior. Our approach mines Petri nets to formally represent
+concurrent operations and their temporal dependencies with a targeted
+delay injection approach that accurately and efficiently learns these
+dependencies. The models produced are both explainable and easy to
+inspect, which offers more transparency and control. Our evaluation
+shows that injecting delays during model training allows us to achieve
+perfect model and log fitness (Move-Model and Move-Log fitness of 1)
+with just 29 traces. In contrast, a straightforward approach requires
+over 10,000 traces to achieve similar accuracy. Our models successfully
+identify anomalies in various experiments, such as traces with one
+missing or multiple missing activities, and reordered sequences to
+simulate issues in real-world scenarios. Our approach outperforms the
+state-of-the-art method, demonstrating higher accuracy.",Proceedings Paper,10.1007/978-3-031-94634-9\_11,,"Guanciale, R (Corresponding Author), KTH Royal Inst Technol Univ, Stockholm, Sweden.
+Kamboj, Priyanka; Artho, Cyrille; Guanciale, Roberto, KTH Royal Inst Technol Univ, Stockholm, Sweden.
+Jabbarvand, Reyhaneh; Godfrey, Brighten, Univ Illinois, Chicago, IL USA.",,"Alignments; Cost function; Delay; Microservices; Process mining; Process
+discovery; Conformance Checking",SPRINGER INTERNATIONAL PUBLISHING AG,0302-9743,English,"46th International Conference on Application and Theory of Petri Nets
+and Concurrency-PETRI NETS-Annual, FRANCE, JUN 22-27, 2025",,Duplicated
+"IntelliGOV - A Semantic Approach for Compliance Validation of
+Service-Oriented Architectures","Teixeira Filho, Haroldo Maria and Azevedo, Leonardo Guerreiro and Matsui
+Siqueira, Sean Wolfgand",JOURNAL OF UNIVERSAL COMPUTER SCIENCE,2016,ISI Web of Science,1048-1071,22,"Organizations are adopting Service-Oriented Architecture (SOA) to
+increase operation's efficiency and flexibility. To accomplish these
+goals, it is necessary to ensure that the architecture and its evolution
+are compliant with business goals, best practices, legal and regulatory
+requirements. However, the diversity of domains and stakeholders
+involved in SOA solutions demands complex and expensive work to validate
+the architecture compliance. Hence, it can result in high costs and low
+quality assessment if the organization does not use an effective
+approach in this scenario. In addition, it would be important to
+consider standards and open solutions in order to promote
+interoperability and reuse of available tools, making it easier to
+spread throughout the organizations. We propose intelliGov, an
+architecture that aims to solve these problems by using ontologies,
+semantic rules and queries in order to simplify the compliance
+validation process. The architecture employs open standards - OWL, SWRL
+and SQWRL - in its implementation. A case study, executed in a global
+energy company that is currently adopting SOA, demonstrates gains in
+quality and costs of the compliance assessment process using the
+proposed architecture.",Article,,,"Teixeira, HM (Corresponding Author), Fed Univ State Rio de Janeiro UNIRIO, Rio De Janeiro, Brazil.
+Teixeira Filho, Haroldo Maria; Azevedo, Leonardo Guerreiro; Matsui Siqueira, Sean Wolfgand, Fed Univ State Rio de Janeiro UNIRIO, Rio De Janeiro, Brazil.
+Azevedo, Leonardo Guerreiro, IBM Res, Rio De Janeiro, Brazil.",,"Service-Oriented Architecture (SOA); Governance; Ontology; Semantic
+Rules; Semantic Queries","GRAZ UNIV TECHNOLGOY, INST INFORMATION SYSTEMS COMPUTER MEDIA-IICM",0948-695X,English,,,Duplicated
+"Conformance Assessment of Architectural Design Decisions on the Mapping
+of Domain Model Elements to APIs and API Endpoints","Singjai, Apitchaka and Zdun, Uwe",,2022,ISI Web of Science,76-83,,"Microservice APIs are often identified and designed based on
+Domain-Driven Design (DDD). To help in the continuous analysis of
+mappings of domain model elements to APIs and API endpoints, we aim to
+automate the assessment of conformance to Architectural Design Decision
+(ADD) options. The ADDs, their decision options, and relevant decision
+drivers studied in this paper originate from an empirical study on the
+mapping of domain model elements to APIs and API endpoints in practice.
+We propose automated detectors to detect the decision options of the
+ADDs taken in a given microservice API model, and an assessment scoring
+scheme based on the empirical knowledge codified in the ADDs. We
+evaluate our work, by first manually creating a ground truth for 14
+cases in a multi-case study, and then comparing the results of our
+automated detectors to the ground truth for each of the 14 cases. In the
+cases we were able to identify 86\% of the decision points correctly,
+and a statistical analysis of our data shows only a negligible effect
+size for differences to the ground truth.",Proceedings Paper,10.1109/ICSA-C54293.2022.00058,,"Singjai, A (Corresponding Author), Univ Vienna, Res Grp Software Architecture, Vienna, Austria.
+Singjai, Apitchaka; Zdun, Uwe, Univ Vienna, Res Grp Software Architecture, Vienna, Austria.",,"Microservice Architecture; API Design; DDD; Conformance Assessment;
+Architectural Design Decision",IEEE COMPUTER SOC,,English,"19th IEEE International Conference on Software Architecture (ICSA),
+ELECTR NETWORK, MAR 12-15, 2022",,Duplicated
+"Semi-automatic Feedback for Improving Architecture Conformance to
+Microservice Patterns and Practices","Ntentos, Evangelos and Zdun, Uwe and Plakidas, Konstantinos and Geiger,
+Sebastian",,2021,ISI Web of Science,36-46,,"Microservices are one of the most recommended architectural styles for
+distributed applications that support independent development and
+deployment, enable rapid release, and are highly scalable and polyglot.
+Many well-established patterns and best practices have been documented
+in the literature. As there are many such guidances, they have numerous
+interdependencies, and system designs must adhere to many other
+architecture constraints, too, implementations do not always conform to
+those guidances. In complex or large systems, it can be hard and tedious
+to spot violations. Our work aims to offer automated support for
+architecting during the continuous evolution of microservice-based
+systems. More specifically we aim to provide the foundations for an
+automated approach for architecture reconstruction, assessing
+conformance to patterns and practices specific for microservice
+architectures, and detect possible violations. Based on this, we provide
+actionable options to architects for improving architecture conformance
+as part of a continuous feedback loop. That is, our goal is to support
+architecting in the context of continuous delivery practices, where
+architecture violations are continuously analyzed and fix options are
+continuously suggested.",Proceedings Paper,10.1109/ICSA51549.2021.00012,,"Ntentos, E (Corresponding Author), Univ Vienna, Fac Comp Sci, Res Grp Software Architecture, Vienna, Austria.
+Ntentos, Evangelos; Zdun, Uwe; Plakidas, Konstantinos, Univ Vienna, Fac Comp Sci, Res Grp Software Architecture, Vienna, Austria.
+Geiger, Sebastian, Siemens Corp Technol, Vienna, Austria.",,"Microservices; patterns; best practices; continuous architecture
+improvement; feedback loop",IEEE COMPUTER SOC,,English,"18th IEEE International Conference on Software Architecture (ICSA),
+Infos e V, ELECTR NETWORK, MAR 22-26, 2021",,Duplicated
+WEB SERVICE CHOREOGRAPHY CONFORMANCE VERIFICATION THROUGH THE piX-MODEL,"Van Seghbroeck, Gregory and Volckaert, Bruno and De Turck, Filip and
+Dhoedt, Bart and Demeester, Piet",INTERNATIONAL JOURNAL OF COOPERATIVE INFORMATION SYSTEMS,2010,ISI Web of Science,1-30,19,"As the adoption of the Service Oriented Architecture paradigm has
+dramatically increased over the past few years, proper coordination of
+loosely coupled services becomes an important issue when building
+state-of-the-art applications. This coordination is typically organized
+through orchestration (requiring a central coordinating entity) or
+through choreographies. While the latter approach allows for a fully
+distributed coordination, the need also arises for a distributed
+conformance check, ensuring that each participant of the choreography
+behaves according to the general choreography.
+In this paper, a formalism is presented to ensure this conformance at
+design time, with possible extensions to deploy time and to runtime
+conformance checking. This formalism is referred to as the piX-model and
+it will be shown that the approach taken is inherently less complex,
+both in time and space, than the conventional p-calculus-based approach,
+whilst offering the same conformance guarantees. This gain in
+performance allows for a small design turnaround time, and also opens
+the avenue to runtime conformance checking by resource constrained
+devices.",Article,10.1142/S0218843010002097,,"Van Seghbroeck, G (Corresponding Author), Univ Ghent, Dept Informat Technol INTEC, IBBT, Gaston Crommenlaan 8 Bus 201, B-9050 Ghent, Belgium.
+Van Seghbroeck, Gregory; Volckaert, Bruno; De Turck, Filip; Dhoedt, Bart; Demeester, Piet, Univ Ghent, Dept Informat Technol INTEC, IBBT, B-9050 Ghent, Belgium.",,Web services; choreography; WS-CDL; open bisimulation,WORLD SCIENTIFIC PUBL CO PTE LTD,0218-8430,English,,,Duplicated
+"Evaluating and Improving Microservice Architecture Conformance to
+Architectural Design Decisions","Ntentos, Evangelos and Zdun, Uwe and Plakidas, Konstantinos and Geiger,
+Sebastian",,2021,ISI Web of Science,188-203,13121,"Microservices are a commonly used architectural style targeting
+independent development, deployment, and release of services, as well as
+supporting polyglot capabilities and rapid release strategies. This
+depends on the presence of certain software architecture qualities. A
+number of architecture patterns and best practices that support the
+required qualities have been proposed in the literature, but usually in
+isolation of one another. Additionally, in real-world systems, assessing
+conformance to these patterns and practices and detecting possible
+violations is a significant challenge. For small-scale systems of a few
+services, a manual assessment and violation detection by an expert is
+probably both accurate and sufficient. However, for industrial-scale
+systems of several hundred or more services, manual assessment and
+violation detection is laborious and likely leads to inaccurate results.
+Furthermore, manual assessment is impractical for rapidly evolving and
+frequently released system architectures. In this work we examine a
+subset of microservice-relevant patterns, and propose a method for the
+semi-automatic detection and resolution of conformance violations. Our
+aim is to assist the software architect by providing a set of possible
+fix options and generating models of ``fixed{''} architectures.",Proceedings Paper,10.1007/978-3-030-91431-8\_12,,"Ntentos, E (Corresponding Author), Univ Vienna, Res Grp Software Architecture, Fac Comp Sci, Vienna, Austria.
+Ntentos, Evangelos; Zdun, Uwe; Plakidas, Konstantinos, Univ Vienna, Res Grp Software Architecture, Fac Comp Sci, Vienna, Austria.
+Geiger, Sebastian, Siemens Corp Technol, Vienna, Austria.",,,SPRINGER INTERNATIONAL PUBLISHING AG,0302-9743,English,"19th International Conference on Service-Oriented Computing (ICSOC),
+ELECTR NETWORK, NOV 22-25, 2021",,Duplicated
+CATMA: Conformance Analysis Tool For Microservice Applications,"Cao, Clinton and Schneider, Simon and Ferreyra, Nicolas E. Diaz and
+Verwer, Sicco and Panichella, Annibale and Scandariato, Riccardo",,2024,ISI Web of Science,59-63,,"The microservice architecture allows developers to divide the core
+functionality of their software system into multiple smaller services.
+However, this architectural style also makes it harder for them to debug
+and assess whether the system's deployment conforms to its
+implementation. We present CATMA, an automated tool that detects
+non-conformances between the system's deployment and implementation. It
+automatically visualizes and generates potential interpretations for the
+detected discrepancies. Our evaluation of CATMA shows promising results
+in terms of performance and providing useful insights. CATMA is
+available at https://cyber-analytics.nl/catma.github.io/, and a
+demonstration video is available at https://youtu.be/WKP1hG-TDKc.",Proceedings Paper,10.1145/3639478.3640022,,"Cao, C (Corresponding Author), Delft Univ Technol, Delft, Netherlands.
+Cao, Clinton; Verwer, Sicco; Panichella, Annibale, Delft Univ Technol, Delft, Netherlands.
+Schneider, Simon; Ferreyra, Nicolas E. Diaz; Scandariato, Riccardo, Hamburg Univ Technol, Hamburg, Germany.",,"microservices; static analysis; dynamic analysis; software testing;
+empirical software engineering",ASSOC COMPUTING MACHINERY,,English,"44th International Conference on Software Engineering: Companion
+Proceedings, Lisbon, PORTUGAL, APR 14-20, 2024",,Duplicated
+"Metrics for Assessing Architecture Conformance to Microservice
+Architecture Patterns and Practices","Ntentos, Evangelos and Zdun, Uwe and Plakidas, Konstantinos and Meixner,
+Sebastian and Geiger, Sebastian",,2020,ISI Web of Science,580-596,12571,"Many contemporary service-based systems follow the microservice
+approach, particularly in DevOps or continuous delivery contexts. They
+share a set of important tenets such as independent development and
+deployment, high releasability, polyglot technology support, and loose
+coupling. A number of best practices for microservice architectures have
+been codified as patterns, which embody those tenets. However, no
+real-world microservices system can support all patterns and practices
+well, but rather architectural decisions making trade-offs among them
+are needed. Conformance to the patterns and practices selected in such
+decisions is hard to ensure and assess automatically, especially in
+large-scale, complex, and evolving systems. In this work, we propose a
+model-based approach based on generic, technology-independent metrics,
+tied to typical architectural design decisions in the microservice
+domain. With this approach we can measure conformance to the patterns
+and related tenets. We demonstrate and assess the validity and
+appropriateness of these metrics in performing an assessment of a
+system's conformance to patterns through statistical methods.",Proceedings Paper,10.1007/978-3-030-65310-1\_42,,"Ntentos, E (Corresponding Author), Univ Vienna, Fac Comp Sci, Res Grp Software Architecture, Vienna, Austria.
+Ntentos, Evangelos; Zdun, Uwe; Plakidas, Konstantinos, Univ Vienna, Fac Comp Sci, Res Grp Software Architecture, Vienna, Austria.
+Meixner, Sebastian; Geiger, Sebastian, Siemens Corp Technol, Vienna, Austria.",,,SPRINGER INTERNATIONAL PUBLISHING AG,0302-9743,English,"18th International Conference on Service-Oriented Computing (ICSOC),
+ELECTR NETWORK, DEC 14-17, 2020",,Duplicated
+Detection Strategies for Microservice Security Tactics,"Zdun, Uwe and Queval, Pierre-Jean and Simhandl, Georg and Scandariato,
+Riccardo and Chakravarty, Somik and Jelic, Marjan and Jovanovic,
+Aleksandar",IEEE TRANSACTIONS ON DEPENDABLE AND SECURE COMPUTING,2024,ISI Web of Science,1257-1273,21,"Microservice architectures are widely used today to implement
+distributed systems. Securing microservice architectures is challenging
+because of their polyglot nature, continuous evolution, and various
+security concerns relevant to such architectures. This article proposes
+a novel, model-based approach providing detection strategies to address
+the automated detection of security tactics (or patterns and best
+practices) in a given microservice architecture decomposition model. Our
+novel detection strategies are metrics-based rules that decide
+conformance to a security recommendation based on a statistical
+predictor. The proposed approach models this recommendation using
+Architectural Design Decisions (ADDs). We apply our approach for four
+different security-related ADDs on access management, traffic control,
+and avoiding plaintext sensitive data in the context of microservice
+systems. We then apply our approach to a model data set of 10
+open-source microservice systems and 20 variants of those systems. Our
+results are detection strategies showing a very low bias, a very high
+correlation, and a low prediction error in our model data set.",Article,10.1109/TDSC.2023.3276487,,"Zdun, U (Corresponding Author), Univ Vienna, Fac Comp Sci, Res Grp Software Architecture, A-1010 Vienna, Austria.
+Zdun, Uwe; Queval, Pierre-Jean; Simhandl, Georg, Univ Vienna, Fac Comp Sci, Res Grp Software Architecture, A-1010 Vienna, Austria.
+Scandariato, Riccardo, Hamburg Univ Technol TUHH, D-21073 Hamburg, Germany.
+Chakravarty, Somik; Jelic, Marjan; Jovanovic, Aleksandar, European Risk \& Resilience Inst EU VRi, D-70599 Stuttgart, Germany.",,"Security; Microservice architectures; Measurement; Authorization; Data
+models; Computer architecture; Codes; Conformance checking; detection
+strategies; metrics; microservice architecture security; microservices",IEEE COMPUTER SOC,1545-5971,English,,,Duplicated
+"Ensuring and Assessing Architecture Conformance to Microservice
+Decomposition Patterns","Zdun, Uwe and Navarro, Elena and Leymann, Frank",,2017,ISI Web of Science,411-429,10601,"Microservice-based software architecture design has been widely
+discussed, and best practices have been published as architecture design
+patterns. However, conformance to those patterns is hard to ensure and
+assess automatically, leading to problems such as architectural drift
+and erosion, especially in the context of continued software evolution
+or large-scale microservice systems. In addition, not much in the
+component and connector architecture models is specific (only) to the
+microservices approach, whereas other aspects really specific to that
+approach, such as independent deployment of microservices, are usually
+modeled in other views or not at all. We suggest a set of constraints to
+check and metrics to assess architecture conformance to microservice
+patterns. In comparison to expert judgment derived from the patterns, a
+subset of these constraints and metrics shows a good relative
+performance and potential for automation.",Proceedings Paper,10.1007/978-3-319-69035-3\_29,,"Zdun, U (Corresponding Author), Univ Vienna, Fac Comp Sci, Res Grp Software Architecture, Vienna, Austria.
+Zdun, Uwe, Univ Vienna, Fac Comp Sci, Res Grp Software Architecture, Vienna, Austria.
+Navarro, Elena, Univ Castilla La Mancha, Comp Syst Dept, Lab User Interact \& Software Engn, Albacete, Spain.
+Leymann, Frank, Univ Stuttgart, Inst Architecture Applicat Syst, Stuttgart, Germany.",,,SPRINGER INTERNATIONAL PUBLISHING AG,0302-9743,English,"15th International Conference on Service-Oriented Computing (ICSOC),
+Malaga, SPAIN, NOV 13-16, 2017",,Duplicated
+"Conformance assessment of Architectural Design Decisions on API endpoint
+designs derived from domain models","Singjai, Apitchaka and Zdun, Uwe",JOURNAL OF SYSTEMS AND SOFTWARE,2022,ISI Web of Science,,193,"Context: Domain-driven design (DDD) is commonly used to design
+microservices. A crucial aspect of microservice design is API design,
+which includes the design of API endpoints.
+Objective: Our objective is to automate the assessment of conformance to
+Architectural Design Decisions (ADDs) on the interrelation of DDD and
+APIs. In particular, we studied link mapping, API operation design, and
+resource segregation as API endpoint design issues that are linked to
+domain model design. We particularly aim to address conformance checking
+in the context of frequent release practices, as frequent manual
+conformance checking is difficult or infeasible.
+Methods: We suggest a new approach for the automated assessment of
+conformance to ADD options. The approach suggests automated detectors to
+detect ADD options selected in a given API endpoint design, as well as
+an assessment scoring scheme based on empirical results. For the
+evaluation of our approach, we first manually created a ground truth for
+12 cases in a multi-case study, and then compared the results of our
+automated detectors to the ground truth for each of those cases.
+Results: With our approach, all ADD options in our multi-case study
+possibly can be automatically detected. Without further improvements,
+our approach identifies 83\% of the decision points in the multi-case
+study correctly. A statistical analysis of our data shows only a
+negligible effect size for differences to the ground truth.
+Conclusion: Our new approach provides a pragmatic method for automated
+detection of conformance to ADDs on the interrelation of DDD and APIs.
+The approach can support the continuous analysis of API endpoint
+designs. (c) 2022 The Authors. Published by Elsevier Inc. This is an
+open access article under the CC BY license
+(http://creativecommons.org/licenses/by/4.0/).",Article,10.1016/j.jss.2022.111433,,"Singjai, A (Corresponding Author), Univ Vienna, Res Grp Software Architecture, Fac Comp Sci, Vienna, Austria.
+Singjai, Apitchaka; Zdun, Uwe, Univ Vienna, Res Grp Software Architecture, Fac Comp Sci, Vienna, Austria.",,"Microservice architecture; API design; Domain driven design;
+Architecture conformance assessment",ELSEVIER SCIENCE INC,0164-1212,English,,,Duplicated
+"Extracting the Architecture of Microservices: An Approach for
+Explainability and Traceability","Queval, Pierre-Jean and Zdun, Uwe",,2023,ISI Web of Science,346-353,14212,"The polyglot nature of microservice architectures and the need for high
+reliability in security analyses pose unique challenges that existing
+approaches to automatic architecture recovery often fail to address.
+This article proposes an approach for extracting detailed architecture
+models from polyglot microservice source code focusing on explainability
+and traceability. The approach involves abstracting code navigation as a
+tree structure, using an exploratory algorithm to detect architectural
+aspects, and providing a set of generic detectors as input. The
+architecture models are automatically annotated with detailed
+information that makes them useful for architecture conformance checking
+and violation fixing. Our case studies of microservice software systems
+validate the usefulness of our approach, providing insights into its
+completeness, accuracy, and effectiveness for software architecture
+tasks.",Proceedings Paper,10.1007/978-3-031-42592-9\_24,,"Quéval, PJ (Corresponding Author), Univ Vienna, Vienna, Austria.
+Quéval, PJ (Corresponding Author), Doctoral Sch Comp Sci, Vienna, Austria.
+Queval, Pierre-Jean; Zdun, Uwe, Univ Vienna, Vienna, Austria.
+Queval, Pierre-Jean, Doctoral Sch Comp Sci, Vienna, Austria.",,Architecture; Explainability; Microservices; Polyglot,SPRINGER INTERNATIONAL PUBLISHING AG,0302-9743,English,"17th European Conference on Software Architecture (ECSA), Istanbul,
+TURKEY, SEP 18-22, 2023",,Duplicated
+Detecting and Resolving Coupling-Related Infrastructure as Code Based Architecture Smells in Microservice Deployments,"Ntentos, Evangelos and Zdun, Uwe and Falazi, Ghareeb and Breitenbücher, Uwe and Leymann, Frank",,2023,IEEE Digital Library,201-211,,"The Infrastructure as Code (IaC) concept enables IT infrastructure to be managed as software: resources can be managed, monitored, and provisioned automatically instead of manually by developers or operations teams. Many industries have already embraced this concept widely. However, research on IaC-based deployments, particularly research focusing on loose coupling, often does not offer methods for evaluating architectural conformance, spotting architecture smells, and support for correcting the found smells. Our work strives to provide an automatic method for continuously developing microservice-based systems and the associated infrastructure. We aim to offer an automated architectural refactoring method that checks if IaCbased deployments adhere to patterns and best practices and do not contain potential architectural smells. We provide architects with viable options for enhancing architectural conformance during microservice development. In short, by continuously detecting architectural smells and suggesting possible fixes, we aim to support architecture evolution within the framework of continuous delivery practices. We evaluate our approach using three case studies and variants based on open-source microservice architectures.",,10.1109/CLOUD60044.2023.00031,,,,Industries;Couplings;Cloud computing;Codes;Microservice architectures;Focusing;Computer architecture;Infrastructure as code;metrics;architecture smells;modeling;best practices,,2159-6190,,,,Duplicated
+Conformance Assessment of Architectural Design Decisions on the Mapping of Domain Model Elements to APIs and API Endpoints,"Singjai, Apitchaka and Zdun, Uwe",,2022,IEEE Digital Library,76-83,,"Microservice APIs are often identified and designed based on Domain-Driven Design (DDD). To help in the continuous analysis of mappings of domain model elements to APIs and API endpoints, we aim to automate the assessment of conformance to Architectural Design Decision (ADD) options. The ADDs, their decision options, and relevant decision drivers studied in this paper originate from an empirical study on the mapping of domain model elements to APIs and API endpoints in practice. We propose automated detectors to detect the decision options of the ADDs taken in a given microservice API model, and an assessment scoring scheme based on the empirical knowledge codified in the ADDs. We evaluate our work, by first manually creating a ground truth for 14 cases in a multi-case study, and then comparing the results of our automated detectors to the ground truth for each of the 14 cases. In the cases we were able to identify 86% of the decision points correctly, and a statistical analysis of our data shows only a negligible effect size for differences to the ground truth.",,10.1109/ICSA-C54293.2022.00058,,,,Adaptation models;Automation;Statistical analysis;Software architecture;Conferences;Microservice architectures;Detectors;Microservice Architecture;API Design;DDD;Conformance Assessment;Architectural Design Decision,,2768-4288,,,,Duplicated
+CATMA: Conformance Analysis Tool For Microservice Applications,"Cao, Clinton and Schneider, Simon and Díaz Ferreyra, Nicolás E. and Verwer, Sicco and Panichella, Annibale and Scandariato, Riccardo",,2024,IEEE Digital Library,59-63,,"The microservice architecture allows developers to divide the core functionality of their software system into multiple smaller services. However, this architectural style also makes it harder for them to debug and assess whether the system's deployment conforms to its implementation. We present CATMA, an automated tool that detects non-conformances between the system's deployment and implementation. It automatically visualizes and generates potential interpretations for the detected discrepancies. Our evaluation of CATMA shows promising results in terms of performance and providing useful insights. CATMA is available at https.//cyber-analytics.nl!catma.github.io/, and a demonstration video is available at https://youtu.be/WKP1hG-TDKc.",,10.1145/3639478.3640022,,,,Visualization;Microservice architectures;Computer architecture;Software systems;Software engineering;microservices;static analysis;dynamic analysis;software testing;empirical software engineering,,2574-1934,,,,Duplicated
+Automatic Reference Architecture Conformance Checking for SOA-Based Software Systems,"Weinreich, Rainer and Buchgeher, Georg",,2014,IEEE Digital Library,95-104,,"Company-wide reference architectures are an important means for standardization and reuse. Standardization is enforced through reference architecture conformance checking. Manual conformance checking is too time- and resource-intensive to be performed continuously for the various systems that are part of a SOA. We present an approach for automatic reference architecture conformance checking of SOA-based software systems. Reference architectures are defined based on rules consisting of roles and of constraints on roles and role relationships. By mapping the roles to the elements of a software architecture representation, reference architecture specifications are reusable for different software systems. Through automating the whole checking process, including architecture extraction, role mapping, and rule evaluation, the approach can be applied continuously for the different systems that are part of a SOA. The approach has been developed and refined by applying it to a SOA in the banking domain. During its evolution from semi-automatic to a fully automatic approach it has also changed the way of how architecture information is provided as part of the system implementation in this domain.",,10.1109/WICSA.2014.22,,,,Computer architecture;Service-oriented architecture;Unified modeling language;Object oriented modeling;Protocols;Software systems;software architecture;reference architecture;conformance checking;service-oriented architecture (SOA),,,,,,Duplicated
+An approach to variability management in service-oriented product lines,"Khoshnevis, Sedigheh",,2012,ACM Digital Library,1483–1486,,"Service-Oriented product lines (SOPLs) are dynamic software product lines, in which, the products are developed based on services and service-oriented architecture. Although there are similarities between components and services, there are important differences so that we cannot use component-based product line engineering methods and techniques for SOPL engineering. These differences emerge from the fact that, services can be discovered as black box elements from external repositories. Moreover, services can be dynamically bound and are business-aligned. Therefore, analyzing the conformance of discovered external services with the variability of services in the SOPL –which must be aligned to the variable business needs-is necessary. Variability must be managed, that is, it must be represented (modeled), used (instantiated and capable of conformance checking) and maintained (evolved) over time. Feature Models are insufficient for modeling variability in SOPL, because, services cannot be simply mapped to one or more features, and identification of the mapping depends on knowing the detailed implementation of the services. This research aims at providing an approach to managing the variability in SOPLs so that external services can be involved in the SOPL engineering. This paper presents an overview of the proposal.",,,,,,,IEEE Press,,,,,Duplicated
+Towards a method for monitoring the coupling evolution of microservice-based architectures,"de Freitas Apolin\'{a}rio, Daniel Rodrigo and de Fran\c{c}a, Breno Bernard Nicolau",,2020,ACM Digital Library,71–80,,"The microservice architecture is claimed to satisfy ongoing software development demands, such as resilience, flexibility, and velocity. However, developing applications based on microservices also brings some drawbacks, such as the increased software operational complexity. Recent studies have also pointed out the lack of methods to prevent problems related to the maintainability of these solutions. Disregarding established design principles during the software evolution may lead to the so-called architectural erosion, which can end up in a condition of unfeasible maintenance. As microservices can be considered a new architecture style, there are few initiatives to monitoring the evolution of software microservice-based architectures. In this paper, we introduce the SYMBIOTE method for monitoring the coupling evolution of microservice-based systems. More specifically, this method collects coupling metrics during runtime (staging or production environments) and monitors them throughout software evolution. The longitudinal analysis of the collected measures allows detecting an upward trend in coupling metrics that could be signs of architectural erosion. To develop the proposed method, we performed an experimental analysis of the coupling metrics behavior using artificially-generated data.",,10.1145/3425269.3425273,https://doi.org/10.1145/3425269.3425273,,,"coupling metrics, maintainability, microservices, software evolution",Association for Computing Machinery,,,,,Duplicated
+Exploring Architectural Evolution in&nbsp;Microservice Systems Using Repository Mining Techniques and&nbsp;Static Code Analysis,"Genfer, Patric and Zdun, Uwe",,2024,ACM Digital Library,157–173,,"Microservices have gained popularity for isolating service functionality and mitigating issues such as architectural erosion and technical debt. However, their decentralized nature and rapid development often obscure the holistic view of the system and lead developers to lose sight of the overarching architecture. Our work addresses this challenge by proposing a novel approach to track and assess the evolution of microservice architectures through static source code analysis. We combine source code repository mining techniques with architectural reconstruction to measure various metrics throughout a system’s development history. Our approach uses a formal API-based decomposition model that can easily be adapted for different scenarios by choosing various architectural metrics. We validated our method’s scalability and robustness through a case study on an extensive open-source microservice reference system with more than 40 individual services written in different languages and more than 400 commits. Our research provides software architects with a powerful tool to identify and monitor problematic architectural trends before they become imminent threats, enabling the evolution of microservice-based systems while maintaining architectural coherence and integrity.",,10.1007/978-3-031-70797-1_10,https://doi.org/10.1007/978-3-031-70797-1_10,,,"Microservice API, evolution, source code repository mining, metrics, source code detectors",Springer-Verlag,,,,,Duplicated
+Extracting the&nbsp;Architecture of&nbsp;Microservices: An Approach for&nbsp;Explainability and&nbsp;Traceability,"Qu\'{e}val, Pierre-Jean and Zdun, Uwe",,2023,ACM Digital Library,346–353,,"The polyglot nature of microservice architectures and the need for high reliability in security analyses pose unique challenges that existing approaches to automatic architecture recovery often fail to address. This article proposes an approach for extracting detailed architecture models from polyglot microservice source code focusing on explainability and traceability. The approach involves abstracting code navigation as a tree structure, using an exploratory algorithm to detect architectural aspects, and providing a set of generic detectors as input. The architecture models are automatically annotated with detailed information that makes them useful for architecture conformance checking and violation fixing. Our case studies of microservice software systems validate the usefulness of our approach, providing insights into its completeness, accuracy, and effectiveness for software architecture tasks.",,10.1007/978-3-031-42592-9_24,https://doi.org/10.1007/978-3-031-42592-9_24,,,"Architecture, Explainability, Microservices, Polyglot",Springer-Verlag,,,,,Duplicated
+Metrics for Assessing Architecture Conformance to Microservice Architecture Patterns and Practices,"Ntentos, Evangelos and Zdun, Uwe and Plakidas, Konstantinos and Meixner, Sebastian and Geiger, Sebastian",,2020,ACM Digital Library,580–596,,"Many contemporary service-based systems follow the microservice approach, particularly in DevOps or continuous delivery contexts. They share a set of important tenets such as independent development and deployment, high releasability, polyglot technology support, and loose coupling. A number of best practices for microservice architectures have been codified as patterns, which embody those tenets. However, no real-world microservices system can support all patterns and practices well, but rather architectural decisions making trade-offs among them are needed. Conformance to the patterns and practices selected in such decisions is hard to ensure and assess automatically, especially in large-scale, complex, and evolving systems. In this work, we propose a model-based approach based on generic, technology-independent metrics, tied to typical architectural design decisions in the microservice domain. With this approach we can measure conformance to the patterns and related tenets. We demonstrate and assess the validity and appropriateness of these metrics in performing an assessment of a system’s conformance to patterns through statistical methods.",,10.1007/978-3-030-65310-1_42,https://doi.org/10.1007/978-3-030-65310-1_42,,,,Springer-Verlag,,,,,Duplicated
+Ensuring and Assessing Architecture Conformance to Microservice Decomposition Patterns,"Zdun, Uwe and Navarro, Elena and Leymann, Frank",,2017,ACM Digital Library,411–429,,"Microservice-based software architecture design has been widely discussed, and best practices have been published as architecture design patterns. However, conformance to those patterns is hard to ensure and assess automatically, leading to problems such as architectural drift and erosion, especially in the context of continued software evolution or large-scale microservice systems. In addition, not much in the component and connector architecture models is specific (only) to the microservices approach, whereas other aspects really specific to that approach, such as independent deployment of microservices, are usually modeled in other views or not at all. We suggest a set of constraints to check and metrics to assess architecture conformance to microservice patterns. In comparison to expert judgment derived from the patterns, a subset of these constraints and metrics shows a good relative performance and potential for automation.",,10.1007/978-3-319-69035-3_29,https://doi.org/10.1007/978-3-319-69035-3_29,,,,Springer-Verlag,,,,,Duplicated
+Evaluating and Improving Microservice Architecture Conformance to Architectural Design Decisions,"Ntentos, Evangelos and Zdun, Uwe and Plakidas, Konstantinos and Geiger, Sebastian",,2021,ACM Digital Library,188–203,,"Microservices are a commonly used architectural style targeting independent development, deployment, and release of services, as well as supporting polyglot capabilities and rapid release strategies. This depends on the presence of certain software architecture qualities. A number of architecture patterns and best practices that support the required qualities have been proposed in the literature, but usually in isolation of one another. Additionally, in real-world systems, assessing conformance to these patterns and practices and detecting possible violations is a significant challenge. For small-scale systems of a few services, a manual assessment and violation detection by an expert is probably both accurate and sufficient. However, for industrial-scale systems of several hundred or more services, manual assessment and violation detection is laborious and likely leads to inaccurate results. Furthermore, manual assessment is impractical for rapidly evolving and frequently released system architectures. In this work we examine a subset of microservice-relevant patterns, and propose a method for the semi-automatic detection and resolution of conformance violations. Our aim is to assist the software architect by providing a set of possible fix options and generating models of “fixed” architectures.",,10.1007/978-3-030-91431-8_12,https://doi.org/10.1007/978-3-030-91431-8_12,,,,Springer-Verlag,,,,,Duplicated
+Constructing a service process model based on distributed tracing for conformance checking of microservices,"Sakai, Masaru and Takahashi, Kensuke",,2022,ACM Digital Library,1–6,,"In recent years, microservices architectures have become widespread, where services are divided into smaller pieces, communicate with each other, and operate in chains. Distributed tracing, which tracks the processing of user requests, is used to analyze and visualize microservices. In this paper, the trace data obtained from the distributed tracing is divided based on the parent-child relationship and converted into an event log. In addition, process discovery is performed on each of the split event logs to estimate the relationships between microservice processes. Then, generate a normal Petri net model that can reproduce each event log. Finally, the test trace data is used to verify the suitability of the Petri net model. We constructed a service model for two sample microservices with different scales and distributed tracing implementations and demonstrated the proposed method's feasibility through conformance checking using test trace data.",,10.1109/NOMS54207.2022.9789804,https://doi.org/10.1109/NOMS54207.2022.9789804,,,,IEEE Press,,,,,Duplicated
+Assessing Architecture Conformance to&nbsp;Coupling-Related Infrastructure-as-Code Best Practices: Metrics and&nbsp;Case Studies,"Ntentos, Evangelos and Zdun, Uwe and Soldani, Jacopo and Brogi, Antonio",,2022,ACM Digital Library,101–116,,"Infrastructure as Code (IaC) is an IT practice that facilitates the management of the underlying infrastructure as software. It enables developers or operations teams to automatically manage, monitor, and provision resources rather than organize them manually. In many industries, this practice is widespread and has already been fully adopted. However, few studies provide techniques for evaluating architectural conformance in IaC deployments and, in particular, aspects such as loose coupling. This paper focuses on coupling-related patterns and practices such as deployment strategies and the structuring of IaC elements. Many best practices are documented in gray literature sources, such as practitioner books, blogs, and public repositories. Still, there are no approaches yet to automatically check conformance with such best practices. We propose an approach based on generic, technology-independent metrics tied to typical architectural design decisions for IaC-based practices in microservice deployments to support architecting in the context of continuous delivery practices. We present three case studies based on open-source microservice architectures to validate our approach.",,10.1007/978-3-031-16697-6_7,https://doi.org/10.1007/978-3-031-16697-6_7,,,"Infrastructure as Code, metrics, software architecture, architecture conformance, IaC best practices",Springer-Verlag,,,,,Duplicated
+CATMA: Conformance Analysis Tool For Microservice Applications,"Cao, Clinton and Schneider, Simon and Ferreyra, Nicolas E. Diaz and Verwer, Sicco and Panichella, Annibale and Scandariato, Riccardo",,2024,ACM Digital Library,59–63,,"The microservice architecture allows developers to divide the core functionality of their software system into multiple smaller services. However, this architectural style also makes it harder for them to debug and assess whether the system's deployment conforms to its implementation. We present CATMA, an automated tool that detects non-conformances between the system's deployment and implementation. It automatically visualizes and generates potential interpretations for the detected discrepancies. Our evaluation of CATMA shows promising results in terms of performance and providing useful insights. CATMA is available at https://cyber-analytics.nl/catma.github.io/, and a demonstration video is available at https://youtu.be/WKP1hG-TDKc.",,10.1145/3639478.3640022,https://doi.org/10.1145/3639478.3640022,,,"microservices, static analysis, dynamic analysis, software testing, empirical software engineering",Association for Computing Machinery,,,,,Duplicated
+Conformance assessment of Architectural Design Decisions on API endpoint designs derived from domain models,"Singjai, Apitchaka and Zdun, Uwe",J. Syst. Softw.,2022,ACM Digital Library,,193,,,10.1016/j.jss.2022.111433,https://doi.org/10.1016/j.jss.2022.111433,,,"Microservice architecture, API design, Domain driven design, Architecture conformance assessment",Elsevier Science Inc.,0164-1212,,,,Duplicated
