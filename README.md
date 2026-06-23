@@ -56,7 +56,7 @@ Contains data related to the study selection process for studies retrieved from 
   - `full_text_selection.csv`: results of full-text assessment
 
 - `final/`:
-  - `selected_primary_studies.csv`: final set of studies selected from digital libraries (n = 22)
+  - `selected_primary_studies.csv`: final set of studies selected from digital libraries (n = 19)
 
 ---
 
@@ -94,7 +94,7 @@ Contains data related to backward and forward snowballing, performed based on th
   - `snowballing_full_text_selection.csv`: results of full-text assessment
 
 - `final/`:
-  - `snowballing_selected_studies.csv`: final set of studies selected through snowballing (n = 11)
+  - `snowballing_selected_studies.csv`: final set of studies selected through snowballing (n = 9)
 
 ---
 
@@ -160,7 +160,7 @@ Contains artifacts related to the use of AI agents during the screening phase of
 Contains the final set of primary studies and the processed data used to answer the research questions.
 
 - `primary_studies/`
-  - `primary_studies.csv`: consolidated list of all selected primary studies (S1–S33), including metadata and study origin (Digital Libraries or Snowballing)
+  - `primary_studies.csv`: consolidated list of all selected primary studies (S1–S28), including metadata and study origin (Digital Libraries or Snowballing)
 
 - `figures/`: figures used in the paper, generated from the aggregated data
 
@@ -176,7 +176,7 @@ All datasets and artifacts required to reproduce the study are available in this
 - AI-assisted screening artifacts
 - extracted data aligned with research questions
 
-Each study is identified by a unique ID (e.g., S1–S33) to ensure traceability across all stages of the review.
+Each study is identified by a unique ID (e.g., S1–S28) to ensure traceability across all stages of the review.
 
 ---
 
@@ -184,7 +184,6 @@ Each study is identified by a unique ID (e.g., S1–S33) to ensure traceability 
 
 - The file `selected_primary_studies.csv` contains only the studies selected from digital libraries (Stage 1).
 - The file `snowballing_selected_studies.csv` contains studies identified through snowballing (Stage 2).
-- The final set of studies used in the review is the combination of both stages (n = 33).
+- The final set of studies used in the review is the combination of both stages (n = 28).
 - Snowballing was performed in a single iteration following Wohlin’s guidelines.
-- Each `SXX_references.csv` file includes both backward and forward references, identified through the `source_type` field.
 - AI agents were used as support during the screening phase; however, all final decisions were made by the authors.

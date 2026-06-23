@@ -2,7 +2,7 @@
 
 This document describes the structure and semantics of the data extraction form used in this study. The form is designed to systematically collect and standardize data from all selected primary studies, ensuring consistency and traceability across the analysis.
 
-Each row in the extraction form corresponds to a single primary study (e.g., S1–S33), and each column represents a specific attribute aligned with the research questions (RQ1–RQ3).
+Each row in the extraction form corresponds to a single primary study (e.g., S1–S28), and each column represents a specific attribute aligned with the research questions (RQ1–RQ3).
 
 ---
 
