@@ -1,0 +1,464 @@
+CanonicalRuleID,Rule,Studies,Count,OpenCoding,Architectural Scope (Dimension)
+CR001,API endpoints and their contracts shall maintain traceable mapping to domain model elements.,S19,1,API domain mapping,Bondary Architecture Checking
+CR001,API endpoints and their contracts shall maintain traceable mapping to domain model elements.,S19,1,model consistency,Bondary Architecture Checking
+CR001,API endpoints and their contracts shall maintain traceable mapping to domain model elements.,S19,1,API-domain traceability,Bondary Architecture Checking
+CR001,API endpoints and their contracts shall maintain traceable mapping to domain model elements.,S19,1,API endpoints design,Bondary Architecture Checking
+CR001,API endpoints and their contracts shall maintain traceable mapping to domain model elements.,S19,1,domain-driven API contracts,Bondary Architecture Checking
+CR002,"API endpoints shall be based on tactical DDD elements: Aggregate Roots, Domain Services, or Business Processes.",S19,1,domain-driven API design,Bondary Architecture Checking
+CR002,"API endpoints shall be based on tactical DDD elements: Aggregate Roots, Domain Services, or Business Processes.",S19,1,business consistency,Bondary Architecture Checking
+CR002,"API endpoints shall be based on tactical DDD elements: Aggregate Roots, Domain Services, or Business Processes.",S19,1,model consistency,Bondary Architecture Checking
+CR002,"API endpoints shall be based on tactical DDD elements: Aggregate Roots, Domain Services, or Business Processes.",,,DDD-driven endpoints design,Bondary Architecture Checking
+CR003,API operations shall capture specific domain tasks and events instead of generic database operations.,S15,1,API domain semantics,Bondary Architecture Checking
+CR003,API operations shall capture specific domain tasks and events instead of generic database operations.,S15,1,business event mapping,Bondary Architecture Checking
+CR003,API operations shall capture specific domain tasks and events instead of generic database operations.,S15,1,domain event alignment,Bondary Architecture Checking
+CR003,API operations shall capture specific domain tasks and events instead of generic database operations.,S15,1,domain-driven API operations design ,Bondary Architecture Checking
+CR003,API operations shall capture specific domain tasks and events instead of generic database operations.,S15,1,semantic mapping between API operations and domain events,Bondary Architecture Checking
+CR004,API DTOs shall map domain entities without losing their structural integrity or relational context needed by clients.,S15;S18,2,structural integrity of representation,Bondary Architecture Checking
+CR004,API DTOs shall map domain entities without losing their structural integrity or relational context needed by clients.,S15;S18,2,domain linkage retention,Bondary Architecture Checking
+CR004,API DTOs shall map domain entities without losing their structural integrity or relational context needed by clients.,S15;S18,2,non-flattened DTO design,Bondary Architecture Checking
+CR004,API DTOs shall map domain entities without losing their structural integrity or relational context needed by clients.,S15;S18,2,DTOs-Domain Mapping,Bondary Architecture Checking
+CR004,API DTOs shall map domain entities without losing their structural integrity or relational context needed by clients.,S15;S18,2,domain-driven API design,Bondary Architecture Checking
+CR005,"APIs shall respect Bounded Context boundaries, preventing domain model leakage by exposing only explicit context interfaces or Shared Kernels.",S19,1,bounded context encapsulation,Bondary Architecture Checking
+CR005,"APIs shall respect Bounded Context boundaries, preventing domain model leakage by exposing only explicit context interfaces or Shared Kernels.",S19,1,DDD constraint,Bondary Architecture Checking
+CR005,"APIs shall respect Bounded Context boundaries, preventing domain model leakage by exposing only explicit context interfaces or Shared Kernels.",S19,1,context isolation,Bondary Architecture Checking
+CR005,"APIs shall respect Bounded Context boundaries, preventing domain model leakage by exposing only explicit context interfaces or Shared Kernels.",S19,1,microservice boundary alignment,Bondary Architecture Checking
+CR005,"APIs shall respect Bounded Context boundaries, preventing domain model leakage by exposing only explicit context interfaces or Shared Kernels.",S19,1,domain-driven API design,Bondary Architecture Checking
+CR005,"APIs shall respect Bounded Context boundaries, preventing domain model leakage by exposing only explicit context interfaces or Shared Kernels.",S19,1,DDD-driven API design,Bondary Architecture Checking
+CR005,"APIs shall respect Bounded Context boundaries, preventing domain model leakage by exposing only explicit context interfaces or Shared Kernels.",S19,1,design of the API context interface,Bondary Architecture Checking
+CR006,API Contracts shall isolate the Domain Model by limiting data exposure solely to the strictly required subset.,S19,1,domain exposure,Bondary Architecture Checking
+CR006,API Contracts shall isolate the Domain Model by limiting data exposure solely to the strictly required subset.,S19,1,"encapsulated domain model (ok, mas inglês estranho)",Bondary Architecture Checking
+CR006,API Contracts shall isolate the Domain Model by limiting data exposure solely to the strictly required subset.,S19,1,bounded context encapsulation,Bondary Architecture Checking
+CR006,API Contracts shall isolate the Domain Model by limiting data exposure solely to the strictly required subset.,S19,1,DDD constraint,Bondary Architecture Checking
+CR006,API Contracts shall isolate the Domain Model by limiting data exposure solely to the strictly required subset.,S19,2,API contracts design,Bondary Architecture Checking
+CR006,API Contracts shall isolate the Domain Model by limiting data exposure solely to the strictly required subset.,S19,3,Domain-Driven API Design,Bondary Architecture Checking
+CR006,API Contracts shall isolate the Domain Model by limiting data exposure solely to the strictly required subset.,S19,4,domain model encapsulation,Bondary Architecture Checking
+CR007,"API Contracts shall maintain an isolation layer from the Domain Model, strictly prohibiting one-to-one entity mappings to prevent domain model leakage.",S19,1,domain model encapsulation,Bondary Architecture Checking
+CR007,"API Contracts shall maintain an isolation layer from the Domain Model, strictly prohibiting one-to-one entity mappings to prevent domain model leakage.",S19,1,API contracts design,Bondary Architecture Checking
+CR007,"API Contracts shall maintain an isolation layer from the Domain Model, strictly prohibiting one-to-one entity mappings to prevent domain model leakage.",S19,1,bounded context encapsulation,Bondary Architecture Checking
+CR007,"API Contracts shall maintain an isolation layer from the Domain Model, strictly prohibiting one-to-one entity mappings to prevent domain model leakage.",S19,1,API-domain encapsulation,Bondary Architecture Checking
+CR007,"API Contracts shall maintain an isolation layer from the Domain Model, strictly prohibiting one-to-one entity mappings to prevent domain model leakage.",S19,1,domain exposure,Bondary Architecture Checking
+CR007,"API Contracts shall maintain an isolation layer from the Domain Model, strictly prohibiting one-to-one entity mappings to prevent domain model leakage.",S19,1,DDD constraint,Bondary Architecture Checking
+CR007,"API Contracts shall maintain an isolation layer from the Domain Model, strictly prohibiting one-to-one entity mappings to prevent domain model leakage.",S19,2,domain model leakage control,Bondary Architecture Checking
+CR008,"APIs shall use Embedded Data when immediate access is required; otherwise, they shall use distributed links or hypermedia.",S15;S18,2,API payload optimization,Bondary Architecture Checking
+CR008,"APIs shall use Embedded Data when immediate access is required; otherwise, they shall use distributed links or hypermedia.",S15;S18,2,data representation,Bondary Architecture Checking
+CR008,"APIs shall use Embedded Data when immediate access is required; otherwise, they shall use distributed links or hypermedia.",S15;S18,2,resource representation,Bondary Architecture Checking
+CR008,"APIs shall use Embedded Data when immediate access is required; otherwise, they shall use distributed links or hypermedia.",S15;S18,2,API response design,Bondary Architecture Checking
+CR009,Aggregate Roots shall be Entities.,S24;S27,2,entity-based aggregate root,Micro-Architecture Conformance Checking
+CR009,Aggregate Roots shall be Entities.,S24;S27,2,entities boundary consistence,Micro-Architecture Conformance Checking
+CR009,Aggregate Roots shall be Entities.,S24;S27,2,DDD constraint,Micro-Architecture Conformance Checking
+CR009,Aggregate Roots shall be Entities.,S24;S27,2,Aggregate Roots Design,Micro-Architecture Conformance Checking
+CR010,Aggregate internal objects shall not be referenced directly from outside the Aggregate.,S24,1,aggregate encapsulation,Micro-Architecture Conformance Checking
+CR010,Aggregate internal objects shall not be referenced directly from outside the Aggregate.,S24,1,consistency boundary enforcement,Micro-Architecture Conformance Checking
+CR010,Aggregate internal objects shall not be referenced directly from outside the Aggregate.,S24,1,DDD constraint,Micro-Architecture Conformance Checking
+CR011,Aggregate members shall be Entities or Value Objects.,S24,1,aggregate encapsulation,Micro-Architecture Conformance Checking
+CR011,Aggregate members shall be Entities or Value Objects.,S24,1,DDD constraint,Micro-Architecture Conformance Checking
+CR011,Aggregate members shall be Entities or Value Objects.,S24,1,structural domain consistency,Micro-Architecture Conformance Checking
+CR012,Aggregate members shall not belong to different Bounded Contexts.,S24,1,bounded context encapsulation,Micro-Architecture Conformance Checking
+CR012,Aggregate members shall not belong to different Bounded Contexts.,S24,1,domain boundary consistency,Micro-Architecture Conformance Checking
+CR012,Aggregate members shall not belong to different Bounded Contexts.,S24,1,DDD constraint,Micro-Architecture Conformance Checking
+CR013,Aggregates shall be accessed through Repositories.,S24,1,repository access pattern,Micro-Architecture Conformance Checking
+CR013,Aggregates shall be accessed through Repositories.,S24,1,DDD constraint,Micro-Architecture Conformance Checking
+CR013,Aggregates shall be accessed through Repositories.,S24,1,data access encapsulation,Micro-Architecture Conformance Checking
+CR013,Aggregates shall be accessed through Repositories.,S24,1,DDD repository enforcement,Micro-Architecture Conformance Checking
+CR014,Aggregates shall be created through Factories.,S24,1,aggregate factory creation,Micro-Architecture Conformance Checking
+CR014,Aggregates shall be created through Factories.,S24,1,controlled instantiation,Micro-Architecture Conformance Checking
+CR014,Aggregates shall be created through Factories.,S24,1,DDD constraint,Micro-Architecture Conformance Checking
+CR015,Aggregates shall contain at least one Entity or Value Object.,S27,1,minimum aggregate validity,Micro-Architecture Conformance Checking
+CR015,Aggregates shall contain at least one Entity or Value Object.,S27,1,aggregate semantic completeness,Micro-Architecture Conformance Checking
+CR015,Aggregates shall contain at least one Entity or Value Object.,S27,1,DDD constraint,Micro-Architecture Conformance Checking
+CR016,Aggregates shall contain only Aggregate Parts besides the Aggregate Root.,S24,1,aggregate structural purity,Micro-Architecture Conformance Checking
+CR016,Aggregates shall contain only Aggregate Parts besides the Aggregate Root.,S24,1,aggregate encapsulation,Micro-Architecture Conformance Checking
+CR016,Aggregates shall contain only Aggregate Parts besides the Aggregate Root.,S24,1,aggregate boundary,Micro-Architecture Conformance Checking
+CR016,Aggregates shall contain only Aggregate Parts besides the Aggregate Root.,S24,1,DDD constraint,Micro-Architecture Conformance Checking
+CR017,All API operations shall be exposed through Aggregator Endpoints.,S15,1,facade endpoint,Bondary Architecture Checking
+CR017,All API operations shall be exposed through Aggregator Endpoints.,S15,1,orchestration endpoints,Bondary Architecture Checking
+CR017,All API operations shall be exposed through Aggregator Endpoints.,S15,1,service layer encapsulation,Bondary Architecture Checking
+CR017,All API operations shall be exposed through Aggregator Endpoints.,S15,1,loose coupling,Bondary Architecture Checking
+CR017,All API operations shall be exposed through Aggregator Endpoints.,S15,1,domain exposure,Bondary Architecture Checking
+CR018,All components shall be independently deployable.,S02,1,independent deployment,Inter-Service Compliance Checking
+CR018,All components shall be independently deployable.,S02,1,microservice autonomy,Inter-Service Compliance Checking
+CR018,All components shall be independently deployable.,S02,1,deployment decoupling,Inter-Service Compliance Checking
+CR018,All components shall be independently deployable.,S02,1,service isolation,Inter-Service Compliance Checking
+CR019,All remote function calls shall be protected by the Circuit Breaker pattern.,S09,1,fault tolerance,Inter-Service Compliance Checking
+CR019,All remote function calls shall be protected by the Circuit Breaker pattern.,S09,1,remote call protection,Inter-Service Compliance Checking
+CR019,All remote function calls shall be protected by the Circuit Breaker pattern.,S09,1,cascading failure prevention,Inter-Service Compliance Checking
+CR019,All remote function calls shall be protected by the Circuit Breaker pattern.,S09,1,resilient communication design,Inter-Service Compliance Checking
+CR020,All replicas of a microservice shall be reachable by the services that invoke them.,S04;S10,2,replica accessibility,Inter-Service Compliance Checking
+CR020,All replicas of a microservice shall be reachable by the services that invoke them.,S04;S10,2,load balancing,Inter-Service Compliance Checking
+CR020,All replicas of a microservice shall be reachable by the services that invoke them.,S04;S10,2,service discovery,Inter-Service Compliance Checking
+CR021,All server nodes shall provide infrastructure observability mechanisms.,S16,1,infrastructure observability,Inter-Service Compliance Checking
+CR021,All server nodes shall provide infrastructure observability mechanisms.,S16,1,runtime observability,Inter-Service Compliance Checking
+CR022,Application logs shall be aggregated and managed in a centralized repository.,S16,1,centralized logging,Inter-Service Compliance Checking
+CR022,Application logs shall be aggregated and managed in a centralized repository.,S16,1,observability data centralization,Inter-Service Compliance Checking
+CR023,Applications shall access only service-layer components of other applications.,S01,1,service layer encapsulation,Bondary Architecture Checking
+CR023,Applications shall access only service-layer components of other applications.,S01,1,bounded service interface,Bondary Architecture Checking
+CR023,Applications shall access only service-layer components of other applications.,S01,1,service layer restriction,Bondary Architecture Checking
+CR023,Applications shall access only service-layer components of other applications.,S01,1,loose coupling,Bondary Architecture Checking
+CR024,Asynchronous operations shall not use synchronous communication protocols.,S20,1,async communication,Inter-Service Compliance Checking
+CR024,Asynchronous operations shall not use synchronous communication protocols.,S20,1,non-blocking architecture,Inter-Service Compliance Checking
+CR024,Asynchronous operations shall not use synchronous communication protocols.,S20,1,asynchronous system design constraint,Inter-Service Compliance Checking
+CR024,Asynchronous operations shall not use synchronous communication protocols.,S20,1,communication constraint,Inter-Service Compliance Checking
+CR025,Bounded Contexts shall exchange only Value Objects or Domain Events.,S27,1,bounded context encapsulation,Bondary Architecture Checking
+CR025,Bounded Contexts shall exchange only Value Objects or Domain Events.,S27,1,domain boundary protection,Bondary Architecture Checking
+CR025,Bounded Contexts shall exchange only Value Objects or Domain Events.,S27,1,DDD constraint,Bondary Architecture Checking
+CR026,"Business logic services shall access data access components, host access components, and host transaction components only within the same module.",S01,1,module encapsulation,Micro-Architecture Conformance Checking
+CR026,"Business logic services shall access data access components, host access components, and host transaction components only within the same module.",S01,1,modular dependency control,Micro-Architecture Conformance Checking
+CR026,"Business logic services shall access data access components, host access components, and host transaction components only within the same module.",S01,1,module cohesion,Micro-Architecture Conformance Checking
+CR026,"Business logic services shall access data access components, host access components, and host transaction components only within the same module.",S01,1,loose coupling,Micro-Architecture Conformance Checking
+CR027,CQRS endpoints shall be exposed through Aggregator Endpoints.,S15,1,CQRS endpoint aggregation,Bondary Architecture Checking
+CR027,CQRS endpoints shall be exposed through Aggregator Endpoints.,S15,1,API orchestration,Bondary Architecture Checking
+CR027,CQRS endpoints shall be exposed through Aggregator Endpoints.,S15,1,facade endpoint,Bondary Architecture Checking
+CR028,CQRS endpoints shall not omit event-based operations or bypass Aggregator Endpoints.,S15,1,CQRS architectural compliance,Bondary Architecture Checking
+CR028,CQRS endpoints shall not omit event-based operations or bypass Aggregator Endpoints.,S15,1,CQRS consistency,Bondary Architecture Checking
+CR028,CQRS endpoints shall not omit event-based operations or bypass Aggregator Endpoints.,S15,1,architectural constraint,Bondary Architecture Checking
+CR029,"CQRS endpoints shall drive state changes through event-based API Operations, preventing traditional or CRUD-like command implementations.",S15,1,event-driven,Bondary Architecture Checking
+CR029,"CQRS endpoints shall drive state changes through event-based API Operations, preventing traditional or CRUD-like command implementations.",S15,1,CQRS event,Bondary Architecture Checking
+CR029,"CQRS endpoints shall drive state changes through event-based API Operations, preventing traditional or CRUD-like command implementations.",S15,1,event-driven state mutation,Bondary Architecture Checking
+CR030,CRUD operations shall not be exposed through non-aggregator endpoints.,S15,1,facade endpoint,Bondary Architecture Checking
+CR030,CRUD operations shall not be exposed through non-aggregator endpoints.,S15,1,API aggregation,Bondary Architecture Checking
+CR030,CRUD operations shall not be exposed through non-aggregator endpoints.,S15,1,centralized API aggregation,Bondary Architecture Checking
+CR031,Clients shall not directly invoke internal system services.,S06;S11,2,internal service encapsulation,Bondary Architecture Checking
+CR031,Clients shall not directly invoke internal system services.,S06;S11,2,controlled service exposure,Bondary Architecture Checking
+CR031,Clients shall not directly invoke internal system services.,S06;S11,2,service isolation,Bondary Architecture Checking
+CR032,Command services shall expose state-changing operations only.,S20,1,command responsibility separation,Bondary Architecture Checking
+CR032,Command services shall expose state-changing operations only.,S20,1,CQRS command segregation,Bondary Architecture Checking
+CR032,Command services shall expose state-changing operations only.,S20,1,separation of concerns,Bondary Architecture Checking
+CR033,Communication between clients and services shall pass through dedicated API Gateways.,S25,1,API Gateway enforcement,Bondary Architecture Checking
+CR033,Communication between clients and services shall pass through dedicated API Gateways.,S25,1,centralized access control,Bondary Architecture Checking
+CR033,Communication between clients and services shall pass through dedicated API Gateways.,S25,1,architectural facade,Bondary Architecture Checking
+CR033,Communication between clients and services shall pass through dedicated API Gateways.,S25,1,communication constraint,Bondary Architecture Checking
+CR033,Communication between clients and services shall pass through dedicated API Gateways.,S25,1,API orchestration,Bondary Architecture Checking
+CR034,Communication between clients and system services shall be authorized using cryptographic tokens.,S25,1,token-based authentication,Bondary Architecture Checking
+CR034,Communication between clients and system services shall be authorized using cryptographic tokens.,S25,1,cryptographic authorization,Bondary Architecture Checking
+CR034,Communication between clients and system services shall be authorized using cryptographic tokens.,S25,1,secure service communication,Bondary Architecture Checking
+CR034,Communication between clients and system services shall be authorized using cryptographic tokens.,S25,1,access control,Bondary Architecture Checking
+CR034,Communication between clients and system services shall be authorized using cryptographic tokens.,S25,1,security constraint,Bondary Architecture Checking
+CR035,Communication between microservices should be asynchronous whenever possible.,S05;S12,2,async communication,Inter-Service Compliance Checking
+CR035,Communication between microservices should be asynchronous whenever possible.,S05;S12,2,non-blocking architecture,Inter-Service Compliance Checking
+CR035,Communication between microservices should be asynchronous whenever possible.,S05;S12,2,non-blocking service interaction,Inter-Service Compliance Checking
+CR035,Communication between microservices should be asynchronous whenever possible.,S05;S12,2,communication constraint,Inter-Service Compliance Checking
+CR036,"Components and connectors shall not contain, use, or store sensitive data in plain text.",S25,1,sensitive data protection,Micro-Architecture Conformance Checking
+CR036,"Components and connectors shall not contain, use, or store sensitive data in plain text.",S25,1,secure data handling,Micro-Architecture Conformance Checking
+CR036,"Components and connectors shall not contain, use, or store sensitive data in plain text.",S25,1,no plaintext storage,Micro-Architecture Conformance Checking
+CR036,"Components and connectors shall not contain, use, or store sensitive data in plain text.",S25,1,secure connectors,Micro-Architecture Conformance Checking
+CR036,"Components and connectors shall not contain, use, or store sensitive data in plain text.",S25,1,security constraint,Micro-Architecture Conformance Checking
+CR037,Components shall not share non-external dependencies.,S02,1,dependency isolation,Micro-Architecture Conformance Checking
+CR037,Components shall not share non-external dependencies.,S02,1,loose coupling,Micro-Architecture Conformance Checking
+CR037,Components shall not share non-external dependencies.,S02,1,service layer encapsulation,Micro-Architecture Conformance Checking
+CR037,Components shall not share non-external dependencies.,S02,1,controlled service exposure,Micro-Architecture Conformance Checking
+CR037,Components shall not share non-external dependencies.,S02,1,internal service encapsulation,Micro-Architecture Conformance Checking
+CR038,API Operations exposed by composition services must be strictly read-only to isolate data composition from state mutations.,S20,1,read-only composition services,Bondary Architecture Checking
+CR038,API Operations exposed by composition services must be strictly read-only to isolate data composition from state mutations.,S20,1,CQRS read model,Bondary Architecture Checking
+CR038,API Operations exposed by composition services must be strictly read-only to isolate data composition from state mutations.,S20,1,separation of concerns,Bondary Architecture Checking
+CR038,API Operations exposed by composition services must be strictly read-only to isolate data composition from state mutations.,S20,1,data aggregation layer,Bondary Architecture Checking
+CR038,API Operations exposed by composition services must be strictly read-only to isolate data composition from state mutations.,S20,1,API orchestration,Bondary Architecture Checking
+CR039,"To ensure architecture-to-code consistency, all DDD annotations in the Implementation must formally conform to the LEMMA reference model.",S27,1,model consistency,Micro-Architecture Conformance Checking
+CR039,"To ensure architecture-to-code consistency, all DDD annotations in the Implementation must formally conform to the LEMMA reference model.",S27,1,reference model alignment,Micro-Architecture Conformance Checking
+CR039,"To ensure architecture-to-code consistency, all DDD annotations in the Implementation must formally conform to the LEMMA reference model.",S27,1,DDD constraint,Micro-Architecture Conformance Checking
+CR039,"To ensure architecture-to-code consistency, all DDD annotations in the Implementation must formally conform to the LEMMA reference model.",S27,1,Code-domain mapping,Micro-Architecture Conformance Checking
+CR040,Data access components (DAOs) shall not access business logic services or other DAOs.,S01,1,DAO isolation,Micro-Architecture Conformance Checking
+CR040,Data access components (DAOs) shall not access business logic services or other DAOs.,S01,1,persistence layer purity,Micro-Architecture Conformance Checking
+CR040,Data access components (DAOs) shall not access business logic services or other DAOs.,S01,1,separation of concerns,Micro-Architecture Conformance Checking
+CR040,Data access components (DAOs) shall not access business logic services or other DAOs.,S01,1,persistence responsibility restriction,Micro-Architecture Conformance Checking
+CR040,Data access components (DAOs) shall not access business logic services or other DAOs.,S01,1,data access encapsulation,Micro-Architecture Conformance Checking
+CR041,Data composition shall be performed by a dedicated composition service using synchronous service calls.,S20,1,composition service pattern,Inter-Service Compliance Checking
+CR041,Data composition shall be performed by a dedicated composition service using synchronous service calls.,S20,1,centralized data aggregation,Inter-Service Compliance Checking
+CR041,Data composition shall be performed by a dedicated composition service using synchronous service calls.,S20,1,synchronous data composition,Inter-Service Compliance Checking
+CR041,Data composition shall be performed by a dedicated composition service using synchronous service calls.,S20,1,separation of concerns,Inter-Service Compliance Checking
+CR042,Different applications should communicate through Web Services or remote EJBs.,S01,1,standardized inter-application communication,Bondary Architecture Checking
+CR042,Different applications should communicate through Web Services or remote EJBs.,S01,1,service-oriented integration,Bondary Architecture Checking
+CR042,Different applications should communicate through Web Services or remote EJBs.,S01,1,remote service invocation,Bondary Architecture Checking
+CR042,Different applications should communicate through Web Services or remote EJBs.,S01,1,communication constraint,Bondary Architecture Checking
+CR043,Domain Event identity shall be defined by one or more attributes.,S24,1,domain event identity,Micro-Architecture Conformance Checking
+CR043,Domain Event identity shall be defined by one or more attributes.,S24,1,event traceability,Micro-Architecture Conformance Checking
+CR043,Domain Event identity shall be defined by one or more attributes.,S24,1,event metadata modeling,Micro-Architecture Conformance Checking
+CR043,Domain Event identity shall be defined by one or more attributes.,S24,1,event-driven,Micro-Architecture Conformance Checking
+CR044,Domain Events shall be immutable.,S24,1,event immutability,Micro-Architecture Conformance Checking
+CR044,Domain Events shall be immutable.,S24,1,event-driven,Micro-Architecture Conformance Checking
+CR044,Domain Events shall be immutable.,S24,1,event integrity,Micro-Architecture Conformance Checking
+CR045,Domain Events shall include a timestamp.,S24,1,event timestamping,Micro-Architecture Conformance Checking
+CR045,Domain Events shall include a timestamp.,S24,1,temporal traceability,Micro-Architecture Conformance Checking
+CR045,Domain Events shall include a timestamp.,S24,1,event-driven,Micro-Architecture Conformance Checking
+CR046,Domain Events shall specify both publisher and subscriber.,S24,1,event communication traceability,Micro-Architecture Conformance Checking
+CR046,Domain Events shall specify both publisher and subscriber.,S24,1,event interaction modeling,Micro-Architecture Conformance Checking
+CR046,Domain Events shall specify both publisher and subscriber.,S24,1,event participant traceability,Micro-Architecture Conformance Checking
+CR046,Domain Events shall specify both publisher and subscriber.,S24,1,event-driven,Micro-Architecture Conformance Checking
+CR047,Domain Services shall be stateless.,S24,1,service stateless,Micro-Architecture Conformance Checking
+CR047,Domain Services shall be stateless.,S24,1,DDD constraint,Micro-Architecture Conformance Checking
+CR047,Domain Services shall be stateless.,S24,1,domain service purity,Micro-Architecture Conformance Checking
+CR048,Domain Services shall not implement multiple DDD patterns simultaneously.,S24,1,DDD pattern separation,Micro-Architecture Conformance Checking
+CR048,Domain Services shall not implement multiple DDD patterns simultaneously.,S24,1,separation of concerns,Micro-Architecture Conformance Checking
+CR048,Domain Services shall not implement multiple DDD patterns simultaneously.,S24,1,DDD constraint,Micro-Architecture Conformance Checking
+CR049,Each API shall provide both a formal API contract and a structured API description.,S19,1,API contract specification,Bondary Architecture Checking
+CR049,Each API shall provide both a formal API contract and a structured API description.,S19,1,interface specification,Bondary Architecture Checking
+CR049,Each API shall provide both a formal API contract and a structured API description.,S19,1,API domain mapping,Bondary Architecture Checking
+CR050,Each API shall provide both an API description and an API contract.,S19,1,API contract specification,Bondary Architecture Checking
+CR050,Each API shall provide both an API description and an API contract.,S19,1,interface specification,Bondary Architecture Checking
+CR050,Each API shall provide both an API description and an API contract.,S19,1,API domain mapping,Bondary Architecture Checking
+CR051,Each Aggregate shall contain at least one Aggregate Part.,S27,1,aggregate composition rules,Micro-Architecture Conformance Checking
+CR051,Each Aggregate shall contain at least one Aggregate Part.,S27,1,DDD constraint,Micro-Architecture Conformance Checking
+CR051,Each Aggregate shall contain at least one Aggregate Part.,S27,1,structural consistency,Micro-Architecture Conformance Checking
+CR052,Each Aggregate shall have exactly one Aggregate Root.,S24,1,single aggregate root,Micro-Architecture Conformance Checking
+CR052,Each Aggregate shall have exactly one Aggregate Root.,S24,1,consistency boundary,Micro-Architecture Conformance Checking
+CR052,Each Aggregate shall have exactly one Aggregate Root.,S24,1,aggregate encapsulation,Micro-Architecture Conformance Checking
+CR052,Each Aggregate shall have exactly one Aggregate Root.,S24,1,DDD constraint,Micro-Architecture Conformance Checking
+CR052,Each Aggregate shall have exactly one Aggregate Root.,S24,1,structural consistency,Micro-Architecture Conformance Checking
+CR053,Each Domain Event shall have exactly one identity.,S24,1,event identification,Micro-Architecture Conformance Checking
+CR053,Each Domain Event shall have exactly one identity.,S24,1,event consistency,Micro-Architecture Conformance Checking
+CR053,Each Domain Event shall have exactly one identity.,S24,1,identifiable events,Micro-Architecture Conformance Checking
+CR053,Each Domain Event shall have exactly one identity.,S24,1,event-driven,Micro-Architecture Conformance Checking
+CR053,Each Domain Event shall have exactly one identity.,S24,1,DDD constraint,Micro-Architecture Conformance Checking
+CR054,Each Entity shall define an Identifier.,S27,1,entity identity,Micro-Architecture Conformance Checking
+CR054,Each Entity shall define an Identifier.,S27,1,DDD entity modeling,Micro-Architecture Conformance Checking
+CR054,Each Entity shall define an Identifier.,S27,1,DDD constraint,Micro-Architecture Conformance Checking
+CR054,Each Entity shall define an Identifier.,S27,1,structural consistency,Micro-Architecture Conformance Checking
+CR055,Each Entity shall have exactly one identity.,S24,1,entity identity,Micro-Architecture Conformance Checking
+CR055,Each Entity shall have exactly one identity.,S24,1,DDD constraint,Micro-Architecture Conformance Checking
+CR055,Each Entity shall have exactly one identity.,S24,1,entity consistency,Micro-Architecture Conformance Checking
+CR055,Each Entity shall have exactly one identity.,S24,1,structural consistency,Micro-Architecture Conformance Checking
+CR056,Each client shall be limited to four requests per second using the Rate Limiting pattern.,S09,1,rate limiting,Bondary Architecture Checking
+CR056,Each client shall be limited to four requests per second using the Rate Limiting pattern.,S09,1,service availability,Bondary Architecture Checking
+CR056,Each client shall be limited to four requests per second using the Rate Limiting pattern.,S09,1,fault tolerance,Bondary Architecture Checking
+CR056,Each client shall be limited to four requests per second using the Rate Limiting pattern.,S09,1,cascading failure prevention,Bondary Architecture Checking
+CR056,Each client shall be limited to four requests per second using the Rate Limiting pattern.,S09,1,resilient communication design,Bondary Architecture Checking
+CR057,Each data store shall be accessed directly by only one service.,S04;S10,2,database encapsulation,Inter-Service Compliance Checking
+CR057,Each data store shall be accessed directly by only one service.,S04;S10,2,database per microservice,Inter-Service Compliance Checking
+CR057,Each data store shall be accessed directly by only one service.,S04;S10,2,persistence isolation,Inter-Service Compliance Checking
+CR057,Each data store shall be accessed directly by only one service.,S04;S10,2,data access encapsulation,Inter-Service Compliance Checking
+CR058,Each database shall be owned and accessed directly by only one microservice.,S20,1,database per microservice,Inter-Service Compliance Checking
+CR058,Each database shall be owned and accessed directly by only one microservice.,S20,1,exclusive database ownership,Inter-Service Compliance Checking
+CR058,Each database shall be owned and accessed directly by only one microservice.,S20,1,database encapsulation,Inter-Service Compliance Checking
+CR058,Each database shall be owned and accessed directly by only one microservice.,S20,1,persistence isolation,Inter-Service Compliance Checking
+CR059,Each host transaction component shall be included only once within a module.,S01,1,transaction component uniqueness,Micro-Architecture Conformance Checking
+CR059,Each host transaction component shall be included only once within a module.,S01,1,module consistency,Micro-Architecture Conformance Checking
+CR059,Each host transaction component shall be included only once within a module.,S01,1,controlled instantiation,Micro-Architecture Conformance Checking
+CR059,Each host transaction component shall be included only once within a module.,S01,1,module integrity,Micro-Architecture Conformance Checking
+CR060,Each microservice shall execute on an independent host or container.,S20,1,deployment isolation,Inter-Service Compliance Checking
+CR060,Each microservice shall execute on an independent host or container.,S20,1,container isolation,Inter-Service Compliance Checking
+CR060,Each microservice shall execute on an independent host or container.,S20,1,microservice deployment,Inter-Service Compliance Checking
+CR060,Each microservice shall execute on an independent host or container.,S20,1,fault tolerance,Inter-Service Compliance Checking
+CR060,Each microservice shall execute on an independent host or container.,S20,1,microservice independence,Inter-Service Compliance Checking
+CR061,Each microservice should implement a single responsibility.,S03,1,single responsibility,Inter-Service Compliance Checking
+CR061,Each microservice should implement a single responsibility.,S03,1,service cohesion,Inter-Service Compliance Checking
+CR061,Each microservice should implement a single responsibility.,S03,1,service isolation,Inter-Service Compliance Checking
+CR061,Each microservice should implement a single responsibility.,S03,1,bounded responsibility,Inter-Service Compliance Checking
+CR062,Domain entities shall not be exposed directly as API endpoints.,S19,1,API orchestration,Bondary Architecture Checking
+CR062,Domain entities shall not be exposed directly as API endpoints.,S19,1,encapsulated domain model,Bondary Architecture Checking
+CR062,Domain entities shall not be exposed directly as API endpoints.,S19,1,bounded context encapsulation,Bondary Architecture Checking
+CR062,Domain entities shall not be exposed directly as API endpoints.,S19,1,domain exposure,Bondary Architecture Checking
+CR062,Domain entities shall not be exposed directly as API endpoints.,S19,1,DDD constraint,Bondary Architecture Checking
+CR063,Domain entities shall be defined by one or more attributes.,S24,1,entity identification,Micro-Architecture Conformance Checking
+CR063,Domain entities shall be defined by one or more attributes.,S24,1,domain identity modeling,Micro-Architecture Conformance Checking
+CR063,Domain entities shall be defined by one or more attributes.,S24,1,DDD identity,Micro-Architecture Conformance Checking
+CR063,Domain entities shall be defined by one or more attributes.,S24,1,DDD constraint,Micro-Architecture Conformance Checking
+CR064,Every model element defined in LEMMA shall have a corresponding implementation in Jolie.,S27,1,code-domain mapping,Micro-Architecture Conformance Checking
+CR064,Every model element defined in LEMMA shall have a corresponding implementation in Jolie.,S27,1,structural consistency,Micro-Architecture Conformance Checking
+CR064,Every model element defined in LEMMA shall have a corresponding implementation in Jolie.,S27,1,model consistency,Micro-Architecture Conformance Checking
+CR065,"Factories shall create only Entities, Value Objects, or Aggregate Roots.",S24,1,factory responsibility,Micro-Architecture Conformance Checking
+CR065,"Factories shall create only Entities, Value Objects, or Aggregate Roots.",S24,1,domain object creation,Micro-Architecture Conformance Checking
+CR065,"Factories shall create only Entities, Value Objects, or Aggregate Roots.",S24,1,controlled instantiation,Micro-Architecture Conformance Checking
+CR065,"Factories shall create only Entities, Value Objects, or Aggregate Roots.",S24,1,DDD constraint,Micro-Architecture Conformance Checking
+CR066,Factories shall not implement multiple DDD patterns simultaneously.,S24,1,DDD constraint,Micro-Architecture Conformance Checking
+CR066,Factories shall not implement multiple DDD patterns simultaneously.,S24,1,separation of concerns,Micro-Architecture Conformance Checking
+CR066,Factories shall not implement multiple DDD patterns simultaneously.,S24,1,DDD pattern isolation,Micro-Architecture Conformance Checking
+CR067,Factories shall specify the object they create.,S24,1,factory responsibility,Micro-Architecture Conformance Checking
+CR067,Factories shall specify the object they create.,S24,1,DDD factory definition,Micro-Architecture Conformance Checking
+CR067,Factories shall specify the object they create.,S24,1,object creation specification,Micro-Architecture Conformance Checking
+CR067,Factories shall specify the object they create.,S24,1,factory semantic,Micro-Architecture Conformance Checking
+CR068,Failed application component instances shall be detected and replaced using the Watchdog pattern.,S09,1,automatic failure recovery,Inter-Service Compliance Checking
+CR068,Failed application component instances shall be detected and replaced using the Watchdog pattern.,S09,1,failure detection,Inter-Service Compliance Checking
+CR068,Failed application component instances shall be detected and replaced using the Watchdog pattern.,S09,1,fault tolerance,Inter-Service Compliance Checking
+CR069,Formal API contracts shall be accompanied by an informal description.,S19,1,API documentation,Bondary Architecture Checking
+CR069,Formal API contracts shall be accompanied by an informal description.,S19,1,interface documentation,Bondary Architecture Checking
+CR069,Formal API contracts shall be accompanied by an informal description.,S19,1,complementary API description,Bondary Architecture Checking
+CR070,Host transaction components shall not have outgoing connections.,S01,1,dependency restriction,Micro-Architecture Conformance Checking
+CR070,Host transaction components shall not have outgoing connections.,S01,1,modular integrity,Micro-Architecture Conformance Checking
+CR070,Host transaction components shall not have outgoing connections.,S01,1,architectural encapsulation,Micro-Architecture Conformance Checking
+CR070,Host transaction components shall not have outgoing connections.,S01,1,structural consistency,Micro-Architecture Conformance Checking
+CR071,"If service sharing is unavoidable, coupling between services should be minimized.",S05;S12,2,loose coupling,Inter-Service Compliance Checking
+CR071,"If service sharing is unavoidable, coupling between services should be minimized.",S05;S12,2,service autonomy,Inter-Service Compliance Checking
+CR071,"If service sharing is unavoidable, coupling between services should be minimized.",S05;S12,2,service decoupling,Inter-Service Compliance Checking
+CR072,Individual services shall be monitored to ensure availability and operational status.,S16,1,service observability,Inter-Service Compliance Checking
+CR072,Individual services shall be monitored to ensure availability and operational status.,S16,1,runtime monitoring,Inter-Service Compliance Checking
+CR073,Infrastructure stacks shall be organized according to team responsibilities to preserve independent deployment and scalability.,S17;S21,2,infrastructure ownership,Inter-Service Compliance Checking
+CR073,Infrastructure stacks shall be organized according to team responsibilities to preserve independent deployment and scalability.,S17;S21,2,deployment autonomy,Inter-Service Compliance Checking
+CR073,Infrastructure stacks shall be organized according to team responsibilities to preserve independent deployment and scalability.,S17;S21,2,scalable infrastructure organization,Inter-Service Compliance Checking
+CR073,Infrastructure stacks shall be organized according to team responsibilities to preserve independent deployment and scalability.,S17;S21,2,infrastructure coupling,Inter-Service Compliance Checking
+CR074,Ingress and egress controls shall be implemented using Security Groups.,S16,1,network security,Inter-Service Compliance Checking
+CR074,Ingress and egress controls shall be implemented using Security Groups.,S16,1,infrastructure security,Inter-Service Compliance Checking
+CR074,Ingress and egress controls shall be implemented using Security Groups.,S16,1,secure network boundaries,Inter-Service Compliance Checking
+CR074,Ingress and egress controls shall be implemented using Security Groups.,S16,1,security constraint,Inter-Service Compliance Checking
+CR075,Inter-service messages shall not be lost.,S06;S11,2,message durability,Inter-Service Compliance Checking
+CR075,Inter-service messages shall not be lost.,S06;S11,2,guaranteed message delivery,Inter-Service Compliance Checking
+CR075,Inter-service messages shall not be lost.,S06;S11,2,fault tolerance,Inter-Service Compliance Checking
+CR075,Inter-service messages shall not be lost.,S06;S11,2,communication constraint,Inter-Service Compliance Checking
+CR076,Internal Bounded Contexts shall not be exposed through the API.,S19,1,bounded context encapsulation,Bondary Architecture Checking
+CR076,Internal Bounded Contexts shall not be exposed through the API.,S19,1,domain encapsulation,Bondary Architecture Checking
+CR076,Internal Bounded Contexts shall not be exposed through the API.,S19,1,context isolation,Bondary Architecture Checking
+CR076,Internal Bounded Contexts shall not be exposed through the API.,S19,1,DDD constraint,Bondary Architecture Checking
+CR077,Microservice replica configurations shall be independent.,S20,1,replica independence,Inter-Service Compliance Checking
+CR077,Microservice replica configurations shall be independent.,S20,1,scalable deployment,Inter-Service Compliance Checking
+CR077,Microservice replica configurations shall be independent.,S20,1,instance autonomy,Inter-Service Compliance Checking
+CR077,Microservice replica configurations shall be independent.,S20,1,service discovery,Inter-Service Compliance Checking
+CR078,Microservices shall access external data only through APIs or events.,S20,1,service encapsulation,Inter-Service Compliance Checking
+CR078,Microservices shall access external data only through APIs or events.,S20,1,loose coupling,Inter-Service Compliance Checking
+CR078,Microservices shall access external data only through APIs or events.,S20,1,service boundary,Inter-Service Compliance Checking
+CR078,Microservices shall access external data only through APIs or events.,S20,1,communication constraint,Inter-Service Compliance Checking
+CR079,Microservices shall avoid becoming bottleneck services.,S22,1,bottleneck prevention,Inter-Service Compliance Checking
+CR079,Microservices shall avoid becoming bottleneck services.,S22,1,load balancing,Inter-Service Compliance Checking
+CR079,Microservices shall avoid becoming bottleneck services.,S22,1,service distribution,Inter-Service Compliance Checking
+CR079,Microservices shall avoid becoming bottleneck services.,S22,1,scalable service design,Inter-Service Compliance Checking
+CR080,Microservices shall avoid excessive outgoing dependencies.,S22,1,loose coupling,Inter-Service Compliance Checking
+CR080,Microservices shall avoid excessive outgoing dependencies.,S22,1,microservice independence,Inter-Service Compliance Checking
+CR080,Microservices shall avoid excessive outgoing dependencies.,S22,1,service autonomy,Inter-Service Compliance Checking
+CR081,Microservices shall be independently deployable and scalable with low deployment coupling.,S17;S21,2,independent deployment,Inter-Service Compliance Checking
+CR081,Microservices shall be independently deployable and scalable with low deployment coupling.,S17;S21,2,service isolation,Inter-Service Compliance Checking
+CR081,Microservices shall be independently deployable and scalable with low deployment coupling.,S17;S21,2,loose coupling,Inter-Service Compliance Checking
+CR082,Microservices shall be independently deployable.,S03,1,independent deployment,Inter-Service Compliance Checking
+CR082,Microservices shall be independently deployable.,S03,1,service isolation,Inter-Service Compliance Checking
+CR082,Microservices shall be independently deployable.,S03,1,loose coupling,Inter-Service Compliance Checking
+CR083,Microservices shall be scalable.,S03,1,service scalability,Inter-Service Compliance Checking
+CR083,Microservices shall be scalable.,S03,1,horizontal scaling,Inter-Service Compliance Checking
+CR083,Microservices shall be scalable.,S03,1,service autonomy,Inter-Service Compliance Checking
+CR083,Microservices shall be scalable.,S03,1,loose coupling,Inter-Service Compliance Checking
+CR084,"Microservices shall be small, independent, and focused on a single responsibility.",S22,1,service cohesion,Inter-Service Compliance Checking
+CR084,"Microservices shall be small, independent, and focused on a single responsibility.",S22,1,loose coupling,Inter-Service Compliance Checking
+CR084,"Microservices shall be small, independent, and focused on a single responsibility.",S22,1,single responsibility,Inter-Service Compliance Checking
+CR084,"Microservices shall be small, independent, and focused on a single responsibility.",S22,1,independent services,Inter-Service Compliance Checking
+CR085,Microservices shall be technology independent.,S03,1,technology independence,Inter-Service Compliance Checking
+CR085,Microservices shall be technology independent.,S03,1,polyglot architecture,Inter-Service Compliance Checking
+CR085,Microservices shall be technology independent.,S03,1,service autonomy,Inter-Service Compliance Checking
+CR086,Microservices shall communicate through a message broker or message queue without direct knowledge of the receiver's network address.,S20,1,async communication,Inter-Service Compliance Checking
+CR086,Microservices shall communicate through a message broker or message queue without direct knowledge of the receiver's network address.,S20,1,broker-mediated communication,Inter-Service Compliance Checking
+CR086,Microservices shall communicate through a message broker or message queue without direct knowledge of the receiver's network address.,S20,1,non-blocking architecture,Inter-Service Compliance Checking
+CR086,Microservices shall communicate through a message broker or message queue without direct knowledge of the receiver's network address.,S20,1,communication constraint,Inter-Service Compliance Checking
+CR087,Microservices shall have independent lifecycles.,S03,1,service autonomy,Inter-Service Compliance Checking
+CR087,Microservices shall have independent lifecycles.,S03,1,service isolation,Inter-Service Compliance Checking
+CR088,Microservices shall maintain deployment independence.,S14,1,independent deployment,Inter-Service Compliance Checking
+CR088,Microservices shall maintain deployment independence.,S14,1,service isolation,Inter-Service Compliance Checking
+CR088,Microservices shall maintain deployment independence.,S14,1,deployment autonomy,Inter-Service Compliance Checking
+CR088,Microservices shall maintain deployment independence.,S14,1,loose coupling,Inter-Service Compliance Checking
+CR089,Microservices shall not depend on shared host libraries.,S20,1,loose coupling,Inter-Service Compliance Checking
+CR089,Microservices shall not depend on shared host libraries.,S20,1,dependency isolation,Inter-Service Compliance Checking
+CR089,Microservices shall not depend on shared host libraries.,S20,1,infrastructure independence,Inter-Service Compliance Checking
+CR089,Microservices shall not depend on shared host libraries.,S20,1,service encapsulation,Inter-Service Compliance Checking
+CR090,Microservices shall not have cyclic dependencies.,S14;S22,2,loose coupling,Inter-Service Compliance Checking
+CR090,Microservices shall not have cyclic dependencies.,S14;S22,2,acyclic dependencies,Inter-Service Compliance Checking
+CR091,Microservices should avoid bottlenecks and excessive network latency.,S03,1,bottleneck prevention,Inter-Service Compliance Checking
+CR091,Microservices should avoid bottlenecks and excessive network latency.,S03,1,load balancing,Inter-Service Compliance Checking
+CR091,Microservices should avoid bottlenecks and excessive network latency.,S03,1,service distribution,Inter-Service Compliance Checking
+CR091,Microservices should avoid bottlenecks and excessive network latency.,S03,1,network limitation,Inter-Service Compliance Checking
+CR092,Microservices should avoid sharing other services.,S05;S12,2,single responsibility,Inter-Service Compliance Checking
+CR092,Microservices should avoid sharing other services.,S05;S12,2,loose coupling,Inter-Service Compliance Checking
+CR092,Microservices should avoid sharing other services.,S05;S12,2,dependency isolation,Inter-Service Compliance Checking
+CR093,"Microservices should be loosely coupled to enable independent development, deployment, and scalability.",S05;S12,2,loose coupling,Inter-Service Compliance Checking
+CR093,"Microservices should be loosely coupled to enable independent development, deployment, and scalability.",S05;S12,2,service autonomy,Inter-Service Compliance Checking
+CR093,"Microservices should be loosely coupled to enable independent development, deployment, and scalability.",S05;S12,2,microservice independence,Inter-Service Compliance Checking
+CR094,Microservices should be organized around business capabilities.,S03,1,domain-driven decomposition,Inter-Service Compliance Checking
+CR094,Microservices should be organized around business capabilities.,S03,1,service cohesion,Inter-Service Compliance Checking
+CR094,Microservices should be organized around business capabilities.,S03,1,bounded context alignment,Inter-Service Compliance Checking
+CR094,Microservices should be organized around business capabilities.,S03,1,business capability alignment,Inter-Service Compliance Checking
+CR095,Microservices should exhibit loose coupling and high cohesion.,S03,1,loose coupling,Inter-Service Compliance Checking
+CR095,Microservices should exhibit loose coupling and high cohesion.,S03,1,service cohesion,Inter-Service Compliance Checking
+CR095,Microservices should exhibit loose coupling and high cohesion.,S03,1,separation of concerns,Inter-Service Compliance Checking
+CR095,Microservices should exhibit loose coupling and high cohesion.,S03,1,service autonomy,Inter-Service Compliance Checking
+CR096,Microservices should minimize network complexity.,S03,1,efficient communication,Inter-Service Compliance Checking
+CR096,Microservices should minimize network complexity.,S03,1,service interaction optimization,Inter-Service Compliance Checking
+CR096,Microservices should minimize network complexity.,S03,1,network simplicity,Inter-Service Compliance Checking
+CR097,Microservices should not be organized around business entities.,S03,1,business capability alignment,Inter-Service Compliance Checking
+CR097,Microservices should not be organized around business entities.,S03,1,domain-driven decomposition,Inter-Service Compliance Checking
+CR097,Microservices should not be organized around business entities.,S03,1,bounded context alignment,Inter-Service Compliance Checking
+CR098,Microservices should not have cyclic dependencies.,S03,1,loose coupling,Inter-Service Compliance Checking
+CR098,Microservices should not have cyclic dependencies.,S03,1,acyclic dependencies,Inter-Service Compliance Checking
+CR098,Microservices should not have cyclic dependencies.,S03,1,dependency management,Inter-Service Compliance Checking
+CR099,Microservices should remain small.,S03,1,bounded responsibility,Inter-Service Compliance Checking
+CR099,Microservices should remain small.,S03,1,service granularity,Inter-Service Compliance Checking
+CR099,Microservices should remain small.,S03,1,small service,Inter-Service Compliance Checking
+CR099,Microservices should remain small.,S03,1,service cohesion,Inter-Service Compliance Checking
+CR100,Microservices should support end-to-end tracing and monitoring.,S06;S11,2,request traceability,Inter-Service Compliance Checking
+CR100,Microservices should support end-to-end tracing and monitoring.,S06;S11,2,distributed tracing,Inter-Service Compliance Checking
+CR100,Microservices should support end-to-end tracing and monitoring.,S06;S11,2,service observability,Inter-Service Compliance Checking
+CR100,Microservices should support end-to-end tracing and monitoring.,S06;S11,2,runtime monitoring,Inter-Service Compliance Checking
+CR101,Microservices should tolerate failures in calls to dependent services.,S04;S10,2,fault tolerance,Inter-Service Compliance Checking
+CR101,Microservices should tolerate failures in calls to dependent services.,S04;S10,2,service resilience,Inter-Service Compliance Checking
+CR101,Microservices should tolerate failures in calls to dependent services.,S04;S10,2,failure isolation,Inter-Service Compliance Checking
+CR102,Operating system performance and resource metrics shall be collected.,S16,1,infrastructure monitoring,Inter-Service Compliance Checking
+CR102,Operating system performance and resource metrics shall be collected.,S16,1,infrastructure observability,Inter-Service Compliance Checking
+CR102,Operating system performance and resource metrics shall be collected.,S16,1,resources monitoring,Inter-Service Compliance Checking
+CR103,Public interfaces of a Bounded Context shall return only Value Objects or Domain Events.,S27,1,bounded context encapsulation,Bondary Architecture Checking
+CR103,Public interfaces of a Bounded Context shall return only Value Objects or Domain Events.,S27,1,value object exposure,Bondary Architecture Checking
+CR103,Public interfaces of a Bounded Context shall return only Value Objects or Domain Events.,S27,1,domain event exposure,Bondary Architecture Checking
+CR103,Public interfaces of a Bounded Context shall return only Value Objects or Domain Events.,S27,1,domain model protection,Bondary Architecture Checking
+CR104,Query services shall expose read operations only.,S20,1,CQRS query separation,Bondary Architecture Checking
+CR104,Query services shall expose read operations only.,S20,1,read-only services,Bondary Architecture Checking
+CR104,Query services shall expose read operations only.,S20,1,separation of concerns,Bondary Architecture Checking
+CR105,"Repositories shall access only Entities, Value Objects, or Aggregate Roots.",S24,1,repository responsability,Micro-Architecture Conformance Checking
+CR105,"Repositories shall access only Entities, Value Objects, or Aggregate Roots.",S24,1,DDD constraint,Micro-Architecture Conformance Checking
+CR105,"Repositories shall access only Entities, Value Objects, or Aggregate Roots.",S24,1,persistence control,Micro-Architecture Conformance Checking
+CR105,"Repositories shall access only Entities, Value Objects, or Aggregate Roots.",S24,1,separation of concerns,Micro-Architecture Conformance Checking
+CR106,Repositories shall not define attributes.,S24,1,repository responsability,Micro-Architecture Conformance Checking
+CR106,Repositories shall not define attributes.,S24,1,stateless repository,Micro-Architecture Conformance Checking
+CR106,Repositories shall not define attributes.,S24,1,persistence separation,Micro-Architecture Conformance Checking
+CR107,Repositories shall not implement multiple DDD patterns simultaneously.,S24,1,repository responsability,Micro-Architecture Conformance Checking
+CR107,Repositories shall not implement multiple DDD patterns simultaneously.,S24,1,DDD pattern isolation,Micro-Architecture Conformance Checking
+CR107,Repositories shall not implement multiple DDD patterns simultaneously.,S24,1,separation of concerns,Micro-Architecture Conformance Checking
+CR108,Repositories shall specify the object they access.,S24,1,persistence responsability,Micro-Architecture Conformance Checking
+CR108,Repositories shall specify the object they access.,S24,1,domain persistence mapping,Micro-Architecture Conformance Checking
+CR108,Repositories shall specify the object they access.,S24,1,persistence control,Micro-Architecture Conformance Checking
+CR109,Server nodes shall enforce inbound traffic filtering through virtual firewalls.,S16,1,network security,Inter-Service Compliance Checking
+CR109,Server nodes shall enforce inbound traffic filtering through virtual firewalls.,S16,1,access control,Inter-Service Compliance Checking
+CR109,Server nodes shall enforce inbound traffic filtering through virtual firewalls.,S16,1,traffic filter,Inter-Service Compliance Checking
+CR109,Server nodes shall enforce inbound traffic filtering through virtual firewalls.,S16,1,infrastructure security,Inter-Service Compliance Checking
+CR110,Server nodes shall restrict outbound network traffic to prevent external attacks and data leakage.,S16,1,data leakage prevention,Inter-Service Compliance Checking
+CR110,Server nodes shall restrict outbound network traffic to prevent external attacks and data leakage.,S16,1,network security,Inter-Service Compliance Checking
+CR110,Server nodes shall restrict outbound network traffic to prevent external attacks and data leakage.,S16,1,infrastructure security,Inter-Service Compliance Checking
+CR111,"Servers shall collect application logs for availability, debugging, and resource monitoring.",S16,1,runtime monitoring,Inter-Service Compliance Checking
+CR111,"Servers shall collect application logs for availability, debugging, and resource monitoring.",S16,1,application logging,Inter-Service Compliance Checking
+CR111,"Servers shall collect application logs for availability, debugging, and resource monitoring.",S16,1,resources monitoring,Inter-Service Compliance Checking
+CR112,Service coupling shall not increase during system evolution.,S13,1,coupling control,Inter-Service Compliance Checking
+CR112,Service coupling shall not increase during system evolution.,S13,1,architectural evolution,Inter-Service Compliance Checking
+CR112,Service coupling shall not increase during system evolution.,S13,1,dependency management,Inter-Service Compliance Checking
+CR113,Services belonging to different domains shall communicate through Web Services.,S01,1,communication constraint,Bondary Architecture Checking
+CR113,Services belonging to different domains shall communicate through Web Services.,S01,1,inter-domain communication,Bondary Architecture Checking
+CR113,Services belonging to different domains shall communicate through Web Services.,S01,1,service-oriented integration,Bondary Architecture Checking
+CR114,Services belonging to different modules of the same application shall communicate through local EJBs.,S01,1,communication constraint,Micro-Architecture Conformance Checking
+CR114,Services belonging to different modules of the same application shall communicate through local EJBs.,S01,1,module communication,Micro-Architecture Conformance Checking
+CR114,Services belonging to different modules of the same application shall communicate through local EJBs.,S01,1,local service invocation,Micro-Architecture Conformance Checking
+CR114,Services belonging to different modules of the same application shall communicate through local EJBs.,S01,1,local interface communication,Micro-Architecture Conformance Checking
+CR115,Services within the same module shall communicate through local EJBs.,S01,1,communication constraint,Micro-Architecture Conformance Checking
+CR115,Services within the same module shall communicate through local EJBs.,S01,1,local service invocation,Micro-Architecture Conformance Checking
+CR115,Services within the same module shall communicate through local EJBs.,S01,1,local interface communication,Micro-Architecture Conformance Checking
+CR116,The circuit breaker shall open after three consecutive failed remote calls.,S09,1,fault tolerance,Inter-Service Compliance Checking
+CR116,The circuit breaker shall open after three consecutive failed remote calls.,S09,1,circuit breaker,Inter-Service Compliance Checking
+CR116,The circuit breaker shall open after three consecutive failed remote calls.,S09,1,remote call protection,Inter-Service Compliance Checking
+CR116,The circuit breaker shall open after three consecutive failed remote calls.,S09,1,communication constraint,Inter-Service Compliance Checking
+CR116,The circuit breaker shall open after three consecutive failed remote calls.,S09,1,cascading failure prevention,Inter-Service Compliance Checking
+CR117,The circuit breaker shall remain open for five seconds before retrying.,S09,1,fault tolerance,Inter-Service Compliance Checking
+CR117,The circuit breaker shall remain open for five seconds before retrying.,S09,1,circuit breaker,Inter-Service Compliance Checking
+CR117,The circuit breaker shall remain open for five seconds before retrying.,S09,1,communication constraint,Inter-Service Compliance Checking
+CR117,The circuit breaker shall remain open for five seconds before retrying.,S09,1,remote call protection,Inter-Service Compliance Checking
+CR118,The system shall not use plain-text authentication or exposed shared secrets.,S16,1,security constraint,Inter-Service Compliance Checking
+CR118,The system shall not use plain-text authentication or exposed shared secrets.,S16,1,secure authentication,Inter-Service Compliance Checking
+CR118,The system shall not use plain-text authentication or exposed shared secrets.,S16,1,credential protection,Inter-Service Compliance Checking
+CR118,The system shall not use plain-text authentication or exposed shared secrets.,S16,1,secure credential storage,Inter-Service Compliance Checking
+CR119,The system shall support Single Sign-On (SSO) across system components.,S16,1,single sign-on,Inter-Service Compliance Checking
+CR119,The system shall support Single Sign-On (SSO) across system components.,S16,1,centralized authentication,Inter-Service Compliance Checking
+CR119,The system shall support Single Sign-On (SSO) across system components.,S16,1,authentication integration,Inter-Service Compliance Checking
+CR120,The system shall support analytics tools for monitoring and performance analysis.,S16,1,runtime monitoring,Inter-Service Compliance Checking
+CR120,The system shall support analytics tools for monitoring and performance analysis.,S16,1,system monitoring,Inter-Service Compliance Checking
+CR120,The system shall support analytics tools for monitoring and performance analysis.,S16,1,system observability,Inter-Service Compliance Checking
+CR120,The system shall support analytics tools for monitoring and performance analysis.,S16,1,analytics integration,Inter-Service Compliance Checking
+CR121,The system shall use SSL/TLS-based or token-based authentication for identity verification and communication encryption.,S16,1,secure communication,Inter-Service Compliance Checking
+CR121,The system shall use SSL/TLS-based or token-based authentication for identity verification and communication encryption.,S16,1,communication constraint,Inter-Service Compliance Checking
+CR121,The system shall use SSL/TLS-based or token-based authentication for identity verification and communication encryption.,S16,1,communication confidentiality,Inter-Service Compliance Checking
+CR121,The system shall use SSL/TLS-based or token-based authentication for identity verification and communication encryption.,S16,1,encrypted communication,Inter-Service Compliance Checking
+CR122,Value Objects shall be immutable.,S24,1,DDD constraint,Micro-Architecture Conformance Checking
+CR122,Value Objects shall be immutable.,S24,1,domain consistency,Micro-Architecture Conformance Checking
+CR123,Value Objects shall not be Entities.,S27,1,DDD constraint,Micro-Architecture Conformance Checking
+CR123,Value Objects shall not be Entities.,S27,1,DDD pattern separation,Micro-Architecture Conformance Checking
+CR123,Value Objects shall not be Entities.,S27,1,domain modelling,Micro-Architecture Conformance Checking
+CR124,Value Objects shall not have an identity.,S24,1,DDD constraint,Micro-Architecture Conformance Checking
+CR124,Value Objects shall not have an identity.,S24,1,value object semantics,Micro-Architecture Conformance Checking
+CR125,Write operations between microservices shall be asynchronous.,S20,1,communication constraint,Inter-Service Compliance Checking
+CR125,Write operations between microservices shall be asynchronous.,S20,1,async communication,Inter-Service Compliance Checking
+CR125,Write operations between microservices shall be asynchronous.,S20,1,temporal decoupling,Inter-Service Compliance Checking

@@ -157,12 +157,17 @@ Contains artifacts related to the use of AI agents during the screening phase of
 ---
 
 ### 08_results
-Contains the final set of primary studies and the processed data used to answer the research questions.
+Contains the final set of primary studies, the qualitative coding data, and the processed datasets used to answer the research questions.
 
 - `primary_studies/`
-  - `primary_studies.csv`: consolidated list of all selected primary studies (S1–S28), including metadata and study origin (Digital Libraries or Snowballing)
+  - `primary_studies.csv`: Consolidated list of all selected primary studies (S1–S28), including metadata, DOI, publication year, and study origin (Digital Libraries or Snowballing).
 
-- `figures/`: figures used in the paper, generated from the aggregated data
+- `rules/`
+  - `open_coding_categories.csv`: The complete qualitative open-coding process, mapping raw text codes extracted from the papers to their corresponding intermediate and final taxonomic categories.
+  - `extracted_rules.csv`: A comprehensive list of all architectural rules identified across the selected studies.
+  - `rule_classification_matrix.csv`: The classification matrix mapping each primary study (S1–S28) to its identified architectural rules and their respective taxonomic classifications.
+
+- `figures/`:Figures and charts presented in the paper, generated from the aggregated data.
 
 ---
 

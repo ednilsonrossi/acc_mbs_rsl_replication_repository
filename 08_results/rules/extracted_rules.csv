@@ -1,0 +1,126 @@
+CanonicalRuleID,Rule,Studies,Count
+CR001,API endpoints and their contracts shall maintain traceable mapping to domain model elements.,S19,1
+CR002,"API endpoints shall be based on tactical DDD elements: Aggregate Roots, Domain Services, or Business Processes.",S19,1
+CR003,API operations shall capture specific domain tasks and events instead of generic database operations.,S15,1
+CR004,API DTOs shall map domain entities without losing their structural integrity or relational context needed by clients.,S15;S18,2
+CR005,"APIs shall respect Bounded Context boundaries, preventing domain model leakage by exposing only explicit context interfaces or Shared Kernels.",S19,1
+CR006,API Contracts shall isolate the Domain Model by limiting data exposure solely to the strictly required subset.,S19,1
+CR007,"API Contracts shall maintain an isolation layer from the Domain Model, strictly prohibiting one-to-one entity mappings to prevent domain model leakage.",S19,2
+CR008,"APIs shall use Embedded Data when immediate access is required; otherwise, they shall use distributed links or hypermedia.",S15;S18,2
+CR009,Aggregate Roots shall be Entities.,S24;S27,2
+CR010,Aggregate internal objects shall not be referenced directly from outside the Aggregate.,S24,1
+CR011,Aggregate members shall be Entities or Value Objects.,S24,1
+CR012,Aggregate members shall not belong to different Bounded Contexts.,S24,1
+CR013,Aggregates shall be accessed through Repositories.,S24,1
+CR014,Aggregates shall be created through Factories.,S24,1
+CR015,Aggregates shall contain at least one Entity or Value Object.,S27,1
+CR016,Aggregates shall contain only Aggregate Parts besides the Aggregate Root.,S24,1
+CR017,All API operations shall be exposed through Aggregator Endpoints.,S15,1
+CR018,All components shall be independently deployable.,S02,1
+CR019,All remote function calls shall be protected by the Circuit Breaker pattern.,S09,1
+CR020,All replicas of a microservice shall be reachable by the services that invoke them.,S04;S10,2
+CR021,All server nodes shall provide infrastructure observability mechanisms.,S16,1
+CR022,Application logs shall be aggregated and managed in a centralized repository.,S16,1
+CR023,Applications shall access only service-layer components of other applications.,S01,1
+CR024,Asynchronous operations shall not use synchronous communication protocols.,S20,1
+CR025,Bounded Contexts shall exchange only Value Objects or Domain Events.,S27,1
+CR026,"Business logic services shall access data access components, host access components, and host transaction components only within the same module.",S01,1
+CR027,CQRS endpoints shall be exposed through Aggregator Endpoints.,S15,1
+CR028,CQRS endpoints shall not omit event-based operations or bypass Aggregator Endpoints.,S15,1
+CR029,"CQRS endpoints shall drive state changes through event-based API Operations, preventing traditional or CRUD-like command implementations.",S15,1
+CR030,CRUD operations shall not be exposed through non-aggregator endpoints.,S15,1
+CR031,Clients shall not directly invoke internal system services.,S06;S11,2
+CR032,Command services shall expose state-changing operations only.,S20,1
+CR033,Communication between clients and services shall pass through dedicated API Gateways.,S25,1
+CR034,Communication between clients and system services shall be authorized using cryptographic tokens.,S25,1
+CR035,Communication between microservices should be asynchronous whenever possible.,S05;S12,2
+CR036,"Components and connectors shall not contain, use, or store sensitive data in plain text.",S25,1
+CR037,Components shall not share non-external dependencies.,S02,1
+CR038,API Operations exposed by composition services must be strictly read-only to isolate data composition from state mutations.,S20,1
+CR039,"To ensure architecture-to-code consistency, all DDD annotations in the Implementation must formally conform to the LEMMA reference model.",S27,1
+CR040,Data access components (DAOs) shall not access business logic services or other DAOs.,S01,1
+CR041,Data composition shall be performed by a dedicated composition service using synchronous service calls.,S20,1
+CR042,Different applications should communicate through Web Services or remote EJBs.,S01,1
+CR043,Domain Event identity shall be defined by one or more attributes.,S24,1
+CR044,Domain Events shall be immutable.,S24,1
+CR045,Domain Events shall include a timestamp.,S24,1
+CR046,Domain Events shall specify both publisher and subscriber.,S24,1
+CR047,Domain Services shall be stateless.,S24,1
+CR048,Domain Services shall not implement multiple DDD patterns simultaneously.,S24,1
+CR049,Each API shall provide both a formal API contract and a structured API description.,S19,1
+CR050,Each API shall provide both an API description and an API contract.,S19,1
+CR051,Each Aggregate shall contain at least one Aggregate Part.,S27,1
+CR052,Each Aggregate shall have exactly one Aggregate Root.,S24,1
+CR053,Each Domain Event shall have exactly one identity.,S24,1
+CR054,Each Entity shall define an Identifier.,S27,1
+CR055,Each Entity shall have exactly one identity.,S24,1
+CR056,Each client shall be limited to four requests per second using the Rate Limiting pattern.,S09,1
+CR057,Each data store shall be accessed directly by only one service.,S04;S10,2
+CR058,Each database shall be owned and accessed directly by only one microservice.,S20,1
+CR059,Each host transaction component shall be included only once within a module.,S01,1
+CR060,Each microservice shall execute on an independent host or container.,S20,1
+CR061,Each microservice should implement a single responsibility.,S03,1
+CR062,Domain entities shall not be exposed directly as API endpoints.,S19,1
+CR063,Domain entities shall be defined by one or more attributes.,S24,1
+CR064,Every model element defined in LEMMA shall have a corresponding implementation in Jolie.,S27,1
+CR065,"Factories shall create only Entities, Value Objects, or Aggregate Roots.",S24,1
+CR066,Factories shall not implement multiple DDD patterns simultaneously.,S24,1
+CR067,Factories shall specify the object they create.,S24,1
+CR068,Failed application component instances shall be detected and replaced using the Watchdog pattern.,S09,1
+CR069,Formal API contracts shall be accompanied by an informal description.,S19,1
+CR070,Host transaction components shall not have outgoing connections.,S01,1
+CR071,"If service sharing is unavoidable, coupling between services should be minimized.",S05;S12,2
+CR072,Individual services shall be monitored to ensure availability and operational status.,S16,1
+CR073,Infrastructure stacks shall be organized according to team responsibilities to preserve independent deployment and scalability.,S17;S21,2
+CR074,Ingress and egress controls shall be implemented using Security Groups.,S16,1
+CR075,Inter-service messages shall not be lost.,S06;S11,2
+CR076,Internal Bounded Contexts shall not be exposed through the API.,S19,1
+CR077,Microservice replica configurations shall be independent.,S20,1
+CR078,Microservices shall access external data only through APIs or events.,S20,1
+CR079,Microservices shall avoid becoming bottleneck services.,S22,1
+CR080,Microservices shall avoid excessive outgoing dependencies.,S22,1
+CR081,Microservices shall be independently deployable and scalable with low deployment coupling.,S17;S21,2
+CR082,Microservices shall be independently deployable.,S03,1
+CR083,Microservices shall be scalable.,S03,1
+CR084,"Microservices shall be small, independent, and focused on a single responsibility.",S22,1
+CR085,Microservices shall be technology independent.,S03,1
+CR086,Microservices shall communicate through a message broker or message queue without direct knowledge of the receiver's network address.,S20,1
+CR087,Microservices shall have independent lifecycles.,S03,1
+CR088,Microservices shall maintain deployment independence.,S14,1
+CR089,Microservices shall not depend on shared host libraries.,S20,1
+CR090,Microservices shall not have cyclic dependencies.,S14;S22,2
+CR091,Microservices should avoid bottlenecks and excessive network latency.,S03,1
+CR092,Microservices should avoid sharing other services.,S05;S12,2
+CR093,"Microservices should be loosely coupled to enable independent development, deployment, and scalability.",S05;S12,2
+CR094,Microservices should be organized around business capabilities.,S03,1
+CR095,Microservices should exhibit loose coupling and high cohesion.,S03,1
+CR096,Microservices should minimize network complexity.,S03,1
+CR097,Microservices should not be organized around business entities.,S03,1
+CR098,Microservices should not have cyclic dependencies.,S03,1
+CR099,Microservices should remain small.,S03,1
+CR100,Microservices should support end-to-end tracing and monitoring.,S06;S11,2
+CR101,Microservices should tolerate failures in calls to dependent services.,S04;S10,2
+CR102,Operating system performance and resource metrics shall be collected.,S16,1
+CR103,Public interfaces of a Bounded Context shall return only Value Objects or Domain Events.,S27,1
+CR104,Query services shall expose read operations only.,S20,1
+CR105,"Repositories shall access only Entities, Value Objects, or Aggregate Roots.",S24,1
+CR106,Repositories shall not define attributes.,S24,1
+CR107,Repositories shall not implement multiple DDD patterns simultaneously.,S24,1
+CR108,Repositories shall specify the object they access.,S24,1
+CR109,Server nodes shall enforce inbound traffic filtering through virtual firewalls.,S16,1
+CR110,Server nodes shall restrict outbound network traffic to prevent external attacks and data leakage.,S16,1
+CR111,"Servers shall collect application logs for availability, debugging, and resource monitoring.",S16,1
+CR112,Service coupling shall not increase during system evolution.,S13,1
+CR113,Services belonging to different domains shall communicate through Web Services.,S01,1
+CR114,Services belonging to different modules of the same application shall communicate through local EJBs.,S01,1
+CR115,Services within the same module shall communicate through local EJBs.,S01,1
+CR116,The circuit breaker shall open after three consecutive failed remote calls.,S09,1
+CR117,The circuit breaker shall remain open for five seconds before retrying.,S09,1
+CR118,The system shall not use plain-text authentication or exposed shared secrets.,S16,1
+CR119,The system shall support Single Sign-On (SSO) across system components.,S16,1
+CR120,The system shall support analytics tools for monitoring and performance analysis.,S16,1
+CR121,The system shall use SSL/TLS-based or token-based authentication for identity verification and communication encryption.,S16,1
+CR122,Value Objects shall be immutable.,S24,1
+CR123,Value Objects shall not be Entities.,S27,1
+CR124,Value Objects shall not have an identity.,S24,1
+CR125,Write operations between microservices shall be asynchronous.,S20,1

@@ -12,7 +12,7 @@ To achieve this objective, a Systematic Literature Review (SLR) is conducted fol
 
 ## 2. Research Questions
 
-### RQ1: What kinds of architectural rules are addressed in ACC studies on microservice-based systems, and how are they represented or specified?
+### RQ1: What categories of architectural rules are addressed in ACC studies on microservice-based systems, and how are they represented or specified?
 
 The ACC process requires explicit or implicit architectural rules that define the intended structure, constraints, or expected behavior of the system. However, in MBS, architectural rules may encompass different categories of constraints that are inherent to the microservice architectural style, such as communication protocols among services, data ownership boundaries, and interaction dependencies, which may not always be formally specified in architectural documentation. Consequently, understanding which kinds of architectural rules are considered in existing ACC studies, as well as how they are represented or specified, is essential to characterize the current state of the art.
 
