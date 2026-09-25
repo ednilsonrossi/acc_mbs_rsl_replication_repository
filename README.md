@@ -1,8 +1,16 @@
 # Replication Package
 
-This repository contains the replication package for the systematic literature review on Architectural Conformance Checking (ACC) in microservice-based systems.
+This repository contains the replication package for the paper:
+
+> **"Architecture Conformance Checking in Microservice-based Systems: A Systematic Review"**
+
+Published in the *Proceedings of the 25th Brazilian Symposium on Software Quality (SBQS 2026)*.
+
 
 ## Repository Structure
+
+### 00_paper
+- `paper_author_version.pdf`: Author's Accepted Manuscript (post-print) of the paper published at SBQS 2026.
 
 ### 01_protocol
 Contains the research protocol, including research questions, search strategy, and study selection criteria.
@@ -192,3 +200,24 @@ Each study is identified by a unique ID (e.g., S1–S28) to ensure traceability 
 - The final set of studies used in the review is the combination of both stages (n = 28).
 - Snowballing was performed in a single iteration following Wohlin’s guidelines.
 - AI agents were used as support during the screening phase; however, all final decisions were made by the authors.
+
+---
+
+## License and Copyright
+
+This repository contains both research data and paper documentation:
+
+- **Replication Data and Artifacts:** All datasets, research protocols, search strategies, extraction sheets, and open-coding matrices in this repository are licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+- **Paper Manuscript (`paper_author_version.pdf`):** © 2026 Sociedade Brasileira de Computação (SBC). Personal use of this material is permitted. Permission from SBC must be obtained for all other uses.
+
+---
+
+## How to Cite
+
+If you use this replication package or dataset in your research, please cite both the paper and this archived repository:
+
+### Article Citation
+> Ednilson Geraldo Rossi, Valter Vieira Camargo, and Daniel San Martin. 2026. Architecture Conformance Checking in Microservice-based Systems: A Systematic Review. In *Proceedings of the 25th Brazilian Symposium on Software Quality (SBQS 2026)*. SBC, Porto Alegre, RS, Brasil.
+
+### Replication Package (Zenodo DOI)
+> Ednilson Geraldo Rossi, Valter Vieira Camargo, and Daniel San Martin. 2026. Replication Package for "Architecture Conformance Checking in Microservice-based Systems: A Systematic Review". *Zenodo*. DOI: [INSERT_ZENODO_DOI_HERE]
