@@ -4,7 +4,11 @@ This repository contains the replication package for the paper:
 
 > **"Architecture Conformance Checking in Microservice-based Systems: A Systematic Review"**
 
+[![DOI](https://zenodo.org/badge/1228272332.svg)](https://doi.org/10.5281/zenodo.22969089)
+
 Published in the *Proceedings of the 25th Brazilian Symposium on Software Quality (SBQS 2026)*.
+
+**Author Version PDF:** [00_paper/paper_author_version.pdf](00_paper/paper_author_version.pdf)
 
 
 ## Repository Structure
@@ -220,4 +224,4 @@ If you use this replication package or dataset in your research, please cite bot
 > Ednilson Geraldo Rossi, Valter Vieira Camargo, and Daniel San Martin. 2026. Architecture Conformance Checking in Microservice-based Systems: A Systematic Review. In *Proceedings of the 25th Brazilian Symposium on Software Quality (SBQS 2026)*. SBC, Porto Alegre, RS, Brasil.
 
 ### Replication Package (Zenodo DOI)
-> Ednilson Geraldo Rossi, Valter Vieira Camargo, and Daniel San Martin. 2026. Replication Package for "Architecture Conformance Checking in Microservice-based Systems: A Systematic Review". *Zenodo*. DOI: [INSERT_ZENODO_DOI_HERE]
+> Ednilson Geraldo Rossi, Valter Vieira Camargo, and Daniel San Martin. 2026. Replication Package for "Architecture Conformance Checking in Microservice-based Systems: A Systematic Review". *Zenodo*. DOI: 10.5281/zenodo.22969480
